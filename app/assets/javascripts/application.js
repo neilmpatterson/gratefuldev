@@ -17,4 +17,5 @@
 //= require marionette/marionette.js
 //= require_tree ./backbone/config
 //= require backbone/app
+//= require_tree ./backbone/entities
 //= require_tree ./backbone/apps
