@@ -4,4 +4,10 @@ GratefuldevBackbone::Application.routes.draw do
 
   # You can have the root of your site routed with "root"
   root to: "application#index"
+
+	namespace :api, :defaults => {:format => :json} do
+		namespace :v1 do
+			resources :shows, :songs, :venues, :cities
+		end
+	end
 end
