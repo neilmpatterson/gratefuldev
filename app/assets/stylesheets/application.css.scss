@@ -11,3 +11,8 @@
  *= require_self
  *= require_tree .
  */
+
+@import "bootstrap";
+@import "apps/base";
+@import "apps/header";
+@import "apps/footer";

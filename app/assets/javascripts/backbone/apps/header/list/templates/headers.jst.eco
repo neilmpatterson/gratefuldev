@@ -1,0 +1,8 @@
+<nav class="navbar navbar-default" role="navigation">
+	<div class="container-fluid">
+        <div class="pull-left">
+            <span class="navbar-brand">GratefulDev Database</span>
+		</div>
+		<ul class="nav nav-pills pull-right"></ul>
+	</div>
+</nav>
