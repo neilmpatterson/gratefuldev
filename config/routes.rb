@@ -1,4 +1,6 @@
 GratefuldevBackbone::Application.routes.draw do
+  get "shows/index"
+  get "shows/show"
   get "songs/index"
   get "songs/show"
   # The priority is based upon order of creation: first created -> highest priority.
