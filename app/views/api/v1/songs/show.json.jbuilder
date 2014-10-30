@@ -1,3 +1,1 @@
-json.id @song.uuid
-json.(@song, :name, :slug )
-json.times_played @song.song_occurences_count
+json.partial! 'api/v1/songs/base', song: @song
