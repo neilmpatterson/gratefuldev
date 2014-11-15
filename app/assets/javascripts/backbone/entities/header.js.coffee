@@ -9,7 +9,7 @@
 		getHeaders: ->
 			new Entities.HeaderCollection [
 				{ name: "Shows", url: Routes.shows_path() }
-				{ name: "Songs", url: '' }
+				{ name: "Songs", url: Routes.songs_path() }
 				{ name: "Venues", url: '' }
 				{ name: "Cities", url: '' }
 				{ name: "About", url: '' }

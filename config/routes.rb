@@ -1,5 +1,5 @@
 GratefuldevBackbone::Application.routes.draw do
-  resources :shows
+  resources :shows, :songs
 
   root to: "application#index"
 
