@@ -1,12 +1,6 @@
 GratefuldevBackbone::Application.routes.draw do
-  get "shows/index"
-  get "shows/show"
-  get "songs/index"
-  get "songs/show"
-  # The priority is based upon order of creation: first created -> highest priority.
-  # See how all your routes lay out with "rake routes".
+  resources :shows, :songs
 
-  # You can have the root of your site routed with "root"
   root to: "application#index"
 
 	namespace :api, :defaults => {:format => :json} do

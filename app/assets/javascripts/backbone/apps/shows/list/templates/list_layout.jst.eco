@@ -1,0 +1,4 @@
+<main class="container-fluid">
+	<div id="panel-region"></div>
+	<div id="shows-region"></div>
+</main>

@@ -1,6 +1,1 @@
-json.array!(@songs) do |song|
-	json.id song.uuid
-	json.name song.name
-	json.slug song.slug
-	json.times_played song.song_occurences_count
-end
+json.partial! partial: 'api/v1/songs/base', collection: @songs, as: :song

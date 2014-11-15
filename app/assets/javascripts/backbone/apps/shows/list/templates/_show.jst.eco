@@ -1,0 +1,4 @@
+<div class="panel-body">
+	<p><%= @month %>/<%= @day %>/<%= @year %> <%= @venue %></p>
+	<span><%= @city %>, <%= @state %> - <%= @country %></span>
+</div>

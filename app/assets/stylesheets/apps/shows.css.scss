@@ -1,0 +1,19 @@
+main {
+
+	#quote_list {
+		blockquote {
+			margin-bottom: 0;
+		}
+	}
+
+	&.container-fluid {
+		width: 940px;
+	}
+
+	.bg-info,
+	.bg-warning {
+		padding: 15px;
+		margin-bottom: 5px;
+	}
+
+}

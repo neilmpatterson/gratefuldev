@@ -15,7 +15,9 @@
 //= require underscore/underscore.js
 //= require backbone/backbone.js
 //= require marionette/marionette.js
+//= require js-routes
 //= require_tree ./backbone/config
 //= require backbone/app
 //= require_tree ./backbone/entities
+//= require_tree ./backbone/views
 //= require_tree ./backbone/apps

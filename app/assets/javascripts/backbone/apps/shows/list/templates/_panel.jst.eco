@@ -1,0 +1,1 @@
+Total Shows: <%= @items.length %>
