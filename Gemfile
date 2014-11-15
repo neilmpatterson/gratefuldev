@@ -1,4 +1,5 @@
 source 'https://rubygems.org'
+ruby '2.1.2'
 
 gem 'rails', '4.0.0'
 gem 'sqlite3'
@@ -11,7 +12,9 @@ gem 'turbolinks'
 gem 'jbuilder', '~> 1.2'
 
 # Grateful Dev Gems
+gem 'js-routes'
 gem 'eco'
+gem 'gon'
 gem 'gdshowsdb', :git => 'git://github.com/jefmsmit/gdshowsdb.git'
 gem 'compass-rails'
 gem 'bootstrap-sass'
