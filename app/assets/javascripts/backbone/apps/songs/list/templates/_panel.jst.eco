@@ -1,1 +1,1 @@
-Total Songs: <%= @items.length %>
+Showing <%= @page_size %> of <%= @total_records %> | Page <%= @current_page %> of <%= @total_pages %>
