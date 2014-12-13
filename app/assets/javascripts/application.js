@@ -14,6 +14,9 @@
 //= require turbolinks
 //= require underscore/underscore.js
 //= require backbone/backbone.js
+//= require backbone/backbone.paginator.js
+//= require backgrid/backgrid.js
+//= require backgrid/backgrid-extensions/backgrid-paginator.js
 //= require marionette/marionette.js
 //= require js-routes
 //= require_tree ./backbone/config

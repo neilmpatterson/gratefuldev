@@ -9,18 +9,23 @@
 
 	class List.Panel extends App.Views.ItemView
 		tagName: "p"
-		className: "bg-info"
+		className: "panel-info"
 		template: "songs/list/templates/_panel"
 		collectionEvents:
 			"reset" : "render"
+		templateHelpers: ->
+			page_size: @collection.state.pageSize
+			total_records: @collection.state.totalRecords
+			total_pages: @collection.state.totalPages
+			current_page: @collection.state.currentPage
 
 	class List.Song extends App.Views.ItemView
-		tagName: "div"
+		tagName: "tr"
 		className: "panel panel-default",
 		template: "songs/list/templates/_song"
 
 	class List.Empty extends App.Views.ItemView
-		tagName: "p"
+		tagName: "tr"
 		className: "bg-warning",
 		template: "songs/list/templates/_empty"
 
@@ -29,3 +34,8 @@
 		childView: List.Song
 		emptyView: List.Empty
 		childViewContainer: "#song_list"
+		onRender: ->
+			paginator = new Backgrid.Extension.Paginator({
+				collection: @collection
+			});
+			@$el.find("#data_pagination").html(paginator.render().el);
