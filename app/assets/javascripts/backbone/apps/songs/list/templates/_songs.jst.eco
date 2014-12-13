@@ -1,1 +1,19 @@
-<div id="song_list"></div>
+<table id="song_list" class="data_grid_table">
+	<thead>
+		<tr>
+			<th>Song</th>
+			<th>Number of Times Played</th>
+			<th>First Time Played</th>
+			<th>Last Time Played</th>
+		</tr>
+	</thead>
+	<tfoot>
+		<tr>
+			<td colspan="4">
+				<div id="data_pagination"></div>
+			</td>
+		</tr>
+	</tfoot>
+	<tbody></tbody>
+</table>
+

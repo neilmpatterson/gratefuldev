@@ -1,0 +1,70 @@
+// Styling for a datagrid table eg. Site Resotre Table
+table.data_grid_table {
+	background: #fff;
+	border: 1px solid #CCC;
+	border-collapse: collapse;
+	border-radius: 3px;
+	font: normal 12px/150% Arial, Helvetica, sans-serif;
+	overflow: hidden;
+	text-align: left;
+	width: 100%;
+
+	td,
+	th {
+		padding: 3px 10px;
+	}
+
+	thead th {
+		background-color: #7D7D7D;
+		border-left: 1px solid #A3A3A3;
+		color: #FFFFFF;
+		font-size: 15px;
+		font-weight: bold;
+	}
+
+	thead th:first-child {
+		border: 0;
+	}
+
+	tbody {
+		td {
+			border-left: 1px solid #DBDBDB;
+			color: #7D7D7D;
+			font-size: 12px;
+			font-weight: normal;
+		}
+
+		td:first-child {
+			border-left: 0;
+		}
+
+		tr:last-child td {
+			border-bottom: 0;
+		}
+
+		tr:nth-child(odd) td,
+		tr:nth-child(odd) th {
+			background-color: #EEE;
+			color: #7D7D7D;
+		}
+
+		tr:hover td,
+		tr:hover th {
+			background-color: #F5F5F5;
+		}
+	}
+
+	tfoot td {
+		font-size: 12px;
+		padding: 0;
+
+		#fsTablePagination {
+			background: #EBEBEB;
+			border-top: 1px solid #CCC;
+			color: #7D7D7D;
+			font-style: italic;
+			padding: 3px 10px;
+			text-align: right;
+		}
+	}
+}

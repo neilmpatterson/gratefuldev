@@ -9,18 +9,18 @@
 
 	class List.Panel extends App.Views.ItemView
 		tagName: "p"
-		className: "bg-info"
+		className: "panel-info"
 		template: "songs/list/templates/_panel"
 		collectionEvents:
 			"reset" : "render"
 
 	class List.Song extends App.Views.ItemView
-		tagName: "div"
+		tagName: "tr"
 		className: "panel panel-default",
 		template: "songs/list/templates/_song"
 
 	class List.Empty extends App.Views.ItemView
-		tagName: "p"
+		tagName: "tr"
 		className: "bg-warning",
 		template: "songs/list/templates/_empty"
 

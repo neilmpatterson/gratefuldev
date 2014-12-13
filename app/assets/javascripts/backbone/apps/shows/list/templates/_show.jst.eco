@@ -1,4 +1,4 @@
-<div class="panel-body">
-	<p><%= @month %>/<%= @day %>/<%= @year %> <%= @venue %></p>
-	<span><%= @city %>, <%= @state %> - <%= @country %></span>
-</div>
+<td><%= @month %>/<%= @day %>/<%= @year %></td>
+<td><%= @venue %></td>
+<td><%= @city %>, <%= @state %></td>
+<td><a href="#" class="show_detail">view details</a></td>
