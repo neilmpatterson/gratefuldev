@@ -2,7 +2,7 @@
 
 	class Entities.Show extends Entities.Model
 
-	class Entities.ShowsCollection extends Entities.Collection
+	class Entities.ShowsCollection extends Entities.PageableCollection
 		model: Entities.Show
 		url: Routes.api_v1_shows_path()
 		idAttribute: "uuid"

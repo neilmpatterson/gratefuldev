@@ -13,6 +13,11 @@
 		template: "songs/list/templates/_panel"
 		collectionEvents:
 			"reset" : "render"
+		templateHelpers: ->
+			page_size: @collection.state.pageSize
+			total_records: @collection.state.totalRecords
+			total_pages: @collection.state.totalPages
+			current_page: @collection.state.currentPage
 
 	class List.Song extends App.Views.ItemView
 		tagName: "tr"
@@ -29,3 +34,8 @@
 		childView: List.Song
 		emptyView: List.Empty
 		childViewContainer: "#song_list"
+		onRender: ->
+			paginator = new Backgrid.Extension.Paginator({
+				collection: @collection
+			});
+			@$el.find("#data_pagination").html(paginator.render().el);

@@ -2,10 +2,11 @@
 
 	class Entities.Song extends Entities.Model
 
-	class Entities.SongsCollection extends Entities.Collection
+	class Entities.SongsCollection extends Entities.PageableCollection
 		model: Entities.Song
 		url: Routes.api_v1_songs_path()
 		idAttribute: "uuid"
+
 
 	API =
 		getSongEntities: (cb) ->
