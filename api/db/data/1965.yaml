@@ -1,0 +1,95 @@
+---
+1965/05/05:
+  :uuid: 45aa67cd-c459-45d4-9d7f-8d4bd0c0dfa7
+  :venue: Magoo's Pizza Parlor
+  :city: Menlo Park
+  :state: CA
+  :country: US
+  :sets: []
+1965/05/12:
+  :uuid: 5a7143b3-f269-4066-aaa9-c1f1bb9feabf
+  :venue: Magoo's Pizza Parlor
+  :city: Menlo Park
+  :state: CA
+  :country: US
+  :sets: []
+1965/05/19:
+  :uuid: 47a0f20b-0636-4daf-9417-214efa8bea12
+  :venue: Magoo's Pizza Parlor
+  :city: Menlo Park
+  :state: CA
+  :country: US
+  :sets: []
+1965/05/26:
+  :uuid: b355528c-9921-4d50-b6d6-f705a604674e
+  :venue: Magoo's Pizza Parlor
+  :city: Menlo Park
+  :state: CA
+  :country: US
+  :sets:
+  - :uuid: 2b4854c4-256c-439a-b28c-f7f0c099f751
+    :songs:
+    - :uuid: d9fb6417-c9bc-4511-a622-f0e1386d4c4a
+      :name: I'm A King Bee
+      :segued: false
+1965/06/18:
+  :uuid: e7670295-e716-4f04-843c-e4411c82bda8
+  :venue: Frenchy's
+  :city: Hayward
+  :state: CA
+  :country: US
+  :sets: []
+1965/10/12:
+  :uuid: f7cf3c4f-8e48-4e8d-9dd8-1d4a91f0e7a3
+  :venue: Chalet Inn Room
+  :city: Belmont
+  :state: CA
+  :country: US
+  :sets: []
+1965/11/29:
+  :uuid: 41ef64b6-4626-49ba-a358-82fc879ca7d9
+  :venue: Matrix
+  :city: San Francisco
+  :state: CA
+  :country: US
+  :sets: []
+1965/12/04:
+  :uuid: 39375335-6dc3-4b5b-8677-beaa752db89b
+  :venue: Big Nig's House
+  :city: San Jose
+  :state: CA
+  :country: US
+  :sets: []
+1965/12/08:
+  :uuid: 04422cb5-5b28-4912-9f4d-effde3111599
+  :venue: Matrix
+  :city: San Francisco
+  :state: CA
+  :country: US
+  :sets: []
+1965/12/10:
+  :uuid: 4c35959a-06f1-417a-8e69-67c4e1df9417
+  :venue: Fillmore Auditorium
+  :city: San Francisco
+  :state: CA
+  :country: US
+  :sets: []
+1965/12/11:
+  :uuid: 604da57f-3f8b-4e67-8bf6-1b4783d10e13
+  :venue: Muir Beach Lodge
+  :city: Muir Beach
+  :state: CA
+  :country: US
+  :sets: []
+1965/12/18:
+  :uuid: 5618738d-6841-4c1e-a71a-1f18b5ab879b
+  :venue: The Big Beat Club
+  :city: Palo Alto
+  :state: CA
+  :country: US
+  :sets:
+  - :uuid: 4d637022-6a21-4da7-a542-f4525bf32581
+    :songs:
+    - :uuid: 3d1becdf-e14e-4d47-b936-df3c91fcca30
+      :name: Midnight Hour
+      :segued: false

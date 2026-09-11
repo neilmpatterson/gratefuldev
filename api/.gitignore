@@ -1,0 +1,25 @@
+# Ignore bundler config
+/.bundle
+
+# SQLite databases
+/storage/*.sqlite3
+/storage/*.sqlite3-journal
+/db/*.sqlite3
+/db/*.sqlite3-journal
+
+# Logs and temp
+/log/*.log
+/tmp
+
+# Rails master key and credentials (never commit)
+/config/master.key
+/config/credentials/*.key
+
+# Kamal secrets
+/.kamal/secrets
+
+# Node modules (if any frontend tooling ends up here)
+node_modules/
+
+# OS
+.DS_Store

@@ -1,0 +1,3749 @@
+---
+1992/02/22:
+  :uuid: a49026af-d4ce-44e6-b365-3b96f8385def
+  :venue: Oakland-Alameda County Coliseum Arena
+  :city: Oakland
+  :state: CA
+  :country: US
+  :sets:
+  - :uuid: 23995e46-d115-4f84-b038-a708352827c3
+    :songs:
+    - :uuid: 175a5671-374a-4e19-84b4-336eb134ecd7
+      :name: Bertha
+      :segued: true
+    - :uuid: 0f707322-25c8-405f-916a-9ec62f708477
+      :name: Promised Land
+      :segued: false
+    - :uuid: e1d76cdd-621c-4ecd-977b-97b3abe64afb
+      :name: Stagger Lee
+      :segued: false
+    - :uuid: 36018011-19ba-4201-a90a-1f5b7c9e8ae1
+      :name: Wang Dang Doodle
+      :segued: false
+    - :uuid: c3f297d7-d11c-4952-9770-b1af0c82a314
+      :name: So Many Roads
+      :segued: false
+    - :uuid: 6066bd3a-c197-4556-9af3-0ec9971323e3
+      :name: Queen Jane Approximately
+      :segued: false
+    - :uuid: 047adea5-390f-41b7-a5da-c2286f6fa817
+      :name: Loose Lucy
+      :segued: false
+    - :uuid: 4ceadd66-e0ef-477a-afa1-134093dfd31f
+      :name: Wave To The Wind
+      :segued: true
+    - :uuid: 0f62e847-8a76-414f-b5d9-cce425167471
+      :name: Don't Ease Me In
+      :segued: false
+  - :uuid: 0aab6c73-c2b5-4d5b-9db0-b4b184cc241c
+    :songs:
+    - :uuid: be74b7ff-71c0-489e-8617-0b3753b3b5a7
+      :name: One More Saturday Night
+      :segued: false
+    - :uuid: a9515085-88b8-4e2e-9c9e-a563fdedc0f9
+      :name: Mississippi Half Step
+      :segued: true
+    - :uuid: fd658c8e-0f03-4108-96d0-9860e6c18fb1
+      :name: Estimated Prophet
+      :segued: true
+    - :uuid: 5c5b4d01-ffd8-4f0c-b44d-f3e3a89689db
+      :name: He's Gone
+      :segued: true
+    - :uuid: 3d3fc320-122e-4f87-9086-76cfce06354f
+      :name: Drums
+      :segued: true
+    - :uuid: 93324d31-31cb-4794-b786-0d8d6ecba758
+      :name: Space
+      :segued: true
+    - :uuid: 0f73ad20-01d2-44bd-a0f9-f9d1a861014b
+      :name: The Wheel
+      :segued: true
+    - :uuid: fc9245cc-947d-4939-bc46-37059e979546
+      :name: All Along The Watchtower
+      :segued: true
+    - :uuid: 4a9a95c9-1758-4de8-b839-d0c7eda7f3b4
+      :name: Black Peter
+      :segued: true
+    - :uuid: c810d281-784d-4507-964e-6e37bca47814
+      :name: Sugar Magnolia
+      :segued: false
+  - :uuid: d0d60c9b-3392-4abb-a2d8-97b829deb525
+    :songs:
+    - :uuid: 096902fb-1ac2-4d6a-ab7e-daa5a755f543
+      :name: U.S. Blues
+      :segued: false
+1992/02/23:
+  :uuid: 734243d3-99d0-4acb-8e64-436a7a91473d
+  :venue: Oakland-Alameda County Coliseum Arena
+  :city: Oakland
+  :state: CA
+  :country: US
+  :sets:
+  - :uuid: 055ca3c4-092f-48c6-96ac-ec9fc42bc4ae
+    :songs:
+    - :uuid: d63db3b2-6429-4b7a-811d-d7c64435cfb2
+      :name: Hell In A Bucket
+      :segued: false
+    - :uuid: 01e7c507-7c81-44d1-89ee-7af6a331743b
+      :name: Peggy-O
+      :segued: false
+    - :uuid: 84427444-0865-4f34-b405-8374ab08a5c5
+      :name: Walkin' Blues
+      :segued: false
+    - :uuid: ddfc0452-b63a-4a54-b7df-a61ebd927979
+      :name: Ramble On Rose
+      :segued: false
+    - :uuid: 05da667e-23b2-4ca8-ad86-93db624550c1
+      :name: Way To Go Home
+      :segued: false
+    - :uuid: f4fc970d-da5f-4870-8264-d5193981f466
+      :name: Black Throated Wind
+      :segued: false
+    - :uuid: a7d315be-be00-48af-b751-95f4d7ca5e86
+      :name: Corrina
+      :segued: false
+  - :uuid: 53626e01-1a88-4699-a61e-0767690b5be9
+    :songs:
+    - :uuid: 99cde737-5fda-4233-9e3c-ee38424e8ba3
+      :name: China Cat Sunflower
+      :segued: true
+    - :uuid: fb67621b-63ad-49fb-bc15-eabec2bd72d1
+      :name: I Know You Rider
+      :segued: false
+    - :uuid: c927badb-523f-4709-a8db-a0c4532033e8
+      :name: Playing In The Band
+      :segued: true
+    - :uuid: c812e8df-c98e-4645-9205-66dca761cbf0
+      :name: Terrapin Station
+      :segued: true
+    - :uuid: 5baed264-6229-4fd7-874e-6b39a0172436
+      :name: Jam
+      :segued: true
+    - :uuid: 9a9830c2-3d61-4c2c-86b5-1d1eeabf411d
+      :name: Drums
+      :segued: true
+    - :uuid: d40c9d02-33c0-4a3f-b6c6-9e5c58333b8c
+      :name: Space
+      :segued: true
+    - :uuid: 56145a74-061f-4273-94ce-6720f4459ebe
+      :name: I Need A Miracle
+      :segued: true
+    - :uuid: 731cc7f2-873d-449a-a331-c054b5b2e70b
+      :name: Stella Blue
+      :segued: true
+    - :uuid: 51bf8c83-c41b-4b67-82cc-18b3d1a9214e
+      :name: Throwing Stones
+      :segued: true
+    - :uuid: 90e68eb8-f74d-43c7-9cdc-137863e6c215
+      :name: Not Fade Away
+      :segued: false
+  - :uuid: 40afd4cb-b1c2-44c3-b292-e75fbb63a14d
+    :songs:
+    - :uuid: 996c4862-ae39-4ac7-b9db-32b7b641811c
+      :name: Box Of Rain
+      :segued: false
+1992/02/24:
+  :uuid: 8f9b9e52-3632-4966-90bf-1f5c185ba0aa
+  :venue: Oakland-Alameda County Coliseum Arena
+  :city: Oakland
+  :state: CA
+  :country: US
+  :sets:
+  - :uuid: 8389a148-dcc7-4e9a-bb3d-150a366cfdbc
+    :songs:
+    - :uuid: e1a50533-24b4-4528-acdf-1a6a032a0312
+      :name: Touch Of Grey
+      :segued: false
+    - :uuid: 597a7e8b-2bb9-450e-9dde-8703ea44f048
+      :name: Feel Like A Stranger
+      :segued: false
+    - :uuid: 8fd96d0e-81fe-4042-9a60-221bcb3a2091
+      :name: Friend Of The Devil
+      :segued: false
+    - :uuid: 2e8e5470-ea2f-4b4d-a001-ef41736198bd
+      :name: When I Paint My Masterpiece
+      :segued: false
+    - :uuid: 1af3af17-9539-4f25-a00f-ceb26408d7c1
+      :name: Althea
+      :segued: false
+    - :uuid: 50e56991-aa5d-4b7a-9441-662caf243a93
+      :name: Cassidy
+      :segued: false
+  - :uuid: aa4e528e-793a-47ce-8c14-62bc5313f678
+    :songs:
+    - :uuid: 66985f53-5e77-4ea1-a3d6-97f96cd48447
+      :name: Iko Iko
+      :segued: true
+    - :uuid: 5c3d6073-9f96-4a1f-a86b-e20dce0f857e
+      :name: Corrina
+      :segued: true
+    - :uuid: 99e00b12-668c-45c8-82dc-dc866a48d4e5
+      :name: The Other One
+      :segued: true
+    - :uuid: 07ac17a5-6bb3-4f79-9788-9ea8f7077351
+      :name: Way To Go Home
+      :segued: true
+    - :uuid: 250d455c-32fe-43d4-b21a-67fc72707fab
+      :name: The Other One
+      :segued: true
+    - :uuid: 6d62b5fb-5312-49d1-93bc-1eb93cbf5009
+      :name: The Same Thing
+      :segued: true
+    - :uuid: 0a65d47c-a0b6-4d69-8b8b-67baefd68992
+      :name: Drums
+      :segued: true
+    - :uuid: a851c7ca-3965-4c7c-b02e-bb67d332765f
+      :name: Space
+      :segued: true
+    - :uuid: 159326b5-d494-463a-be15-929e2d6a3328
+      :name: Wave To The Wind
+      :segued: true
+    - :uuid: 81393cfa-2222-4a84-ae3d-10a1aad9a547
+      :name: The Other One
+      :segued: true
+    - :uuid: 4bfdd5f4-e386-4dbd-860f-dd360781c628
+      :name: So Many Roads
+      :segued: true
+    - :uuid: 288b50a7-c706-414c-b25e-c01bf3b54e42
+      :name: Turn On Your Lovelight
+      :segued: false
+  - :uuid: 7d4cd1a6-0d52-41a7-8476-0ec754e633db
+    :songs:
+    - :uuid: 13b6ae7f-2243-49cb-bee7-86f0b2a44050
+      :name: Quinn The Eskimo
+      :segued: false
+1992/03/01:
+  :uuid: dc4b06d1-44c7-4818-898a-2dbec8022b13
+  :venue: The Omni
+  :city: Atlanta
+  :state: GA
+  :country: US
+  :sets:
+  - :uuid: 71a74ed1-8676-420f-9fb2-45c2a0d2d181
+    :songs:
+    - :uuid: 7517f988-679f-4fec-93a1-4f19c3dc8bd8
+      :name: Jack Straw
+      :segued: false
+    - :uuid: 76166915-adf3-4aae-98a2-9677ec492443
+      :name: Althea
+      :segued: false
+    - :uuid: 3db1e723-7b54-4d39-9c58-10b03d075273
+      :name: Wang Dang Doodle
+      :segued: false
+    - :uuid: ea3c53e3-2ada-4f4c-9dd3-2d4016f379e2
+      :name: Row Jimmy
+      :segued: false
+    - :uuid: afcbcfb3-9818-4264-9922-72b6ab06767c
+      :name: Stuck Inside Of Mobile With The Memphis Blues Again
+      :segued: false
+    - :uuid: eaea9d50-6f6d-4cd9-bf97-ed8a9bc0a404
+      :name: So Many Roads
+      :segued: false
+    - :uuid: 00ee79ac-dd08-4d33-85a0-409f298e6664
+      :name: Picasso Moon
+      :segued: false
+    - :uuid: a0b345cc-94bc-46bf-aea6-4372bf7f9cbf
+      :name: Don't Ease Me In
+      :segued: false
+  - :uuid: ad350d31-5577-405d-9941-513a48ac3f0f
+    :songs:
+    - :uuid: c7356abb-0fb2-4f5d-adec-d88bda3bf0d0
+      :name: Saint Of Circumstance
+      :segued: false
+    - :uuid: badda297-24bc-4aea-97dc-863ce68df074
+      :name: Way To Go Home
+      :segued: true
+    - :uuid: 1fa94565-0666-4e54-9dd8-9760e9796e6e
+      :name: Scarlet Begonias
+      :segued: true
+    - :uuid: 32f0c812-9c73-4e2e-9c66-0a3cfbf02517
+      :name: Fire On The Mountain
+      :segued: true
+    - :uuid: f6ac5c76-c00c-46ad-8293-14a5e7206769
+      :name: Drums
+      :segued: true
+    - :uuid: 7bc44db8-71c9-4341-afa9-bac8315b9847
+      :name: Space
+      :segued: true
+    - :uuid: cf8c3570-659b-43b3-bbff-fce760e93409
+      :name: The Last Time
+      :segued: true
+    - :uuid: c8161b4d-31a5-4d73-b018-8f436c6a42d0
+      :name: Black Peter
+      :segued: true
+    - :uuid: 42dcf416-36b0-4397-aca5-c657540de479
+      :name: Sugar Magnolia
+      :segued: false
+  - :uuid: e1fc45b8-d612-4e07-9225-b8024551485b
+    :songs:
+    - :uuid: f399beae-03f1-481d-9b2b-ade1e2fcc47b
+      :name: The Weight
+      :segued: false
+1992/03/02:
+  :uuid: a166d1bb-9842-4460-8b98-d01119f9be0f
+  :venue: The Omni
+  :city: Atlanta
+  :state: GA
+  :country: US
+  :sets:
+  - :uuid: ff8c7c04-d739-4d26-b93f-9abe272c23ca
+    :songs:
+    - :uuid: 691b68e0-211f-49d3-8e31-ce4cb09a5268
+      :name: Cold Rain And Snow
+      :segued: false
+    - :uuid: d607fd6f-d2fe-48d9-8991-570a8d70c213
+      :name: Little Red Rooster
+      :segued: false
+    - :uuid: ac3004b5-9197-4b37-ad3b-86cb3f98d3d3
+      :name: Brown Eyed Women
+      :segued: false
+    - :uuid: 02cb90f2-b34b-434e-979d-816537d33fa5
+      :name: It's All Over Now
+      :segued: false
+    - :uuid: 155bf09a-5b2d-4b32-ab46-5e444fa19405
+      :name: Loser
+      :segued: false
+    - :uuid: b05dccc4-2bc7-4b6e-bb41-c858b9acf8aa
+      :name: When I Paint My Masterpiece
+      :segued: true
+    - :uuid: f0af7da3-4875-4de0-aaa7-947526095e00
+      :name: Deal
+      :segued: false
+  - :uuid: 56012d1f-7a48-4d91-ab6d-8993129f322c
+    :songs:
+    - :uuid: 85598b46-52af-45a5-81b3-2915d607878b
+      :name: China Cat Sunflower
+      :segued: true
+    - :uuid: 7b2edd13-36ff-4126-8a08-16da77741424
+      :name: I Know You Rider
+      :segued: false
+    - :uuid: 64222feb-5c7e-4b4f-8061-2110db2bda8a
+      :name: Man Smart (Woman Smarter)
+      :segued: true
+    - :uuid: de2cd4d9-f14b-47a1-bc5d-e1b46a89def6
+      :name: Terrapin Station
+      :segued: true
+    - :uuid: 14185a3b-b2d0-434f-a9f5-c71be848a18f
+      :name: Jam
+      :segued: true
+    - :uuid: 06224359-0256-40e4-a133-52385481ff40
+      :name: Drums
+      :segued: true
+    - :uuid: 02357eee-7e79-439c-ba65-3cb4f48bb647
+      :name: Space
+      :segued: true
+    - :uuid: 3406c7cd-894f-4f42-8d1a-64c9c3e6a8f5
+      :name: The Other One
+      :segued: true
+    - :uuid: 61fc8bd8-0c1f-4113-b4e6-b625542c3896
+      :name: Stella Blue
+      :segued: true
+    - :uuid: 7fff0119-0e37-4743-8769-ca17b6ea8665
+      :name: Around And Around
+      :segued: false
+  - :uuid: aa3e4351-df93-469c-a5a6-96f35021c63d
+    :songs:
+    - :uuid: fcb84b7c-c3b6-43f3-b0c9-641928d26cec
+      :name: Knockin' On Heaven's Door
+      :segued: false
+1992/03/03:
+  :uuid: d702d808-b8d6-47e8-a000-9924cc3c7a46
+  :venue: The Omni
+  :city: Atlanta
+  :state: GA
+  :country: US
+  :sets:
+  - :uuid: 79df964a-8de9-402a-805f-dcd8d76783d2
+    :songs:
+    - :uuid: 2e2c9fe7-96ec-4aab-b2f1-bca9a920a2ca
+      :name: Hell In A Bucket
+      :segued: false
+    - :uuid: 924b0851-e097-49b6-a25c-e35005651799
+      :name: Sugaree
+      :segued: false
+    - :uuid: 73874e96-3466-4db8-b0b5-9e6fa41c7455
+      :name: Walkin' Blues
+      :segued: false
+    - :uuid: 0880f8f9-9b88-44ff-8ee6-e76a7b1d2c7b
+      :name: Candyman
+      :segued: false
+    - :uuid: 44889080-97fe-4d89-98b2-b52532bcb53a
+      :name: Queen Jane Approximately
+      :segued: false
+    - :uuid: b96ae411-aeb1-4ba7-abcc-753e54229f25
+      :name: Tennessee Jed
+      :segued: false
+    - :uuid: 02bf6be3-cd94-44fe-a4a7-5177ca857405
+      :name: Corrina
+      :segued: false
+  - :uuid: 9887bc5f-3f51-4073-a5b0-bc2b2a6d1255
+    :songs:
+    - :uuid: 6c9944a1-c375-49c1-a468-17cf97245bcf
+      :name: Iko Iko
+      :segued: false
+    - :uuid: a0f69e35-3404-489d-a187-0e997f37dd99
+      :name: Playing In The Band
+      :segued: true
+    - :uuid: a347029e-23b6-452d-b5d1-74bbaed8c181
+      :name: Uncle John's Band
+      :segued: false
+    - :uuid: 7ac5f5e1-fb22-4f9f-a712-461f0e807de4
+      :name: Wave To The Wind
+      :segued: true
+    - :uuid: 9636276e-ca31-4cc4-9380-79dce9063775
+      :name: Drums
+      :segued: true
+    - :uuid: 66a39ff1-48ae-4eb4-8363-2544f9a511e4
+      :name: Space
+      :segued: true
+    - :uuid: 334ebcd5-1d37-48ab-acc0-fcb9c6a47ede
+      :name: China Doll
+      :segued: true
+    - :uuid: f46d07f5-4ff9-477a-8635-28e13736b930
+      :name: Throwing Stones
+      :segued: true
+    - :uuid: 5707e7d8-f7a1-4145-bbff-8897d5088168
+      :name: Turn On Your Lovelight
+      :segued: false
+  - :uuid: e5239795-d3b3-4e53-bf83-9f8330ab1524
+    :songs:
+    - :uuid: d9fc3c2c-8e47-4d60-8c64-c4576e1c0543
+      :name: Brokedown Palace
+      :segued: false
+1992/03/05:
+  :uuid: effa2e13-076a-43f3-8e02-f62c34be2aa1
+  :venue: Hampton Coliseum
+  :city: Hampton
+  :state: VA
+  :country: US
+  :sets:
+  - :uuid: b7ce9b9f-317e-415d-9646-af5365c7bb9f
+    :songs:
+    - :uuid: a8a61be5-c161-47bc-8128-9fe493675362
+      :name: Help On The Way
+      :segued: true
+    - :uuid: 3714d74b-192c-417b-8f21-978e922ad71e
+      :name: Slipknot!
+      :segued: true
+    - :uuid: 1d5de5d6-1977-473b-b588-3b0bf2d503df
+      :name: Franklin's Tower
+      :segued: false
+    - :uuid: e87f5aa5-08c2-40e4-9673-1f67f9f963be
+      :name: The Same Thing
+      :segued: false
+    - :uuid: a4d60dc1-0d03-4bd1-a959-afda4721257e
+      :name: Jack-A-Roe
+      :segued: false
+    - :uuid: bc0f459d-5b12-4f16-afed-c46373ff594b
+      :name: Just Like Tom Thumb's Blues
+      :segued: false
+    - :uuid: d7cad1a3-5fac-4bb9-9535-67f3b574bea3
+      :name: Let It Grow
+      :segued: false
+  - :uuid: 250bf7b0-771a-4788-9b3a-e03da14fb88a
+    :songs:
+    - :uuid: c48d3749-7a2a-4e5a-81f7-532fe1b1c53e
+      :name: Eyes Of The World
+      :segued: true
+    - :uuid: f0aa724e-6495-4b11-99e4-73bf37698621
+      :name: Way To Go Home
+      :segued: false
+    - :uuid: 1942df3c-b8f8-42be-80d0-6f78725110ac
+      :name: Estimated Prophet
+      :segued: true
+    - :uuid: 4e404792-ec42-4eb4-8355-8b4381347010
+      :name: He's Gone
+      :segued: true
+    - :uuid: 21e97990-4843-4839-937f-df137de7fee3
+      :name: Drums
+      :segued: true
+    - :uuid: 521f7935-d039-46c4-a9ce-a4e9ecc0af7f
+      :name: Space
+      :segued: true
+    - :uuid: ee42ff78-0ecf-4cd5-a18d-f031aeedc582
+      :name: The Wheel
+      :segued: true
+    - :uuid: c41806b1-3496-400b-a94b-0baedf8af486
+      :name: I Need A Miracle
+      :segued: true
+    - :uuid: 0ae0b208-f266-4ad2-83c3-a6d3950b4d8c
+      :name: So Many Roads
+      :segued: true
+    - :uuid: acc1c52c-ef36-4be7-9939-b5b1407d98b6
+      :name: Good Lovin'
+      :segued: false
+  - :uuid: e2627710-f408-447d-acb2-b338ec139dee
+    :songs:
+    - :uuid: b53da467-5ea4-469f-8179-12ad06715ee2
+      :name: U.S. Blues
+      :segued: false
+1992/03/06:
+  :uuid: ac1b2c90-771f-4980-8f11-10fab543c81c
+  :venue: Hampton Coliseum
+  :city: Hampton
+  :state: VA
+  :country: US
+  :sets:
+  - :uuid: aab1dbb8-833f-46f2-a1a2-d5114aa7e4f4
+    :songs:
+    - :uuid: f55ad980-3fb7-43fe-96bc-fce3b8ac1045
+      :name: Feel Like A Stranger
+      :segued: false
+    - :uuid: f7de99fb-b302-43cd-8d6c-303c278a40a7
+      :name: Friend Of The Devil
+      :segued: false
+    - :uuid: 209515de-178c-4fde-9072-cb83c25034e8
+      :name: Mexicali Blues
+      :segued: true
+    - :uuid: 0c5ad897-d874-4f5e-b372-5a0e863cda52
+      :name: Maggie's Farm
+      :segued: false
+    - :uuid: 2572ba43-3ee2-4a27-bbcf-0265ef31746b
+      :name: Stagger Lee
+      :segued: false
+    - :uuid: 9c5de7f1-f2d7-4f46-a3bb-4f24a2311062
+      :name: Picasso Moon
+      :segued: true
+    - :uuid: f73e9dd0-9f41-4648-bc00-b206d4a2c370
+      :name: Bird Song
+      :segued: false
+  - :uuid: 307366ac-d3f2-40a4-b46c-c12d46535fab
+    :songs:
+    - :uuid: 3f04502d-5bc6-4fea-8a71-1658b6600948
+      :name: New Speedway Boogie
+      :segued: true
+    - :uuid: 4d5f7350-0140-401e-aa2f-87e6a24d86ab
+      :name: Truckin'
+      :segued: true
+    - :uuid: f52e3c24-9e28-484b-a784-502989671bd9
+      :name: Crazy Fingers
+      :segued: false
+    - :uuid: c5914617-662b-42c8-ad1f-ce5e79d75ca6
+      :name: Corrina
+      :segued: true
+    - :uuid: 21338ff1-00fd-44c2-8946-852980b5a2ac
+      :name: Drums
+      :segued: true
+    - :uuid: e6765b88-fd4c-499f-8023-1d745dc8035c
+      :name: Space
+      :segued: true
+    - :uuid: 03987bbb-d257-415b-92f4-ead42fbf8a87
+      :name: The Last Time
+      :segued: true
+    - :uuid: 1bd200d9-1e6b-473c-bf73-4f22c2b7c79c
+      :name: Wharf Rat
+      :segued: true
+    - :uuid: bbbc7d55-51c4-4857-aef3-9524c49f6bbd
+      :name: Sugar Magnolia
+      :segued: false
+  - :uuid: eab70196-cf21-42a9-8d28-9b782e56f03b
+    :songs:
+    - :uuid: 17cbce8f-f5ad-4163-b6d2-ff57c56fd154
+      :name: The Weight
+      :segued: false
+1992/03/08:
+  :uuid: df8bffc1-ea64-4ab2-bc31-d588ed63f5b6
+  :venue: Capital Centre
+  :city: Landover
+  :state: MD
+  :country: US
+  :sets:
+  - :uuid: f6388bd5-c44a-4152-b746-5b317e250c08
+    :songs:
+    - :uuid: 37390714-f8a8-40d1-95bc-aeb5261c07e7
+      :name: Let The Good Times Roll
+      :segued: false
+    - :uuid: 2771454e-7b89-4efc-b3c0-99fd0f961395
+      :name: Touch Of Grey
+      :segued: false
+    - :uuid: 47d925f5-b216-45b4-8a2e-ff31ca5adb6d
+      :name: Minglewood Blues
+      :segued: false
+    - :uuid: e9039712-14cf-4693-8379-eba04c07054d
+      :name: Ramble On Rose
+      :segued: false
+    - :uuid: 75ff0f6a-418e-4829-8644-5eb8f32fc43c
+      :name: Black Throated Wind
+      :segued: false
+    - :uuid: 009d5e39-fd72-4103-ba32-bd3bf9a0d1ad
+      :name: Loose Lucy
+      :segued: false
+    - :uuid: 482d5b1b-28f7-4606-a39a-febc87de5401
+      :name: Desolation Row
+      :segued: false
+    - :uuid: 02496d3a-a617-4dce-88bc-065b937188a3
+      :name: Big Railroad Blues
+      :segued: false
+    - :uuid: 885b12dc-2053-4e41-8bdc-7d07384da963
+      :name: The Music Never Stopped
+      :segued: false
+  - :uuid: c7103a07-2a26-421c-90c9-ed553fb84718
+    :songs:
+    - :uuid: 389c4239-6338-4c15-9ee1-809fbdcacb67
+      :name: Samson And Delilah
+      :segued: false
+    - :uuid: 42465313-7a76-4493-98e5-2ac6c192fdee
+      :name: Way To Go Home
+      :segued: false
+    - :uuid: 0c23718f-8644-4a35-af3c-130457937d9d
+      :name: Foolish Heart
+      :segued: true
+    - :uuid: 4979f17b-0f4b-4262-ac6b-33e2970ee162
+      :name: Looks Like Rain
+      :segued: false
+    - :uuid: d25e759a-e5e9-4789-a1ab-929f7fc4f3d8
+      :name: Wave To The Wind
+      :segued: true
+    - :uuid: a11d5a0e-181d-4091-8a41-f16fe006d9a2
+      :name: Drums
+      :segued: true
+    - :uuid: 50195612-9441-4550-911d-8dba1bbee670
+      :name: Space
+      :segued: true
+    - :uuid: d1f535f1-6212-4c12-b8f0-1cca0839dd63
+      :name: All Along The Watchtower
+      :segued: true
+    - :uuid: 911372bf-60f9-410c-b18b-005fa2ca6c38
+      :name: So Many Roads
+      :segued: true
+    - :uuid: 37b9011f-fc8a-4e11-bffc-da55b9f5a403
+      :name: Throwing Stones
+      :segued: true
+    - :uuid: b683a7fc-3574-4b6e-86ea-f9754c294c2c
+      :name: Not Fade Away
+      :segued: false
+  - :uuid: 10737504-1732-4991-b170-3a278f20b509
+    :songs:
+    - :uuid: d52ed26b-bfb4-4794-a02e-d16eb4f93ffb
+      :name: Quinn The Eskimo
+      :segued: false
+1992/03/09:
+  :uuid: 9eb3bd18-e4d9-4df8-8939-1f03c474dff4
+  :venue: Capital Centre
+  :city: Landover
+  :state: MD
+  :country: US
+  :sets:
+  - :uuid: 1bd66a9d-fc2b-43d6-a3a4-fe1beb52fa66
+    :songs:
+    - :uuid: f2810a06-1b7c-4a65-8187-dc72d1f417b4
+      :name: Jack Straw
+      :segued: true
+    - :uuid: a18ddcf1-3bc2-42ba-85a9-ac25a3d1102e
+      :name: West L.A. Fadeaway
+      :segued: false
+    - :uuid: 54ba45f9-9234-4578-9b92-628d228feb2d
+      :name: Me And My Uncle
+      :segued: true
+    - :uuid: 98334040-ff12-4679-9fbc-c862efb55f50
+      :name: Big River
+      :segued: false
+    - :uuid: 6d43ae3c-83ff-4089-a535-4780c2eab55e
+      :name: Row Jimmy
+      :segued: false
+    - :uuid: 0a490d46-f37d-4722-9453-d5a01bc4da7d
+      :name: Cassidy
+      :segued: true
+    - :uuid: 6762d32d-5ed4-4e24-9fe0-2a25f5eaa5c1
+      :name: Deal
+      :segued: false
+  - :uuid: ddbf00af-164e-485d-a3e6-41cdf547b7f8
+    :songs:
+    - :uuid: 2e9b1d0e-b504-44b8-b4d5-f37b9b116412
+      :name: Victim Or The Crime
+      :segued: true
+    - :uuid: 6f6c0e04-3946-4fe2-be44-ff28a2142340
+      :name: Iko Iko
+      :segued: false
+    - :uuid: f63f62ba-45ff-4387-94db-3904af0d6b37
+      :name: Corrina
+      :segued: true
+    - :uuid: 869ab495-f66b-49a4-95f6-7dbeecfdd63d
+      :name: Dark Star
+      :segued: true
+    - :uuid: af7dbb03-8200-4007-b177-b0f79693eaa1
+      :name: Drums
+      :segued: true
+    - :uuid: d958665a-9cdd-4f5b-851e-57199b4fd841
+      :name: Space
+      :segued: true
+    - :uuid: f4f402b3-50fd-401d-863c-abfa6a7247c0
+      :name: I Need A Miracle
+      :segued: true
+    - :uuid: 49e2a22b-7fc7-4c95-b9e4-0a60a3a4ff6a
+      :name: Morning Dew
+      :segued: false
+  - :uuid: 935d6952-1918-471b-97c3-d455147b233a
+    :songs:
+    - :uuid: ed9ce0cd-7137-47d4-807d-4eb7953b17d6
+      :name: Satisfaction
+      :segued: false
+1992/03/11:
+  :uuid: 46eda008-33a5-497d-8fed-a7c8985f8dc4
+  :venue: Nassau Veterans Memorial Coliseum
+  :city: Uniondale
+  :state: NY
+  :country: US
+  :sets:
+  - :uuid: fcdafa20-b4ef-486d-8b5c-d759bd56e400
+    :songs:
+    - :uuid: b587b508-3e6f-4338-9b80-fbed780bdc57
+      :name: Cold Rain And Snow
+      :segued: false
+    - :uuid: 8efb956f-7dc6-4815-aefd-15c3d47e7879
+      :name: Wang Dang Doodle
+      :segued: false
+    - :uuid: 5601b2c8-3219-4bb4-b401-5098fb795c2a
+      :name: Dire Wolf
+      :segued: false
+    - :uuid: 75bf2385-7b95-4bc7-86f6-b79658e8012e
+      :name: Queen Jane Approximately
+      :segued: false
+    - :uuid: f2130dcc-c71d-4353-9ddf-41469a141bd3
+      :name: Althea
+      :segued: false
+    - :uuid: 933d7fdf-d791-4338-9c45-b3993e67b502
+      :name: It's All Over Now
+      :segued: false
+    - :uuid: 399e0726-fe2f-467c-9c4b-49e63e3a91a2
+      :name: So Many Roads
+      :segued: false
+    - :uuid: 345e4b3e-8fb9-44d7-bd1e-7a937f6ee2bd
+      :name: Picasso Moon
+      :segued: false
+  - :uuid: 4b3f870e-35e6-436c-9162-a2a27320ba18
+    :songs:
+    - :uuid: e85bc8e4-bfd3-462d-abb6-418d331cc5b1
+      :name: China Cat Sunflower
+      :segued: true
+    - :uuid: 80acd647-9be8-400c-be8d-17492a92c7ec
+      :name: I Know You Rider
+      :segued: false
+    - :uuid: 307f5ec7-e019-4609-8e33-845d34b698ef
+      :name: Playing In The Band
+      :segued: true
+    - :uuid: a7931102-b97a-4d75-b75a-03fb1c506f14
+      :name: Terrapin Station
+      :segued: true
+    - :uuid: 5cdb0659-ee8a-4f29-bb68-b396e62bd8b7
+      :name: Jam
+      :segued: true
+    - :uuid: 3ec808e2-12f3-4aef-abe0-d51d4fdaebbe
+      :name: Drums
+      :segued: true
+    - :uuid: 757ff77e-b81e-453d-ab33-53a9971e5d24
+      :name: Space
+      :segued: true
+    - :uuid: b25d3fa8-5c9a-42b1-ac10-d36f63238348
+      :name: The Last Time
+      :segued: true
+    - :uuid: 80fe3bf4-75d9-4f47-9b41-7c908f8d794f
+      :name: Black Peter
+      :segued: true
+    - :uuid: 3cbf1928-fa5a-4000-b032-75b61d7f90ae
+      :name: Around And Around
+      :segued: false
+  - :uuid: 87f5eea7-6ae3-4c1c-8b77-07ea121f69a9
+    :songs:
+    - :uuid: f6f52ae1-f77f-46fd-b29b-517a2c9b866e
+      :name: Knockin' On Heaven's Door
+      :segued: false
+1992/03/12:
+  :uuid: 617fef00-e8db-455c-8fd3-7d477d2a0e1b
+  :venue: Nassau Veterans Memorial Coliseum
+  :city: Uniondale
+  :state: NY
+  :country: US
+  :sets:
+  - :uuid: d69a37c5-851d-4e80-b096-b7a5040c8c28
+    :songs:
+    - :uuid: 278f6cd1-ae42-468f-9f19-a7eaa8f45466
+      :name: Greatest Story Ever Told
+      :segued: false
+    - :uuid: c37d204d-0c65-4802-a1bc-e8e37b132596
+      :name: Bertha
+      :segued: false
+    - :uuid: 2eb991bf-592e-49bd-ab36-79ffcb0ea145
+      :name: Walkin' Blues
+      :segued: false
+    - :uuid: 0e4f93a4-5b49-4595-b52d-b22aecd41327
+      :name: Stagger Lee
+      :segued: false
+    - :uuid: d3177e2a-30a6-4a91-97b0-343d06675bf6
+      :name: Beat It On Down The Line
+      :segued: false
+    - :uuid: 168a5975-be2c-4629-857b-089e8e988bce
+      :name: Just Like Tom Thumb's Blues
+      :segued: false
+    - :uuid: e9469906-37fe-4d5a-80c9-8a520347a476
+      :name: Tennessee Jed
+      :segued: true
+    - :uuid: 4945b5e8-e34d-4aea-8953-2f0153b0752a
+      :name: Promised Land
+      :segued: false
+  - :uuid: 4fa9e1ec-fddd-4949-98c9-135e6fe0b05d
+    :songs:
+    - :uuid: d4343e9e-048e-41cc-a4e1-d449e06d4491
+      :name: Saint Of Circumstance
+      :segued: true
+    - :uuid: 05c36529-1787-4c25-a51d-58187553301e
+      :name: Ship Of Fools
+      :segued: false
+    - :uuid: dc4f0b9c-5b34-47af-b9f1-2e2de5747003
+      :name: Corrina
+      :segued: true
+    - :uuid: 98faea0d-a8eb-4656-be11-cd95706fdc23
+      :name: Playing In The Band Reprise
+      :segued: true
+    - :uuid: b41fd0c5-7b5b-40b0-a0a4-c15dee6bdffc
+      :name: Drums
+      :segued: true
+    - :uuid: 21fd2822-a564-41b1-9267-e5e3ee02e5a5
+      :name: Space
+      :segued: true
+    - :uuid: 297d9673-63b1-436d-be48-997f39efb984
+      :name: The Other One
+      :segued: true
+    - :uuid: 08442948-ef45-4b86-b009-893dfcc34cd5
+      :name: Stella Blue
+      :segued: true
+    - :uuid: a4ecdf06-4904-4bfb-b26b-defec6305d7d
+      :name: Sugar Magnolia
+      :segued: false
+  - :uuid: e224d915-54ab-4d25-8a1c-bb543f3910ee
+    :songs:
+    - :uuid: 28291a39-bc5a-4524-a677-c1c73f873d73
+      :name: It's All Over Now Baby Blue
+      :segued: false
+1992/03/13:
+  :uuid: c5c1e517-c1f9-4efe-9837-1aa8d5de38a3
+  :venue: Nassau Veterans Memorial Coliseum
+  :city: Uniondale
+  :state: NY
+  :country: US
+  :sets:
+  - :uuid: 26453e94-eaaa-4920-aade-71b777e491cf
+    :songs:
+    - :uuid: 2c3e8b4e-38f7-491b-be8e-e7ceb1240596
+      :name: Mississippi Half Step
+      :segued: false
+    - :uuid: be1cca4d-83ce-4d11-a7e5-fe1efbfa9010
+      :name: The Same Thing
+      :segued: false
+    - :uuid: d048f455-44a8-4171-9e91-087383aed044
+      :name: Brown Eyed Women
+      :segued: false
+    - :uuid: 4731204f-d538-4131-9498-088e0ecc4441
+      :name: El Paso
+      :segued: false
+    - :uuid: 89bfa4b7-b847-47be-a630-d0bff5da5be4
+      :name: Candyman
+      :segued: false
+    - :uuid: bf47fcc3-e6e8-4212-b0cd-bbb58c85d73d
+      :name: When I Paint My Masterpiece
+      :segued: false
+    - :uuid: 654a1f00-0f8b-432f-b7ac-0dea3e1886dc
+      :name: Bird Song
+      :segued: false
+  - :uuid: b2fe1889-2ff9-48d9-bf2e-6267b770145a
+    :songs:
+    - :uuid: 52b4cc48-3a89-4703-b5fa-15ecab0e4321
+      :name: Way To Go Home
+      :segued: false
+    - :uuid: 1c4d2980-d50c-4a2f-a58c-fd3880bba0a4
+      :name: Crazy Fingers
+      :segued: true
+    - :uuid: 4f145ac6-64ef-40a5-8b44-1720e3fd3a4d
+      :name: Man Smart (Woman Smarter)
+      :segued: false
+    - :uuid: 65c59386-9b2a-4de3-9341-ddcbd38c8d41
+      :name: Wave To The Wind
+      :segued: true
+    - :uuid: c16e53f3-d18e-4380-8329-2a622504a326
+      :name: Drums
+      :segued: true
+    - :uuid: 75ec69f0-1382-49c2-b0e1-890d926f9d0d
+      :name: Space
+      :segued: true
+    - :uuid: 313789f3-1b92-4933-b7f8-1c39feb69126
+      :name: The Wheel
+      :segued: true
+    - :uuid: 96328b92-39a4-470d-95d7-ee0033378f18
+      :name: Wharf Rat
+      :segued: true
+    - :uuid: 48d02ade-e325-4fa6-9ff1-9ba24a9d882a
+      :name: Throwing Stones
+      :segued: true
+    - :uuid: 6d358a43-3b26-406a-a8c0-37e18395cb9a
+      :name: Turn On Your Lovelight
+      :segued: false
+  - :uuid: da185114-41d5-4d37-826c-3fa011e8a1ef
+    :songs:
+    - :uuid: 975cdae2-f06a-4b9d-8ca9-8acf1fa8b4c0
+      :name: Box Of Rain
+      :segued: false
+1992/03/16:
+  :uuid: 8073c231-8157-4c41-a865-f7f296665a90
+  :venue: Spectrum
+  :city: Philadelphia
+  :state: PA
+  :country: US
+  :sets:
+  - :uuid: 8235cd9a-de54-4568-a5a1-3705ad6f83f8
+    :songs:
+    - :uuid: 90eeb071-0df6-4893-bf92-58496d5de24d
+      :name: Let The Good Times Roll
+      :segued: false
+    - :uuid: 28ca52c6-a242-4313-b036-15b1fdcfa61b
+      :name: Feel Like A Stranger
+      :segued: false
+    - :uuid: 89bb83f6-5a5c-459c-82b3-d88cea5d2fd3
+      :name: Friend Of The Devil
+      :segued: false
+    - :uuid: 30040152-5788-4fee-afb0-b5442cb91d3a
+      :name: C.C. Rider
+      :segued: true
+    - :uuid: 231ba9a6-d8d7-44aa-aab3-4ade079bbb29
+      :name: It Takes A Lot To Laugh, It Takes A Train To Cry
+      :segued: false
+    - :uuid: 5a73f2a6-0985-4a34-9c49-bbd687d4f7ed
+      :name: Black Throated Wind
+      :segued: false
+    - :uuid: 25633055-437a-4d5a-b34b-10be17d4ade3
+      :name: Ramble On Rose
+      :segued: false
+    - :uuid: 18819ca7-b604-4adc-9b97-59ee190f75fc
+      :name: Let It Grow
+      :segued: false
+  - :uuid: e47dedce-2444-455e-99b6-f73346eb4e09
+    :songs:
+    - :uuid: ef2b0d56-c5bc-43b3-8828-b92dd44c3300
+      :name: Corrina
+      :segued: true
+    - :uuid: 2e1f6831-619b-4f70-bc5d-b5e021b1333a
+      :name: Scarlet Begonias
+      :segued: true
+    - :uuid: c9221fe8-f6ed-4899-9704-d3673efc4e3b
+      :name: Fire On The Mountain
+      :segued: true
+    - :uuid: b6232a38-9b9d-4d3d-ac60-ded2589826ec
+      :name: Estimated Prophet
+      :segued: true
+    - :uuid: 3383b233-d94f-4cbb-88ec-e9bb20c0509d
+      :name: Drums
+      :segued: true
+    - :uuid: 48cad624-30b1-4f06-a995-5459897bd121
+      :name: Space
+      :segued: true
+    - :uuid: b3cb9d9d-e27f-439b-ac88-d3f1bb9ec137
+      :name: All Along The Watchtower
+      :segued: true
+    - :uuid: ac767106-e595-47ec-9cda-3233129f4536
+      :name: Morning Dew
+      :segued: false
+  - :uuid: 9c047be1-ccc9-4b7d-be67-7ba57dfa2a55
+    :songs:
+    - :uuid: 2e62adf0-129a-43f3-8a1c-fb9ed6ec67a8
+      :name: Johnny B. Goode
+      :segued: false
+1992/03/17:
+  :uuid: c6d5705d-0915-4900-b751-203fac09f67d
+  :venue: Spectrum
+  :city: Philadelphia
+  :state: PA
+  :country: US
+  :sets:
+  - :uuid: 55acb4b1-6ec2-4f24-9b29-5cc70a9583df
+    :songs:
+    - :uuid: d02ca409-c4a9-47a4-9d73-a99edafd0d68
+      :name: Box Of Rain
+      :segued: false
+    - :uuid: a92f8e5e-86b1-49d7-b5af-c8e1f3d51aba
+      :name: Minglewood Blues
+      :segued: false
+    - :uuid: a2700c80-1e17-470d-a136-80e7df0134d9
+      :name: Loser
+      :segued: false
+    - :uuid: cc59aed2-3c3d-4369-b866-2bd4dfbb80e2
+      :name: Stuck Inside Of Mobile With The Memphis Blues Again
+      :segued: false
+    - :uuid: a529df63-2007-496d-a732-eca03d5e4c34
+      :name: Tennessee Jed
+      :segued: false
+    - :uuid: 87a7770b-2687-4e3e-8b70-de1b1223c153
+      :name: Cassidy
+      :segued: false
+  - :uuid: b84559cc-22db-4adb-872a-2f49d67a863a
+    :songs:
+    - :uuid: e00c2753-1ebb-46cc-93bf-f21ebb235940
+      :name: Way To Go Home
+      :segued: false
+    - :uuid: 4622d97f-7415-48d6-9ffa-d2f2828aded5
+      :name: Truckin'
+      :segued: true
+    - :uuid: ca7c305d-5e4b-4277-9ffa-ea409d89c409
+      :name: Spoonful
+      :segued: true
+    - :uuid: 031526bd-25a0-4965-b8b7-f54ec2fdb508
+      :name: He's Gone
+      :segued: true
+    - :uuid: 89a9c0d7-45b5-417b-808a-571f9a7750a4
+      :name: Drums
+      :segued: true
+    - :uuid: fe34805e-d5c7-4f2e-89f9-81431d3079e8
+      :name: Space
+      :segued: true
+    - :uuid: 31dff98d-704a-4558-891f-db4c915dc3c6
+      :name: I Need A Miracle
+      :segued: true
+    - :uuid: 86a25e85-8a5b-40c9-8f5c-b9774ff08533
+      :name: So Many Roads
+      :segued: true
+    - :uuid: 3e57d86d-b16b-4931-839a-008e18e38215
+      :name: Sugar Magnolia
+      :segued: false
+  - :uuid: 8a305a55-2f3a-411b-a94c-0feeaa18d3c5
+    :songs:
+    - :uuid: 0a991f91-272e-4730-93ea-f1ed40265ecf
+      :name: The Weight
+      :segued: false
+1992/03/18:
+  :uuid: e8e88b21-8e38-499d-adb2-08265b8333eb
+  :venue: Spectrum
+  :city: Philadelphia
+  :state: PA
+  :country: US
+  :sets:
+  - :uuid: db7a27f3-57e1-40d8-ad37-174c769af262
+    :songs:
+    - :uuid: da50994f-4dca-4c37-a5d7-ba48b86ab1ac
+      :name: Touch Of Grey
+      :segued: true
+    - :uuid: 30a2bbf8-82cd-40db-8822-75561b4fedc1
+      :name: Wang Dang Doodle
+      :segued: false
+    - :uuid: fb9fd793-439c-4916-a93c-97b388401dda
+      :name: Jack-A-Roe
+      :segued: false
+    - :uuid: bbbad4f7-86dd-4ab8-85da-954e51a47940
+      :name: It's All Over Now
+      :segued: false
+    - :uuid: e1023e75-9ec7-4c9b-9a92-2bc553133801
+      :name: Row Jimmy
+      :segued: false
+    - :uuid: 630420c4-6a68-4f38-8df8-1aeb6bb3dc9d
+      :name: Picasso Moon
+      :segued: false
+    - :uuid: cb4c63d1-9647-4547-99bf-d7eff581fa1f
+      :name: Deal
+      :segued: false
+  - :uuid: 8ded001b-4cde-4e53-9edf-bd4297fb55d0
+    :songs:
+    - :uuid: 6fa4e1a2-844d-451b-84de-e2ced9e2a5ea
+      :name: Eyes Of The World
+      :segued: true
+    - :uuid: c33cfdc7-dbc3-45d0-9c49-34695a604544
+      :name: Corrina
+      :segued: true
+    - :uuid: 7ddc0063-e986-42fb-acef-213bd1f122a3
+      :name: Playing In The Band Reprise
+      :segued: true
+    - :uuid: 46618587-3752-4dcc-96c6-9c58626da82f
+      :name: Uncle John's Band
+      :segued: true
+    - :uuid: c70ef6d0-9dde-4bf1-9e6c-5ef0f0f7e607
+      :name: Jam
+      :segued: true
+    - :uuid: 91f4dff2-cb84-4b5d-a31e-fc748664913f
+      :name: Drums
+      :segued: true
+    - :uuid: 83343200-4241-499d-8536-8fb46a12b9c7
+      :name: Space
+      :segued: true
+    - :uuid: be6f4ae5-2237-48fc-9498-0553a17be97d
+      :name: Wave To The Wind
+      :segued: true
+    - :uuid: 0fa1da1f-c6ca-42f8-8453-46d8178540bd
+      :name: Wharf Rat
+      :segued: true
+    - :uuid: 2fd4c6f5-33ed-4145-b128-f556fec9d6d6
+      :name: Throwing Stones
+      :segued: true
+    - :uuid: 3fb4e9c6-8f4f-4013-9cc6-83c3e81e55cb
+      :name: Not Fade Away
+      :segued: false
+  - :uuid: cf243210-6c8a-411c-8bf1-5f34704b848a
+    :songs:
+    - :uuid: 39422bf7-c6ae-4440-9375-a1f16e1f9151
+      :name: Brokedown Palace
+      :segued: false
+1992/03/20:
+  :uuid: c446c32b-5451-4db0-834c-d0c571005fb0
+  :venue: Copps Coliseum
+  :city: Hamilton
+  :state: 
+  :country: Canada
+  :sets:
+  - :uuid: 0bfe38e2-a39c-49df-ba1f-f8d599172c49
+    :songs:
+    - :uuid: 725845bf-518b-4ec6-b4f2-7e1f8a3100db
+      :name: Hell In A Bucket
+      :segued: false
+    - :uuid: b056aa55-f45a-421b-8f6d-5c9856fa8588
+      :name: Althea
+      :segued: false
+    - :uuid: 69f2b592-da9c-4b67-b15e-7adc09bad7a0
+      :name: The Same Thing
+      :segued: false
+    - :uuid: 1d8cb391-a77c-4005-aadb-8ff8bb9d6a2a
+      :name: Brown Eyed Women
+      :segued: false
+    - :uuid: 3fcc30ad-8efe-48e4-bf05-4ffb157733ec
+      :name: Mexicali Blues
+      :segued: true
+    - :uuid: fe75b776-7db4-43db-bc88-752ca2d9f366
+      :name: Maggie's Farm
+      :segued: false
+    - :uuid: e9c2c09d-cbd7-4b08-acfd-82f8775bd891
+      :name: Bird Song
+      :segued: true
+    - :uuid: 2aac1ac8-21b8-4c75-b68d-6c4e72e48495
+      :name: Promised Land
+      :segued: false
+  - :uuid: e33e6a09-8a28-4f2a-aa9c-ef4736289451
+    :songs:
+    - :uuid: c8382fc3-78d4-40bc-b603-2098a1badb2c
+      :name: Shakedown Street
+      :segued: false
+    - :uuid: ed517123-0c84-4aac-9227-91da8d766d7f
+      :name: Man Smart (Woman Smarter)
+      :segued: false
+    - :uuid: 247c12a1-03b9-4fe9-bd89-e8afc761836c
+      :name: Dark Star
+      :segued: true
+    - :uuid: 89ff9a81-9bde-42f3-a085-11670bd8220a
+      :name: Drums
+      :segued: true
+    - :uuid: d1838a99-1f5d-473f-bc6d-e1cc9d9aabcb
+      :name: Space
+      :segued: true
+    - :uuid: b8aae1b8-f69a-45a8-80b2-e5b0770dddcf
+      :name: The Other One
+      :segued: true
+    - :uuid: 1886c45d-6c4e-4db6-998f-1b2aacc333a5
+      :name: Standing On The Moon
+      :segued: true
+    - :uuid: 77221804-c576-415e-9764-49dcb603c91b
+      :name: Turn On Your Lovelight
+      :segued: false
+  - :uuid: f9b0dfea-9f8e-4ffe-a901-ab661c3ac25f
+    :songs:
+    - :uuid: dbbeda33-8fec-411f-ae55-15adc8008f54
+      :name: U.S. Blues
+      :segued: false
+1992/03/21:
+  :uuid: 2c445c4c-b5bf-4362-bfc4-961e3f695fd3
+  :venue: Copps Coliseum
+  :city: Hamilton
+  :state: 
+  :country: Canada
+  :sets:
+  - :uuid: cea928b1-87c0-4a05-bfff-02c9b53e2db9
+    :songs:
+    - :uuid: 17ea77db-1772-49dc-af64-2b66d1e1992b
+      :name: Help On The Way
+      :segued: true
+    - :uuid: 11caa2c7-1ed4-42c1-a118-b7e584d51a89
+      :name: Slipknot!
+      :segued: true
+    - :uuid: 6e83acd8-5357-476e-9639-3b857e801e12
+      :name: Franklin's Tower
+      :segued: false
+    - :uuid: 21520ec7-587c-4754-bc8c-cc0a8f750039
+      :name: Little Red Rooster
+      :segued: false
+    - :uuid: a8a560c8-2fd5-46c5-9302-17c15817cd41
+      :name: Peggy-O
+      :segued: false
+    - :uuid: 15c4b091-fef3-4f86-9243-a8ffb44687bb
+      :name: Queen Jane Approximately
+      :segued: false
+    - :uuid: b11f6c73-3537-42d0-8e30-cc0ea2a8a579
+      :name: So Many Roads
+      :segued: false
+  - :uuid: 0061bd7a-f019-49d5-a4f4-e1c4a2f13acc
+    :songs:
+    - :uuid: 02daf8df-16f1-48f1-bacd-7afa831d5388
+      :name: Way To Go Home
+      :segued: false
+    - :uuid: 25bfb533-d0c5-4bcd-99cd-3a9094453733
+      :name: Corrina
+      :segued: true
+    - :uuid: b7139244-a452-4680-bc97-590fea65f883
+      :name: Terrapin Station
+      :segued: true
+    - :uuid: ead3cef6-a770-4ecc-81b5-40c1fba96bbe
+      :name: Jam
+      :segued: true
+    - :uuid: df09f65a-f8f2-4265-a514-d6d84c18e724
+      :name: Drums
+      :segued: true
+    - :uuid: 0cd873f4-f918-48e6-ba64-b95eebbcaa26
+      :name: Space
+      :segued: true
+    - :uuid: 69a505bf-6d8f-40dc-b285-8f14a592ebb7
+      :name: The Last Time
+      :segued: true
+    - :uuid: da53f622-bf63-4ad3-a2d9-340957ac1d10
+      :name: Black Peter
+      :segued: true
+    - :uuid: 5ddd117f-33a8-48fa-9dc5-5a1fc61d4c21
+      :name: One More Saturday Night
+      :segued: false
+  - :uuid: 04f4e808-ad85-4213-bf1a-b8b2cd93c55c
+    :songs:
+    - :uuid: 37d266d2-479d-422a-9090-fa6f6cf037d7
+      :name: Box Of Rain
+      :segued: false
+1992/03/23:
+  :uuid: 83b6d47e-2387-47a7-b14c-b53633c409bc
+  :venue: The Palace
+  :city: Auburn Hills
+  :state: MI
+  :country: US
+  :sets:
+  - :uuid: 75425818-ea13-4efc-af6c-7bf2646a400b
+    :songs:
+    - :uuid: 9469bbaa-e90a-4888-930e-911d535122f1
+      :name: Jack Straw
+      :segued: false
+    - :uuid: 951c7cba-1ea3-4009-b4b3-5ba5a5a442a2
+      :name: Cold Rain And Snow
+      :segued: false
+    - :uuid: 97c93a4a-0d34-4ca1-b1f5-b5e7f556cc5a
+      :name: Walkin' Blues
+      :segued: false
+    - :uuid: a4d885d6-49aa-425e-a363-4571904e1a74
+      :name: Loose Lucy
+      :segued: false
+    - :uuid: 5fd84188-b290-4e65-9b3d-adab527cf822
+      :name: When I Paint My Masterpiece
+      :segued: false
+    - :uuid: 13183c76-bd84-4b6f-a921-9dd3bfa3d5b0
+      :name: West L.A. Fadeaway
+      :segued: false
+    - :uuid: 7eb3ca49-1e8d-4d58-afda-c3a5a6396333
+      :name: Beat It On Down The Line
+      :segued: false
+    - :uuid: 6d81cd39-7d38-4a53-a8e8-6e9502c94a9a
+      :name: Tennessee Jed
+      :segued: true
+    - :uuid: 502b42de-27f4-4ea4-93d9-3b9392d28394
+      :name: The Music Never Stopped
+      :segued: false
+  - :uuid: fc43ec0b-9311-45d0-b9ba-442f8be5d453
+    :songs:
+    - :uuid: f73c47bd-b186-4795-91b0-d6bb5c3da777
+      :name: Victim Or The Crime
+      :segued: false
+    - :uuid: 67021e9f-86d2-4763-8e62-6c8a1e4aea35
+      :name: Wave To The Wind
+      :segued: true
+    - :uuid: 5f680be3-7580-41e1-bede-4425269715e6
+      :name: Crazy Fingers
+      :segued: true
+    - :uuid: 1455ff98-087f-4c7a-ba2d-37757c5bfa98
+      :name: Uncle John's Band
+      :segued: true
+    - :uuid: f13d8a00-eeec-4687-9b2d-c7bd61a941b6
+      :name: Drums
+      :segued: true
+    - :uuid: 2e953828-8773-4c7e-b358-847bf4354b4a
+      :name: Space
+      :segued: true
+    - :uuid: 5327f43c-2314-454c-8f7d-296f222c84cd
+      :name: The Wheel
+      :segued: true
+    - :uuid: 50b9f749-951a-4e5f-9af9-cb4b912831c3
+      :name: All Along The Watchtower
+      :segued: true
+    - :uuid: 8ab75b76-6704-479a-94b0-b8a68f69c498
+      :name: Morning Dew
+      :segued: false
+  - :uuid: 8ca7307f-826c-4bfd-9d41-e34b0f109b20
+    :songs:
+    - :uuid: 35637c01-5037-416f-b040-625c93e0c3e1
+      :name: Gloria
+      :segued: false
+1992/03/24:
+  :uuid: 25d5d961-0099-4020-815e-221f84404aa5
+  :venue: The Palace
+  :city: Auburn Hills
+  :state: MI
+  :country: US
+  :sets:
+  - :uuid: 314f32a5-9006-4fff-a2ae-73352befcc00
+    :songs:
+    - :uuid: 9e50a081-40fb-46c2-9b65-cdf8aa8108d7
+      :name: Touch Of Grey
+      :segued: true
+    - :uuid: 380718cd-c8fa-4674-b7df-89fc305d610b
+      :name: Greatest Story Ever Told
+      :segued: false
+    - :uuid: 5f2eb8ea-3d25-4fb1-b8fa-a6df94109cb5
+      :name: New Speedway Boogie
+      :segued: false
+    - :uuid: cd32505c-b040-40e4-8e7e-94f70d18e8b2
+      :name: Me And My Uncle
+      :segued: true
+    - :uuid: e70e03af-3e74-4a82-b0d3-1b25bf357375
+      :name: Big River
+      :segued: false
+    - :uuid: eab4120c-a4a7-4284-8667-72fa56373c3f
+      :name: Way To Go Home
+      :segued: false
+    - :uuid: 420f0a2a-3550-40cd-a950-33fec42ade6d
+      :name: So Many Roads
+      :segued: false
+    - :uuid: 4edf8592-2337-4249-b3a5-94935d972c4a
+      :name: Corrina
+      :segued: false
+  - :uuid: 7e0fff16-893a-47e9-919d-540377861c4a
+    :songs:
+    - :uuid: e692b932-236e-4ebe-bae9-f9bd7ff08e0f
+      :name: China Cat Sunflower
+      :segued: true
+    - :uuid: 4bf4b454-7e05-4312-99d4-94122f145d1a
+      :name: I Know You Rider
+      :segued: false
+    - :uuid: b4195662-aef3-4b34-a456-4378fc791c4f
+      :name: Saint Of Circumstance
+      :segued: true
+    - :uuid: ffc389d0-513f-4fae-9a10-e672386ec7af
+      :name: Foolish Heart
+      :segued: true
+    - :uuid: f4ea1e49-1dbf-4a84-8487-71228b390348
+      :name: Drums
+      :segued: true
+    - :uuid: fbaa3952-7f45-493b-8a57-62e6aa343588
+      :name: Space
+      :segued: true
+    - :uuid: 0b01a06b-f58d-4afe-bd18-4a7986672398
+      :name: I Need A Miracle
+      :segued: true
+    - :uuid: cd868bb7-8b15-46aa-b623-ec6b66fd93c2
+      :name: Stella Blue
+      :segued: true
+    - :uuid: 50f7eecc-8c13-43a0-8952-bb3e6e95ee60
+      :name: Throwing Stones
+      :segued: true
+    - :uuid: 4a876d27-0ac6-4aeb-b0d9-f0e2e7802ab0
+      :name: Not Fade Away
+      :segued: false
+  - :uuid: 49dd6b45-0fcd-47c2-b40b-a0002dde951a
+    :songs:
+    - :uuid: 18d92bdf-da3d-4b7e-af4d-4f355767abe5
+      :name: The Weight
+      :segued: false
+1992/05/19:
+  :uuid: 9c4b8aeb-ad80-42c6-90e7-6735f60e9277
+  :venue: Cal Expo Amphitheatre
+  :city: Sacramento
+  :state: CA
+  :country: US
+  :sets:
+  - :uuid: b5e03832-e90b-4588-a003-393d2c6047be
+    :songs:
+    - :uuid: 6298ab49-488e-4c66-8589-e87cff0a346a
+      :name: Cold Rain And Snow
+      :segued: false
+    - :uuid: f9ab1e72-663b-493d-8ec1-16db28f25be8
+      :name: Little Red Rooster
+      :segued: false
+    - :uuid: 0cc084e8-237a-48cd-8368-2693774cfdb4
+      :name: Althea
+      :segued: false
+    - :uuid: 2ae0127a-24bf-4a21-a74e-1041677c5640
+      :name: Queen Jane Approximately
+      :segued: false
+    - :uuid: 556d7a65-23d0-4fe6-ac5c-457bce1d4285
+      :name: Tennessee Jed
+      :segued: false
+    - :uuid: 372ca8da-e4d8-4bfb-8a8f-cbf289ac4ed9
+      :name: Let It Grow
+      :segued: false
+  - :uuid: 52272611-68b1-4c7c-886a-103a7803d7ed
+    :songs:
+    - :uuid: ec0ccf19-9718-4c94-9cb7-7826a4bdd256
+      :name: China Cat Sunflower
+      :segued: true
+    - :uuid: d3742ff8-22a7-4e24-8631-3c93a7176a4c
+      :name: I Know You Rider
+      :segued: false
+    - :uuid: 0df4d38f-5aaf-4ebd-91ca-f71d7fe61f62
+      :name: Looks Like Rain
+      :segued: false
+    - :uuid: 85225d75-8077-4704-b3f6-59b548418db6
+      :name: Way To Go Home
+      :segued: false
+    - :uuid: 10f2e4e1-e32e-4fb6-a809-77e878c318c5
+      :name: Terrapin Station
+      :segued: true
+    - :uuid: 4bf9e015-23a0-48e0-95a7-30f6e5b9f0ca
+      :name: Jam
+      :segued: true
+    - :uuid: aac96692-5e1c-4daa-88c7-40521eba1c31
+      :name: Drums
+      :segued: true
+    - :uuid: 527160e1-2b89-4431-95bc-1bc7ab603f92
+      :name: Space
+      :segued: true
+    - :uuid: c55f4232-b9ec-461f-9050-aada816a1c56
+      :name: I Need A Miracle
+      :segued: true
+    - :uuid: b9ca1afa-b523-4f48-b55e-f50624eb8207
+      :name: Black Peter
+      :segued: true
+    - :uuid: 94a76316-60e7-462b-9cbf-a06538b6df7a
+      :name: Sugar Magnolia
+      :segued: false
+  - :uuid: 4112c134-38ac-4572-8743-14c77db1a2dd
+    :songs:
+    - :uuid: 0171b7ee-b52c-46cf-879d-f36492967e39
+      :name: Baba O'Riley
+      :segued: true
+    - :uuid: d7d5b0a0-a7c0-4e14-8faa-c5794e6eeaeb
+      :name: Tomorrow Never Knows
+      :segued: false
+1992/05/20:
+  :uuid: 711edbe0-aa58-46b8-9d19-74292126e320
+  :venue: Cal Expo Amphitheatre
+  :city: Sacramento
+  :state: CA
+  :country: US
+  :sets:
+  - :uuid: 4afaaca0-388a-4753-8020-f4ce6706fa5a
+    :songs:
+    - :uuid: d3c08129-bca3-47b0-a367-f51a9d4ad467
+      :name: Jack Straw
+      :segued: false
+    - :uuid: c65ebdc4-500d-4af9-b232-654903adb4b6
+      :name: Bertha
+      :segued: false
+    - :uuid: d0b89812-167e-43ad-97a6-b39e116bd1f5
+      :name: Walkin' Blues
+      :segued: false
+    - :uuid: d471e400-3eb1-4e7c-9795-831a960c65a7
+      :name: Brown Eyed Women
+      :segued: false
+    - :uuid: 22c5c431-392c-40b2-b3b1-d4276c3a9673
+      :name: Desolation Row
+      :segued: false
+    - :uuid: 5e2226c3-6ff4-4475-8714-03d8a8375c24
+      :name: Stagger Lee
+      :segued: false
+    - :uuid: c47e3e25-f465-4cfa-a23f-7dfba87ad105
+      :name: Promised Land
+      :segued: false
+  - :uuid: 92d59313-f25d-4f80-889f-6571ae4b022b
+    :songs:
+    - :uuid: 4d14d962-3d5e-4ccc-aa90-44eb0cf09fe8
+      :name: Box Of Rain
+      :segued: false
+    - :uuid: c35f070e-c87e-4da7-bf2f-208e38ba7291
+      :name: Truckin'
+      :segued: true
+    - :uuid: 9fc85713-94c6-445a-abb0-047c795b5237
+      :name: Crazy Fingers
+      :segued: true
+    - :uuid: 1a076cdb-6946-446c-ac27-892f47b41785
+      :name: Saint Of Circumstance
+      :segued: true
+    - :uuid: 4914e021-bcdf-4be3-86dc-f255d8e90e6d
+      :name: Drums
+      :segued: true
+    - :uuid: 0e024d13-d283-4536-b35a-85bd0bda0e00
+      :name: Space
+      :segued: true
+    - :uuid: 4fc34a6b-1bc8-4168-a754-22f1f2081fd3
+      :name: The Other One
+      :segued: true
+    - :uuid: 23c9b184-86c6-44f9-a9c5-6971b7eb66d3
+      :name: Wharf Rat
+      :segued: true
+    - :uuid: 7abe3c82-5a98-45ed-b636-849217240386
+      :name: Around And Around
+      :segued: false
+  - :uuid: 90c1ab1f-b6f4-44fe-94bc-ab340f4459f8
+    :songs:
+    - :uuid: 0eb9142a-08ce-4698-8129-82f09b4f3ecd
+      :name: U.S. Blues
+      :segued: false
+1992/05/21:
+  :uuid: d1b35a64-cb31-4792-ba25-70e88ede380b
+  :venue: Cal Expo Amphitheatre
+  :city: Sacramento
+  :state: CA
+  :country: US
+  :sets:
+  - :uuid: f488889e-dd2a-42e6-a542-c3543b5ceb7f
+    :songs:
+    - :uuid: e4672383-70cf-4982-94c8-e2c098b15ab4
+      :name: Touch Of Grey
+      :segued: false
+    - :uuid: 278ec0e0-47b1-4f5b-9fe1-4036aa4ad43d
+      :name: Wang Dang Doodle
+      :segued: false
+    - :uuid: b1c7f118-aa09-4807-995d-7e44a85971be
+      :name: Row Jimmy
+      :segued: false
+    - :uuid: 2fa86762-df0e-4c0b-b984-1a86694fbd36
+      :name: Me And My Uncle
+      :segued: true
+    - :uuid: c113b208-fd15-40f2-83fc-f4a22597a6de
+      :name: Maggie's Farm
+      :segued: false
+    - :uuid: 538641db-daa4-4836-af6e-4b0845087538
+      :name: Bird Song
+      :segued: false
+  - :uuid: bf509e2d-f505-431c-a51f-4c8e4c827d23
+    :songs:
+    - :uuid: 6bb102e8-17a1-46d0-a7ab-f7e0dd0dbbbf
+      :name: Scarlet Begonias
+      :segued: true
+    - :uuid: ad6d0634-6bbf-4b61-b47b-01c9c51a4191
+      :name: Fire On The Mountain
+      :segued: true
+    - :uuid: 159c8ba5-6d1f-4085-b611-2e1f6d777c50
+      :name: Estimated Prophet
+      :segued: true
+    - :uuid: 55a345ea-4829-4164-a6b4-4ac03755bc08
+      :name: He's Gone
+      :segued: true
+    - :uuid: a7d6a3f3-c2a8-4ffa-bd5f-4839b97d5281
+      :name: Drums
+      :segued: true
+    - :uuid: 74fc88e8-4697-4d91-84bb-c2907592312b
+      :name: Space
+      :segued: true
+    - :uuid: c0bfa5fd-15f4-416c-a31d-e74d7851c992
+      :name: All Along The Watchtower
+      :segued: true
+    - :uuid: 47f12536-dcdc-43c4-b42d-4e375ab59ca8
+      :name: Standing On The Moon
+      :segued: true
+    - :uuid: 1ebab223-a888-465e-9386-30c5e0195dfd
+      :name: Turn On Your Lovelight
+      :segued: false
+  - :uuid: 63038f95-570a-48a3-9019-ed67e8110387
+    :songs:
+    - :uuid: 9f14bb44-5a5f-481e-8052-a9423b188558
+      :name: Gloria
+      :segued: false
+1992/05/23:
+  :uuid: 072632aa-f487-468f-8590-65d3d309f4d9
+  :venue: Shoreline Amphitheatre
+  :city: Mountain View
+  :state: CA
+  :country: US
+  :sets:
+  - :uuid: 67522485-c50c-41b5-b6ee-5859a242af22
+    :songs:
+    - :uuid: b8701a70-ddf5-45bf-857c-18e385810313
+      :name: Hell In A Bucket
+      :segued: true
+    - :uuid: 94aa2b55-dc17-4adb-b2cb-faf42626a8a0
+      :name: Sugaree
+      :segued: false
+    - :uuid: b18fb269-6b33-4f74-96bd-2bafe455f77c
+      :name: Minglewood Blues
+      :segued: false
+    - :uuid: e6711945-c7f7-4df8-93b7-3a9c3416e441
+      :name: Candyman
+      :segued: false
+    - :uuid: d69e6539-c9b6-471f-b671-b1bf19632f07
+      :name: Cassidy
+      :segued: false
+    - :uuid: ceb64dba-3776-4144-8eec-687dc8ecba26
+      :name: Loose Lucy
+      :segued: false
+    - :uuid: 4e7645f7-3fdd-4916-883e-8dbb538ce278
+      :name: The Music Never Stopped
+      :segued: false
+  - :uuid: 79f9206b-c182-46e8-91ac-b8ae54cb5879
+    :songs:
+    - :uuid: 1a83a034-9802-42b4-89a4-d86b38c98f9b
+      :name: Box Of Rain
+      :segued: false
+    - :uuid: 21f78ed2-15da-466f-92e8-a72af8489612
+      :name: Man Smart (Woman Smarter)
+      :segued: false
+    - :uuid: 2e0b234c-eeac-418d-b504-10eac76d6caa
+      :name: Ship Of Fools
+      :segued: false
+    - :uuid: dc9b3aae-a432-4425-b096-694e6ad54c13
+      :name: Playing In The Band
+      :segued: true
+    - :uuid: d914a95a-fb4b-4d1d-956c-ece6866f66fb
+      :name: Uncle John's Band
+      :segued: true
+    - :uuid: 7b522e5e-3cdf-431f-89a8-f95271ded4a2
+      :name: Drums
+      :segued: true
+    - :uuid: 2b0526a6-f842-485b-ba5e-2c8e81032d58
+      :name: Space
+      :segued: true
+    - :uuid: 3ad28498-0956-408f-8608-9b3fea5b0c00
+      :name: The Wheel
+      :segued: true
+    - :uuid: a128a115-e58b-4365-a993-a6b5e77f2d92
+      :name: Stella Blue
+      :segued: true
+    - :uuid: c386ca1c-d326-4345-8946-60cf1654c64f
+      :name: One More Saturday Night
+      :segued: false
+  - :uuid: 8924217d-e613-424f-ab5f-176595ac87c1
+    :songs:
+    - :uuid: 2e246539-4150-497f-a5cb-580c07d867ec
+      :name: Knockin' On Heaven's Door
+      :segued: false
+1992/05/24:
+  :uuid: 4bda57f6-45f5-4667-87ad-31c1d8a9ef41
+  :venue: Shoreline Amphitheatre
+  :city: Mountain View
+  :state: CA
+  :country: US
+  :sets:
+  - :uuid: 02a511d1-8b16-4e60-90d8-8eabb948df74
+    :songs:
+    - :uuid: ff6cc01a-06e6-4ea0-847f-3e0b3d3b61d5
+      :name: Shakedown Street
+      :segued: false
+    - :uuid: c182f20b-dbd8-4af0-a2de-3772ae2788e9
+      :name: The Same Thing
+      :segued: false
+    - :uuid: 9bf43aaa-d049-49d5-b9b7-663b8f3948e5
+      :name: Dire Wolf
+      :segued: false
+    - :uuid: bdd88d01-d0a8-44fc-8d6d-ade79f3a2d93
+      :name: When I Paint My Masterpiece
+      :segued: false
+    - :uuid: 11c8bb85-95ca-4a9d-a7b1-d621ec3dc275
+      :name: Loser
+      :segued: false
+    - :uuid: 887a10fd-dfed-49da-b7e2-53deb31feffa
+      :name: It's All Over Now
+      :segued: false
+    - :uuid: 12ecb12b-ba66-45f6-a97c-2d50c168e801
+      :name: Foolish Heart
+      :segued: false
+  - :uuid: d86a7b24-fbd9-4cac-96bb-ceee07188249
+    :songs:
+    - :uuid: d6421332-fa4e-4a6b-a25c-b9525e19d80b
+      :name: Eyes Of The World
+      :segued: true
+    - :uuid: f3f147e8-c068-42d9-969d-df1d9411790c
+      :name: Samson And Delilah
+      :segued: false
+    - :uuid: 1ebd251b-2dba-4368-bdaa-cc3852c93229
+      :name: So Many Roads
+      :segued: false
+    - :uuid: 7013d489-727e-495a-8395-035caee5c3d2
+      :name: Way To Go Home
+      :segued: false
+    - :uuid: 051e3e92-22a9-48d4-9c4f-38d10b4c7c79
+      :name: Corrina
+      :segued: true
+    - :uuid: 7f5c3a04-947e-4ca3-be3c-5835f3cb7880
+      :name: Drums
+      :segued: true
+    - :uuid: aabf3e6f-8ae6-41de-a49a-9a0616048814
+      :name: Space
+      :segued: true
+    - :uuid: ed36666d-8467-4c55-bb1b-3fe7eccdecbf
+      :name: The Last Time
+      :segued: true
+    - :uuid: bb5d9a85-51ea-405b-8f71-10129b5ac4f9
+      :name: Morning Dew
+      :segued: false
+  - :uuid: 3b3fa214-8481-43dc-be03-701fa0937864
+    :songs:
+    - :uuid: 203ab7a1-ab75-4a78-813a-9d0bc343e8cb
+      :name: Johnny B. Goode
+      :segued: false
+1992/05/25:
+  :uuid: 7381a867-c544-4379-843b-39ed5105b8f6
+  :venue: Shoreline Amphitheatre
+  :city: Mountain View
+  :state: CA
+  :country: US
+  :sets:
+  - :uuid: fb10d02a-77a0-44f8-b337-dce5cb4c8506
+    :songs:
+    - :uuid: 9081bcf1-f39e-4366-99f1-b8d783ef0647
+      :name: Let The Good Times Roll
+      :segued: false
+    - :uuid: c0575f5d-b9ca-4ec7-8d21-a98caeb987be
+      :name: Feel Like A Stranger
+      :segued: false
+    - :uuid: 548eab85-0887-47e6-8dcb-7470f0854b13
+      :name: West L.A. Fadeaway
+      :segued: false
+    - :uuid: a31d74e3-69fc-4764-bf2a-2ea2c516d3dd
+      :name: Mexicali Blues
+      :segued: true
+    - :uuid: 531fb8b4-8b1e-4dc0-bbe7-44fbc12b0a6c
+      :name: Big River
+      :segued: false
+    - :uuid: 275a3a16-64ee-4c67-8c1d-309e018b7c56
+      :name: Just Like Tom Thumb's Blues
+      :segued: false
+    - :uuid: 4ac2dd1c-2dc7-4060-ba46-3333708ec991
+      :name: Tennessee Jed
+      :segued: false
+    - :uuid: 8ef3fe85-e395-4ec1-90bd-f3a1c5a5dcca
+      :name: Picasso Moon
+      :segued: false
+  - :uuid: 5638cec6-40f1-4a52-940b-665fbf182f7f
+    :songs:
+    - :uuid: cd8e8dbf-f139-4611-b807-286b69528d66
+      :name: Victim Or The Crime
+      :segued: true
+    - :uuid: f75912e2-b7b5-48df-a700-f7b789d1546f
+      :name: Iko Iko
+      :segued: false
+    - :uuid: 3eb2146c-5300-443c-ba53-f9731454ba03
+      :name: Spoonful
+      :segued: true
+    - :uuid: 7369823f-4639-4fde-ac8d-020308e809c9
+      :name: New Speedway Boogie
+      :segued: true
+    - :uuid: 43ae6042-0954-4ca6-90bf-44f4cc75a86c
+      :name: Drums
+      :segued: true
+    - :uuid: b6c9b024-75fa-424a-b339-ccb271b7a0a5
+      :name: Space
+      :segued: true
+    - :uuid: 4bb68526-2ade-4aea-a753-8af8c916b78e
+      :name: Throwing Stones
+      :segued: true
+    - :uuid: 5e5213a1-4ea0-4d88-bea1-231a3b8a0d7a
+      :name: Attics Of My Life
+      :segued: true
+    - :uuid: 72d12632-0582-486a-a481-0c06a802fb49
+      :name: Not Fade Away
+      :segued: false
+  - :uuid: e99a9662-4b18-41aa-b222-abc9da85705c
+    :songs:
+    - :uuid: 176c49ac-420e-44d3-a905-42b2303ffeef
+      :name: Baba O'Riley
+      :segued: true
+    - :uuid: 4fa36772-4dc0-4392-9fb2-9d156af840b0
+      :name: Tomorrow Never Knows
+      :segued: false
+1992/05/29:
+  :uuid: 8cdf1811-e13e-45ac-b479-026ee26cedbb
+  :venue: Sam Boyd Silver Bowl
+  :city: Las Vegas
+  :state: NV
+  :country: US
+  :sets:
+  - :uuid: f8e5ec95-1c4e-49d2-8e6f-2b53ac537c5f
+    :songs:
+    - :uuid: 4dab3a6e-8167-4839-92ba-27e282be99fe
+      :name: Mississippi Half Step
+      :segued: false
+    - :uuid: fae3056b-6911-40d4-b15a-da2a40ea194a
+      :name: Walkin' Blues
+      :segued: false
+    - :uuid: d5050f40-eaa2-437c-b5f8-b1a37317d437
+      :name: Peggy-O
+      :segued: false
+    - :uuid: 9df202ac-5f57-4225-83de-252d93d48d42
+      :name: Black Throated Wind
+      :segued: false
+    - :uuid: 0197f05b-f55a-49b5-aa1d-be63d5e5b050
+      :name: They Love Each Other
+      :segued: false
+    - :uuid: e785d875-95ca-4cc6-a912-35c4126fcd0c
+      :name: Stuck Inside Of Mobile With The Memphis Blues Again
+      :segued: false
+    - :uuid: 46e83320-b9b7-41e2-aff4-dbed52a598b1
+      :name: Jack-A-Roe
+      :segued: false
+    - :uuid: 14ecb389-09f6-4366-9f43-fd17c6e64dfc
+      :name: Promised Land
+      :segued: false
+  - :uuid: f55971ee-09c5-4731-8ee8-6ca5c42fb99d
+    :songs:
+    - :uuid: f92c8afa-8971-4199-9cee-d56f5ca39477
+      :name: China Cat Sunflower
+      :segued: true
+    - :uuid: 5b7895de-9392-4543-ae98-6fbfd3314821
+      :name: I Know You Rider
+      :segued: true
+    - :uuid: d1418fe9-d457-4adc-a7cf-4d41b682513f
+      :name: Looks Like Rain
+      :segued: false
+    - :uuid: 5564d08b-1d89-4826-bb1d-85f802b999a9
+      :name: Crazy Fingers
+      :segued: true
+    - :uuid: c8a1722b-c93e-441d-a412-bf469db4830f
+      :name: Playing In The Band
+      :segued: true
+    - :uuid: 4b4eaeee-f332-4b83-baf5-f824a0cf1531
+      :name: Drums
+      :segued: true
+    - :uuid: a18c2746-0a83-47bc-9ae5-76719e25ab01
+      :name: Space
+      :segued: true
+    - :uuid: 6be2b29e-c16d-413c-9f41-62b0a335a3e8
+      :name: All Along The Watchtower
+      :segued: true
+    - :uuid: c6755449-897c-4de0-891c-dca1ef841281
+      :name: China Doll
+      :segued: true
+    - :uuid: cd7893a1-dd39-4a8c-b139-1fc45b0ce902
+      :name: Sugar Magnolia
+      :segued: false
+  - :uuid: b5e64160-ac67-44de-8873-c501d8f910ec
+    :songs:
+    - :uuid: 1f7ec4b7-3c09-4e97-9372-0072fa081a4a
+      :name: The Weight
+      :segued: false
+1992/05/30:
+  :uuid: 8051b53a-85e8-4b97-ac35-8f51de99a4b4
+  :venue: Sam Boyd Silver Bowl
+  :city: Las Vegas
+  :state: NV
+  :country: US
+  :sets:
+  - :uuid: 0f7a2717-8b5f-45f7-baf3-54005f2f70c0
+    :songs:
+    - :uuid: 7730d57a-26de-437a-aa2e-c88aac8224ea
+      :name: Jack Straw
+      :segued: true
+    - :uuid: a7e06d23-b17e-4329-85d8-7d9f7d54a868
+      :name: Sugaree
+      :segued: false
+    - :uuid: fda3c9f7-0c24-461f-b1e4-152d92ffd706
+      :name: Wang Dang Doodle
+      :segued: false
+    - :uuid: b486efeb-6bea-4a5b-ab3b-6c3366669595
+      :name: High Time
+      :segued: false
+    - :uuid: 39a5aeff-4dfa-4f43-b0b1-64fbeaf3aa68
+      :name: Maggie's Farm
+      :segued: false
+    - :uuid: 51e665d7-dc2a-4ce3-bc30-f717143d8e9c
+      :name: Cumberland Blues
+      :segued: false
+    - :uuid: 5823de0b-a899-4e6f-89ba-7bb00ff30022
+      :name: Cassidy
+      :segued: false
+    - :uuid: a5b68af1-56bd-4210-858b-225b98984058
+      :name: Don't Ease Me In
+      :segued: false
+  - :uuid: a8198fcc-20c6-4560-9ab7-34f64b27c32f
+    :songs:
+    - :uuid: 6cfa48e5-0784-4a7a-b5e2-b2898ba2d53a
+      :name: Eyes Of The World
+      :segued: false
+    - :uuid: 70b160a9-e6a2-48fe-a855-340692c298cb
+      :name: Way To Go Home
+      :segued: false
+    - :uuid: 6b8db655-daca-4873-bfbf-4e28beefc71e
+      :name: Truckin'
+      :segued: true
+    - :uuid: dfc9b83a-d29b-42e0-a869-179c4d413b8d
+      :name: Smokestack Lightning
+      :segued: true
+    - :uuid: 4d9a622e-29d9-4a1c-9518-3e1a33c1b880
+      :name: Terrapin Station
+      :segued: true
+    - :uuid: f8fc46a9-391f-44a4-b1f5-8ada565391d4
+      :name: Drums
+      :segued: true
+    - :uuid: a69a2b38-d53d-4ae2-9bc8-ccc2da7bbb31
+      :name: Space
+      :segued: true
+    - :uuid: b844a611-e007-4899-b97f-4ec4a5ee3a3a
+      :name: Spanish Jam
+      :segued: true
+    - :uuid: 6550b7fe-62dd-4b89-b628-f1b3d59c3701
+      :name: I Need A Miracle
+      :segued: true
+    - :uuid: 3d3e9888-c4a2-4e7b-b787-b92c62ea96ae
+      :name: Standing On The Moon
+      :segued: true
+    - :uuid: 7f66215d-5887-496a-8568-f9b26c6c39c5
+      :name: One More Saturday Night
+      :segued: false
+  - :uuid: 8558d05c-a906-4c14-a6a3-f8072549bfa0
+    :songs:
+    - :uuid: fdaf4302-ecb4-4249-b819-d5873296a636
+      :name: Knockin' On Heaven's Door
+      :segued: false
+1992/05/31:
+  :uuid: b70cd33e-a9da-4135-8015-65b2bfdc7421
+  :venue: Sam Boyd Silver Bowl
+  :city: Las Vegas
+  :state: NV
+  :country: US
+  :sets:
+  - :uuid: d457436f-ca47-44bc-ac18-baed5e0450ce
+    :songs:
+    - :uuid: ddfa2ee2-3db2-4daa-b738-ba6f98bdff31
+      :name: Help On The Way
+      :segued: true
+    - :uuid: d9f96414-32c8-4bcf-a139-79a7654bb8de
+      :name: Slipknot!
+      :segued: true
+    - :uuid: 34733e82-d0b1-4cc4-9d5d-018d026897f4
+      :name: Franklin's Tower
+      :segued: false
+    - :uuid: 169bc4af-38d1-429d-b1a2-11d2b18f9474
+      :name: Minglewood Blues
+      :segued: false
+    - :uuid: b21a29ac-5c9b-4c87-9907-70f81de3ba1c
+      :name: It Must Have Been The Roses
+      :segued: false
+    - :uuid: def9c522-a87f-49c8-a175-f79953b48dee
+      :name: Queen Jane Approximately
+      :segued: false
+    - :uuid: 28d5ee13-7e23-47fc-9798-e3ac21a29a2d
+      :name: Bird Song
+      :segued: false
+    - :uuid: 8fd2533b-4da6-450f-bca2-315b6bdf2262
+      :name: Picasso Moon
+      :segued: false
+  - :uuid: fd1cea8d-2bbd-48cc-af1d-bdaebfe3e271
+    :songs:
+    - :uuid: 3ae9ea4f-f028-452a-bc7c-e37dc52ed19c
+      :name: Scarlet Begonias
+      :segued: true
+    - :uuid: 83c9b8ab-16fc-4d8e-9a10-a5963b7ebbbc
+      :name: Fire On The Mountain
+      :segued: false
+    - :uuid: 0dd01e20-be48-4845-b176-5a0dd7e78456
+      :name: Man Smart (Woman Smarter)
+      :segued: false
+    - :uuid: b79402fe-27d9-4511-a319-0b4ace63ba27
+      :name: So Many Roads
+      :segued: false
+    - :uuid: c8de3d06-c423-44c5-bc96-9f9f6fac43b9
+      :name: Saint Of Circumstance
+      :segued: true
+    - :uuid: e8986b50-277b-4265-b057-5ff3a9028652
+      :name: He's Gone
+      :segued: true
+    - :uuid: a80676be-fc35-4752-a3cd-7c976221440d
+      :name: Drums
+      :segued: true
+    - :uuid: 34cbdaf4-e530-45ca-8847-dbd7dca5978d
+      :name: Space
+      :segued: true
+    - :uuid: ee4642b1-aa9c-4571-9a8a-719ba7601b10
+      :name: Attics Of My Life
+      :segued: false
+    - :uuid: 2fb61871-7b4c-4553-a71f-1a18d9c40e18
+      :name: Spoonful
+      :segued: true
+    - :uuid: ca8a8b29-a005-4bdb-af95-dade557e7f52
+      :name: The Other One
+      :segued: true
+    - :uuid: 1ff5410d-e289-43aa-bac8-74ac4d2f358e
+      :name: Morning Dew
+      :segued: false
+  - :uuid: 6de6687a-8e08-4107-a5a7-23a5f18ec508
+    :songs:
+    - :uuid: d8eb1f21-fa82-4ac1-8653-990e30a5237e
+      :name: Baba O'Riley
+      :segued: true
+    - :uuid: 27cd9506-0a34-48a9-9e4d-f2aeb41dc685
+      :name: Tomorrow Never Knows
+      :segued: false
+1992/06/06:
+  :uuid: 627e1076-5e54-46a2-b2ee-4d748f6f0300
+  :venue: Rich Stadium
+  :city: Buffalo
+  :state: NY
+  :country: US
+  :sets:
+  - :uuid: 595501bb-ab89-4966-9844-63a93853332b
+    :songs:
+    - :uuid: 2bac701d-ae31-42df-be0e-a458bdc82bed
+      :name: Touch Of Grey
+      :segued: true
+    - :uuid: d6ed6cc2-68b9-47e6-933c-7546573be1d4
+      :name: Greatest Story Ever Told
+      :segued: false
+    - :uuid: 943dbb5f-cd7b-46d7-af95-ebce3ca3ece7
+      :name: Althea
+      :segued: false
+    - :uuid: ee645226-b5a5-4be0-a4c2-e4fe62605afa
+      :name: It's All Over Now
+      :segued: false
+    - :uuid: 7a3413f4-2e14-4b81-a7c6-5ac7995e0db3
+      :name: Friend Of The Devil
+      :segued: false
+    - :uuid: b39a0d7e-1ed2-44bb-99db-9c3d4849b89b
+      :name: When I Paint My Masterpiece
+      :segued: false
+    - :uuid: 23724294-b242-4437-8c9b-aa6a3760ea2f
+      :name: Ramble On Rose
+      :segued: false
+    - :uuid: e48609b7-39ce-4a9d-9192-8384359407fc
+      :name: Let It Grow
+      :segued: false
+  - :uuid: d988c26c-0a01-4f17-bb55-08e50ce00e01
+    :songs:
+    - :uuid: cb798b63-03b5-41b1-9211-5659b4efa624
+      :name: Iko Iko
+      :segued: false
+    - :uuid: a74916f1-978d-4f0b-aaa8-22ed1d9b1e12
+      :name: Estimated Prophet
+      :segued: true
+    - :uuid: c4e99a6e-3244-45bf-ba3c-9891dd984de2
+      :name: The Same Thing
+      :segued: false
+    - :uuid: c5e78ba5-18d9-4362-9541-d60b4a2701aa
+      :name: He's Gone
+      :segued: true
+    - :uuid: 17483a35-0f94-48e6-bbe0-c83d537a4236
+      :name: Drums
+      :segued: true
+    - :uuid: d3585e06-4286-4a29-abb0-c20e6b705267
+      :name: Space
+      :segued: true
+    - :uuid: 0ea22a12-8877-4b3b-bae5-6750d9d15b28
+      :name: The Other One
+      :segued: true
+    - :uuid: 0c21d0d4-b578-4472-9fce-b70458b5674a
+      :name: The Wheel
+      :segued: true
+    - :uuid: d421fa48-a6a8-4f24-a384-416922d02caa
+      :name: Throwing Stones
+      :segued: true
+    - :uuid: ed0b8829-0a82-4d93-b3b4-65d7251b9201
+      :name: One More Saturday Night
+      :segued: false
+  - :uuid: 844f35ac-7233-418e-b44b-97347ffe9d0b
+    :songs:
+    - :uuid: 2f44a400-ecf4-44eb-8cda-c6da6bdf50cf
+      :name: Baba O'Riley
+      :segued: true
+    - :uuid: a3b0ed8b-6a22-486c-9a93-0f7955c8fd9a
+      :name: Tomorrow Never Knows
+      :segued: false
+1992/06/08:
+  :uuid: 13522910-a740-419c-a3f6-a78c8c823df2
+  :venue: Richfield Coliseum
+  :city: Richfield
+  :state: OH
+  :country: US
+  :sets:
+  - :uuid: 64a17055-c095-4fc3-a9b8-53e345c2bfb0
+    :songs:
+    - :uuid: a45b8ea9-f347-4211-ab40-455b3a36648d
+      :name: Feel Like A Stranger
+      :segued: false
+    - :uuid: 985302dc-3fd6-4636-8a11-9f83ff67ef97
+      :name: Loser
+      :segued: false
+    - :uuid: e1ad013f-e20d-4f44-a692-a292d08f48e3
+      :name: Little Red Rooster
+      :segued: false
+    - :uuid: 6bd7d94a-3dad-4519-a89a-3bf65dcf3baf
+      :name: So Many Roads
+      :segued: false
+    - :uuid: a38fe2e2-60ae-4152-b573-bbb04926c49b
+      :name: Just Like Tom Thumb's Blues
+      :segued: false
+    - :uuid: 15c803b7-1095-48a7-a267-477712dea786
+      :name: Black Throated Wind
+      :segued: false
+    - :uuid: 0e26bc47-efd6-4290-b07b-fece83dc79b0
+      :name: Don't Ease Me In
+      :segued: false
+  - :uuid: 7e6065af-75fb-4993-8b39-28a88144d1ad
+    :songs:
+    - :uuid: 0cbb172c-a37c-4186-bc45-f86d661a8418
+      :name: China Cat Sunflower
+      :segued: true
+    - :uuid: 54029e23-7a74-4679-970c-11b8e6a7ce00
+      :name: I Know You Rider
+      :segued: false
+    - :uuid: dbf2ef65-c5a4-4d3f-ab3a-1eed97be38a7
+      :name: Crazy Fingers
+      :segued: true
+    - :uuid: a06c52ec-1f7a-428c-9fc3-45a4172ec435
+      :name: Corrina
+      :segued: true
+    - :uuid: c43bc2b9-16d2-420e-9d84-7fbe66ba9d33
+      :name: Mind Left Body Jam
+      :segued: true
+    - :uuid: 717aa76e-a5e1-431d-a6ad-db1ddb3a5c16
+      :name: Drums
+      :segued: true
+    - :uuid: 379e795b-7194-410c-a0a7-05032865a706
+      :name: Space
+      :segued: true
+    - :uuid: 44febb58-0d5c-4545-a947-5b7362794925
+      :name: Dark Star
+      :segued: true
+    - :uuid: 5a8fc0ed-4c55-4c38-abae-4aa833d32f63
+      :name: The Last Time
+      :segued: true
+    - :uuid: 0232dee1-7417-409d-94ff-e5f28e8018f4
+      :name: Stella Blue
+      :segued: true
+    - :uuid: c367d324-7b77-457c-915c-09aaa816d6d8
+      :name: Sugar Magnolia
+      :segued: false
+  - :uuid: d87d8cbe-fa2c-4d49-bd05-8beca97580c8
+    :songs:
+    - :uuid: 8c272ba9-90db-48f4-aeee-043eeedcfed0
+      :name: U.S. Blues
+      :segued: false
+1992/06/09:
+  :uuid: e09eeb6c-8d6f-41b7-bd34-a2c90e70323b
+  :venue: Richfield Coliseum
+  :city: Richfield
+  :state: OH
+  :country: US
+  :sets:
+  - :uuid: 7e6e1951-0b78-417c-972c-b4cbfae1b3a0
+    :songs:
+    - :uuid: 04256363-8173-47cd-b08f-1e1920f4bc6e
+      :name: Cold Rain And Snow
+      :segued: false
+    - :uuid: 1527810f-4ece-4c6d-bcc9-8374a5dbfba3
+      :name: Wang Dang Doodle
+      :segued: false
+    - :uuid: 1b65aa12-85ff-4f37-92a1-0a4a3bc2300c
+      :name: Peggy-O
+      :segued: false
+    - :uuid: dbe8d1d3-a06f-45aa-9fef-6568b1762f4a
+      :name: Me And My Uncle
+      :segued: true
+    - :uuid: 42a1ef3e-3657-4491-b203-665af81fadcb
+      :name: Big River
+      :segued: false
+    - :uuid: 20513d91-7f89-4bb8-97bd-3af7c84dc3d6
+      :name: Stagger Lee
+      :segued: false
+    - :uuid: b3b7e2ba-05ad-4170-bfe6-29c9a410d26e
+      :name: Cassidy
+      :segued: true
+    - :uuid: 67552efe-2525-4a01-bdde-3004437ddbb6
+      :name: Deal
+      :segued: false
+  - :uuid: 8d1aa4b9-c7e3-49f2-8f72-120a315a50e0
+    :songs:
+    - :uuid: 6a68412c-f9ea-4d78-9fc4-53efb02f965c
+      :name: Victim Or The Crime
+      :segued: true
+    - :uuid: aa5581de-f5e7-4446-a837-f04b4362abf8
+      :name: Ship Of Fools
+      :segued: false
+    - :uuid: 05380348-207d-46dd-a4ad-275bed3d5cd2
+      :name: Way To Go Home
+      :segued: false
+    - :uuid: 5282ef6f-9ef4-4886-b14c-b5779ae3677b
+      :name: Eyes Of The World
+      :segued: true
+    - :uuid: 7058d28d-21a9-499b-8970-bf478591e447
+      :name: Drums
+      :segued: true
+    - :uuid: 135e589c-5668-49c0-afb4-bc4653ca16a2
+      :name: Space
+      :segued: true
+    - :uuid: bbebb949-121b-49fb-bb9f-4495fdafa2a7
+      :name: All Along The Watchtower
+      :segued: true
+    - :uuid: bedf0986-fe43-417f-b67e-e96c8086fafa
+      :name: Black Peter
+      :segued: true
+    - :uuid: 9162af7f-66bb-4fae-a68d-7dcf96ca52a4
+      :name: Turn On Your Lovelight
+      :segued: false
+  - :uuid: 364e8b71-9a84-4b36-af79-ef1233297b64
+    :songs:
+    - :uuid: 34c67545-48e1-4f52-b2f8-49d5ed8cb82e
+      :name: Brokedown Palace
+      :segued: false
+1992/06/11:
+  :uuid: d866d6bb-0509-4ced-973a-aee39fe9f73d
+  :venue: Knickerbocker Arena
+  :city: Albany
+  :state: NY
+  :country: US
+  :sets:
+  - :uuid: cd35af4a-5f71-4ff6-8a41-a886cd5db6b5
+    :songs:
+    - :uuid: 95d82800-6b5c-4017-88ec-8183e05435e0
+      :name: Bertha
+      :segued: false
+    - :uuid: 5228e308-1907-46a5-af28-96ae62059c17
+      :name: Minglewood Blues
+      :segued: false
+    - :uuid: e609a011-143e-44bf-82f1-2087039e463d
+      :name: Row Jimmy
+      :segued: false
+    - :uuid: 089bd0dc-65bd-484c-b544-3181edee4edc
+      :name: Queen Jane Approximately
+      :segued: false
+    - :uuid: c6ab9440-2724-4ff5-b501-169318fcb11a
+      :name: Dire Wolf
+      :segued: false
+    - :uuid: ba97b4da-4c25-469c-9c8c-f730e4a578ac
+      :name: Beat It On Down The Line
+      :segued: false
+    - :uuid: 10e128fc-d7ac-4cb2-a6dc-690e42cbb9c0
+      :name: Loose Lucy
+      :segued: false
+    - :uuid: 008ffa06-bba6-4387-af4d-3adef3bc73c7
+      :name: The Music Never Stopped
+      :segued: false
+  - :uuid: d89edc98-4a51-4fa6-957a-5b68f0445fd2
+    :songs:
+    - :uuid: 85fa9142-a223-4500-93e0-3c3f88ccfad9
+      :name: Foolish Heart
+      :segued: false
+    - :uuid: 66c01c7b-fc2d-4c91-b6d2-961e2342ee2d
+      :name: Playing In The Band
+      :segued: true
+    - :uuid: a993a8af-d2d1-4a77-8994-d2408e8ff41b
+      :name: Uncle John's Band
+      :segued: true
+    - :uuid: afdea95b-eaae-41dc-ae75-e6f50f2f1865
+      :name: Playing In The Band
+      :segued: true
+    - :uuid: c3f5bc36-1d64-4fc3-9852-9089e3d88ee0
+      :name: Drums
+      :segued: true
+    - :uuid: ec77a2dc-713d-4214-ac8b-20ac2f56abde
+      :name: Space
+      :segued: true
+    - :uuid: 8ccb136a-af14-4475-b21a-028e0f7c375c
+      :name: I Need A Miracle
+      :segued: true
+    - :uuid: 0f516fde-d4a9-44eb-b9e4-b414add21333
+      :name: Wharf Rat
+      :segued: true
+    - :uuid: 6c0fa8a8-178d-489b-b914-61d8edf70319
+      :name: Around And Around
+      :segued: false
+  - :uuid: 233faff8-cdd1-440c-9529-041c7bcd4ba2
+    :songs:
+    - :uuid: 4908d3df-8bdd-43ef-910e-a36be0ca949a
+      :name: Quinn The Eskimo
+      :segued: false
+1992/06/12:
+  :uuid: 4f44722f-d904-48b7-83b2-1720164d5e55
+  :venue: Knickerbocker Arena
+  :city: Albany
+  :state: NY
+  :country: US
+  :sets:
+  - :uuid: 3ddf314e-ba53-4115-a60d-0703fbf8e9c5
+    :songs:
+    - :uuid: 3c532c86-e85b-409e-b00f-d0ece0884e18
+      :name: Jack Straw
+      :segued: false
+    - :uuid: 615bd00d-aaa3-42ef-b47d-da099691d2c5
+      :name: Sugaree
+      :segued: false
+    - :uuid: 882f9b35-0096-4d73-83a9-3eacc2e8c1bc
+      :name: Mexicali Blues
+      :segued: true
+    - :uuid: c619286e-a2f2-452a-9564-5a3a2df71790
+      :name: Maggie's Farm
+      :segued: false
+    - :uuid: 275be530-8685-4d14-9408-e1feda8452d5
+      :name: Brown Eyed Women
+      :segued: false
+    - :uuid: a2989db5-8a6a-4981-9911-f679d56b76d5
+      :name: Black Throated Wind
+      :segued: false
+    - :uuid: 2dd88e07-5cb7-4a7a-8ee8-133ccadbd4d5
+      :name: New Speedway Boogie
+      :segued: true
+    - :uuid: 168c8aae-d5da-4889-8a9c-efb1ad91e44f
+      :name: Promised Land
+      :segued: false
+  - :uuid: 47017db0-19f1-44b2-a1f9-38098b2bed1b
+    :songs:
+    - :uuid: 9d28e707-3dc5-463f-b3e9-6ca6b60df029
+      :name: Scarlet Begonias
+      :segued: true
+    - :uuid: 72269688-79c7-480c-889e-3fc90ba1b3aa
+      :name: Fire On The Mountain
+      :segued: false
+    - :uuid: 9fcd3391-8d68-4179-9502-28e109dc5f1b
+      :name: Way To Go Home
+      :segued: false
+    - :uuid: 1e6b54cd-7e01-4980-8865-e42f3a02e2b9
+      :name: Truckin'
+      :segued: true
+    - :uuid: 57f4eae7-254b-4ca1-b9a8-383e2ea02250
+      :name: Smokestack Lightning
+      :segued: true
+    - :uuid: f45761a3-15e6-4861-9271-f1f97cc7ef7c
+      :name: Drums
+      :segued: true
+    - :uuid: 9b47db7d-bd23-439a-b66e-9d46ab7c56c2
+      :name: Space
+      :segued: true
+    - :uuid: 173ca2f2-2d79-49a8-b365-14ca12194664
+      :name: The Last Time
+      :segued: true
+    - :uuid: a80d1aeb-c36e-41f8-98a9-8a4faa755293
+      :name: China Doll
+      :segued: true
+    - :uuid: e3b5266f-dfeb-4204-86ec-5687dd5e1df9
+      :name: Sugar Magnolia
+      :segued: false
+  - :uuid: 89eb0bf8-4cbd-44ac-802f-bbc5a0a3175c
+    :songs:
+    - :uuid: 729e32af-dfbb-4fe3-944d-c55164708270
+      :name: Attics Of My Life
+      :segued: false
+1992/06/14:
+  :uuid: 16e8fc6c-405b-494d-9e47-87d6f1032e21
+  :venue: Giants Stadium
+  :city: East Rutherford
+  :state: NJ
+  :country: US
+  :sets:
+  - :uuid: d73ecb6d-469f-4072-bf90-50efae871670
+    :songs:
+    - :uuid: e96eb28d-b2fd-4d24-9d59-70609105b942
+      :name: Shakedown Street
+      :segued: false
+    - :uuid: b982575a-f8a5-4962-bccd-1c84b6689600
+      :name: Walkin' Blues
+      :segued: false
+    - :uuid: 01cfedaf-b632-487a-8567-acdff7a69f7c
+      :name: Candyman
+      :segued: false
+    - :uuid: 44e4c415-ad70-4fdf-8955-3ed677a9ebb5
+      :name: Desolation Row
+      :segued: false
+    - :uuid: c7d212fc-8cbe-48ef-b3fd-aa8cb7f22fae
+      :name: Jack-A-Roe
+      :segued: false
+    - :uuid: 127c142c-d620-4aab-9d81-239a999476a8
+      :name: Picasso Moon
+      :segued: true
+    - :uuid: cb2c00de-b246-4900-ab68-170e8a8f5154
+      :name: Don't Ease Me In
+      :segued: false
+  - :uuid: 35c49cc2-5ec1-4a34-9711-6e07bb6fced8
+    :songs:
+    - :uuid: ffb6b94c-3ec8-498e-aff8-4dec710154aa
+      :name: Samson And Delilah
+      :segued: false
+    - :uuid: 8e1da9f6-e3a5-4d93-b9ea-f6ffcb58cbe8
+      :name: Ship Of Fools
+      :segued: false
+    - :uuid: ced86abb-1f86-48a6-876f-bbfcb8202480
+      :name: Way To Go Home
+      :segued: false
+    - :uuid: 71d31ad4-e471-46f6-9968-36f84ea3ec4a
+      :name: Corrina
+      :segued: true
+    - :uuid: 4a179ba4-92e3-4c53-b9c2-caf409e683c0
+      :name: Drums
+      :segued: true
+    - :uuid: 7138e373-f18f-4fe9-9695-a9bf209adbb2
+      :name: Space
+      :segued: true
+    - :uuid: 5fe9ea7c-0689-46a6-ad91-4b4341d7fcfe
+      :name: Spoonful
+      :segued: true
+    - :uuid: cca7a4a6-8001-430f-aa3c-b7898327b034
+      :name: The Other One
+      :segued: true
+    - :uuid: 1d823507-3c52-4867-916d-e14297b38436
+      :name: Morning Dew
+      :segued: false
+  - :uuid: f5e142a2-7d6c-4d00-a9f9-69bba570c7b2
+    :songs:
+    - :uuid: 8356bef1-f387-46c5-8716-1112ca5c8845
+      :name: Baba O'Riley
+      :segued: true
+    - :uuid: 1e7db43b-13a1-4b4d-9156-bcc825282452
+      :name: Tomorrow Never Knows
+      :segued: false
+1992/06/15:
+  :uuid: 5188c2c3-9823-4f73-84dd-be594951321c
+  :venue: Giants Stadium
+  :city: East Rutherford
+  :state: NJ
+  :country: US
+  :sets:
+  - :uuid: a80d530c-5691-422f-a8ee-cb9f2db3c624
+    :songs:
+    - :uuid: 7bcac182-8b65-4fcb-a682-1ab390de6ac7
+      :name: Hell In A Bucket
+      :segued: false
+    - :uuid: 6dedccf9-c632-4f11-9276-cb46f1bf821d
+      :name: Sugaree
+      :segued: false
+    - :uuid: eb7fc152-19a6-41e0-b011-b8b0f703dbfa
+      :name: The Same Thing
+      :segued: false
+    - :uuid: 6bdc5341-386f-4edf-bef0-f7d9bdf39dca
+      :name: Tennessee Jed
+      :segued: false
+    - :uuid: 03ec22b4-268d-48f4-91e4-3b9c8a515ed5
+      :name: When I Paint My Masterpiece
+      :segued: false
+    - :uuid: d7e0876f-74de-41d8-bd92-fd8b54441b89
+      :name: Bird Song
+      :segued: false
+  - :uuid: c7b39099-a3a7-4c8c-bf23-f10d76fc479b
+    :songs:
+    - :uuid: 48191fbb-259f-4918-8f6c-53cdf89bfc8a
+      :name: Box Of Rain
+      :segued: false
+    - :uuid: b04d9d8b-f136-440c-bb6f-b1edc1fe1fbf
+      :name: Saint Of Circumstance
+      :segued: true
+    - :uuid: f3d8fd7d-c964-415f-b4d6-2b2e7995af15
+      :name: So Many Roads
+      :segued: true
+    - :uuid: 5770a1c0-4b01-4e77-a2c9-681d5365f3af
+      :name: Terrapin Station
+      :segued: true
+    - :uuid: 7a7dfde3-3668-468f-a5d4-3e02e41cecc4
+      :name: Drums
+      :segued: true
+    - :uuid: c7b5f01c-25c3-494e-92c5-5174f7f320ae
+      :name: Space
+      :segued: true
+    - :uuid: 621de8f5-d0e5-415f-a66f-1c5e6992e8c7
+      :name: I Need A Miracle
+      :segued: true
+    - :uuid: bef24be4-0883-4d4a-b91f-5ab84e1a0a14
+      :name: Standing On The Moon
+      :segued: true
+    - :uuid: 62693dd8-52e4-4380-87c5-f77bb6a83558
+      :name: Throwing Stones
+      :segued: true
+    - :uuid: d9bbb3b0-fc19-46dd-a33b-2aed9e82e5c5
+      :name: Not Fade Away
+      :segued: false
+  - :uuid: 15dcf5ae-4882-4510-9bd7-40a9f93082a3
+    :songs:
+    - :uuid: e8c310a8-1732-4777-8654-07e8ad0d116a
+      :name: Knockin' On Heaven's Door
+      :segued: false
+1992/06/17:
+  :uuid: e9b89132-9a4a-49c8-84a1-9b49ab43795d
+  :venue: Charlotte Coliseum
+  :city: Charlotte
+  :state: NC
+  :country: US
+  :sets:
+  - :uuid: c6d017f9-5f5f-4394-b4b8-8bcfab3ab035
+    :songs:
+    - :uuid: d2c5d1e7-5efd-4ccc-80b4-3484ac7dd96d
+      :name: Touch Of Grey
+      :segued: true
+    - :uuid: a7437b01-f2d2-407e-95da-663a2c8abf15
+      :name: Greatest Story Ever Told
+      :segued: false
+    - :uuid: 60c53cbc-2ad8-4522-bf1f-cb86d2543e9e
+      :name: West L.A. Fadeaway
+      :segued: false
+    - :uuid: cd36f1aa-908b-4cd1-8bb8-f37e06bb2117
+      :name: Mama Tried
+      :segued: true
+    - :uuid: 16847639-1223-4001-b80e-9a2d468cad4b
+      :name: Big River
+      :segued: false
+    - :uuid: 57528ef8-d99d-4955-800c-f5f60b2bc339
+      :name: Jack-A-Roe
+      :segued: false
+    - :uuid: 721e243a-21b2-424b-8ac8-270808b75aa1
+      :name: It's All Over Now
+      :segued: false
+    - :uuid: 8fcb532c-166b-479b-ba50-df510318fee5
+      :name: Deal
+      :segued: false
+  - :uuid: a3d10961-e6ec-4814-bc39-0330962a8f04
+    :songs:
+    - :uuid: 681664e5-b52a-48ba-8df9-be8bcaa7af1d
+      :name: China Cat Sunflower
+      :segued: true
+    - :uuid: f30ce364-6ec1-4ef2-a741-6fa014a1f243
+      :name: I Know You Rider
+      :segued: false
+    - :uuid: 60b404d7-46df-4e16-b03b-4e975079b0c5
+      :name: Way To Go Home
+      :segued: false
+    - :uuid: 3624ff65-292f-4ff9-8a27-c39405eeba0b
+      :name: Estimated Prophet
+      :segued: true
+    - :uuid: a9e1e82b-61ac-474a-8206-d4a56053d6bf
+      :name: Drums
+      :segued: true
+    - :uuid: 90fa4d90-8c66-408c-9557-7ed316b825c9
+      :name: Space
+      :segued: true
+    - :uuid: bb1ccd16-7595-4613-805e-5d43f9e20320
+      :name: The Wheel
+      :segued: true
+    - :uuid: db460500-918f-43a5-aacc-ab9636849f24
+      :name: Black Peter
+      :segued: true
+    - :uuid: 084b6ec8-c1d8-4f90-88c6-f1955b1a124f
+      :name: Good Lovin'
+      :segued: false
+  - :uuid: 950130c3-8575-4626-aa37-93a9707dcc92
+    :songs:
+    - :uuid: 734ae8f9-c429-429c-8f05-70e298bd6c41
+      :name: U.S. Blues
+      :segued: false
+1992/06/18:
+  :uuid: 9471e276-c7b4-45ac-b4c7-1cbfea618c06
+  :venue: Charlotte Coliseum
+  :city: Charlotte
+  :state: NC
+  :country: US
+  :sets:
+  - :uuid: ee25e910-963d-4689-9cd8-d6a951318921
+    :songs:
+    - :uuid: 693c54da-bb80-40c5-a45d-e19b88662448
+      :name: Feel Like A Stranger
+      :segued: false
+    - :uuid: 1c5b646b-fad7-449e-89d8-caf2d0b896de
+      :name: Peggy-O
+      :segued: false
+    - :uuid: f1f40895-8f92-428f-9b62-8fea006ded03
+      :name: Little Red Rooster
+      :segued: false
+    - :uuid: 91474c5f-46ef-420c-a8f3-944a15083cf2
+      :name: Althea
+      :segued: false
+    - :uuid: fcae3db0-26e4-4d66-b767-bbbaa9a8ffb8
+      :name: Just Like Tom Thumb's Blues
+      :segued: false
+    - :uuid: 0d0eb387-8370-454a-8fb0-d20e64626601
+      :name: Let It Grow
+      :segued: false
+  - :uuid: c529b6c2-0f75-436b-9886-46021743ad7e
+    :songs:
+    - :uuid: 826771e1-326f-4b60-916a-8258972bd48d
+      :name: Man Smart (Woman Smarter)
+      :segued: false
+    - :uuid: bc99a569-d80a-4c42-96d4-b53d42e711a0
+      :name: Eyes Of The World
+      :segued: false
+    - :uuid: 5fa43022-d3bf-4b8a-b9e5-8821cac02faf
+      :name: Looks Like Rain
+      :segued: true
+    - :uuid: 9e0f9a22-b2ef-4579-8d31-25ab4c11c3c6
+      :name: He's Gone
+      :segued: true
+    - :uuid: a3f13ce0-7876-4d4f-bb94-b66f6955b3a2
+      :name: Drums
+      :segued: true
+    - :uuid: 5197385e-f587-4211-aebe-cb9d4c7d2dd2
+      :name: Space
+      :segued: true
+    - :uuid: abcb367b-5fe4-4202-86bc-ad3e9d2c8097
+      :name: Dark Star
+      :segued: true
+    - :uuid: 900a2276-bf11-4bd5-857e-1b1ba70eb650
+      :name: All Along The Watchtower
+      :segued: true
+    - :uuid: 60680d3d-8767-4027-9c0b-1588eb94a81f
+      :name: Morning Dew
+      :segued: false
+  - :uuid: 78ed11c5-2f0d-432d-b1d6-2b0c85ef6393
+    :songs:
+    - :uuid: f13c3b83-1ef6-44b8-baf6-6e72a6c4c831
+      :name: Satisfaction
+      :segued: false
+1992/06/20:
+  :uuid: 1735c8c5-9579-4a7f-b552-e7cbb5db7693
+  :venue: Robert F. Kennedy Stadium
+  :city: Washington
+  :state: DC
+  :country: US
+  :sets:
+  - :uuid: 5ab39ef8-ec9b-4bd2-8ba1-0fc32806effa
+    :songs:
+    - :uuid: 23860814-e107-4d8a-89a7-dd85e0572e3c
+      :name: Cold Rain And Snow
+      :segued: false
+    - :uuid: cf5d4da1-548e-4d1e-bf80-7585877b055a
+      :name: Wang Dang Doodle
+      :segued: false
+    - :uuid: 26e4d067-70ed-4092-9f65-7a3dd0e54fe3
+      :name: Friend Of The Devil
+      :segued: false
+    - :uuid: c210769c-6fa8-42b2-a8d2-435321299605
+      :name: Mexicali Blues
+      :segued: true
+    - :uuid: 0d29d598-d5b2-4589-bbef-d47364e8c672
+      :name: Maggie's Farm
+      :segued: false
+    - :uuid: 0a518d4c-faa6-472a-bd44-f02c4b26a1af
+      :name: Row Jimmy
+      :segued: false
+    - :uuid: c1e8e15a-239c-4fe2-b482-22e8bec0c726
+      :name: Picasso Moon
+      :segued: false
+    - :uuid: 83691932-d6a5-4448-9d2f-6b77d2515267
+      :name: Tennessee Jed
+      :segued: true
+    - :uuid: b9c781af-f88c-4e28-a8ab-bbfc68573af8
+      :name: Promised Land
+      :segued: false
+  - :uuid: 662cce30-a0b8-4edf-b51b-011d5de6282c
+    :songs:
+    - :uuid: 5db4fbaf-927f-4013-bbb0-4ef04789129b
+      :name: Corrina
+      :segued: true
+    - :uuid: 30f3598f-44f9-41bd-aa3f-890144bfc620
+      :name: Crazy Fingers
+      :segued: true
+    - :uuid: 9b7fcbca-c404-4188-bd5a-b9f110136047
+      :name: Playing In The Band
+      :segued: true
+    - :uuid: 8ebd3632-592f-43f4-b6b2-3ebe166e01a3
+      :name: Uncle John's Band
+      :segued: true
+    - :uuid: e8b1f2fc-3b6e-45d5-b281-52a95620daf7
+      :name: Jam
+      :segued: true
+    - :uuid: d906d7d7-4115-4bd1-a848-bd082c0e13c8
+      :name: Drums
+      :segued: true
+    - :uuid: 7aec80f6-1072-433d-9fb7-fd33a450bdc0
+      :name: Space
+      :segued: true
+    - :uuid: 28230e51-ab0c-46ed-a611-a10d4164e4c8
+      :name: Casey Jones
+      :segued: true
+    - :uuid: 2c2a5a58-ddd5-4cfa-b483-a7144ac05e15
+      :name: Throwing Stones
+      :segued: true
+    - :uuid: bfd85ab9-94aa-4c44-b20c-8a6b27577bcf
+      :name: One More Saturday Night
+      :segued: false
+  - :uuid: 1fde4673-a775-4436-9466-e31e9ef9fd20
+    :songs:
+    - :uuid: e8682f1c-500c-474e-b70a-39d40f928ed7
+      :name: Baba O'Riley
+      :segued: true
+    - :uuid: 6d89be22-4578-433a-8225-0d30cd897caf
+      :name: Tomorrow Never Knows
+      :segued: false
+1992/06/22:
+  :uuid: b44290fc-2145-4713-ac1b-7f83fed8e6da
+  :venue: Star Lake Amphitheater
+  :city: Burgettstown
+  :state: PA
+  :country: US
+  :sets:
+  - :uuid: cfc49c30-7630-451f-8742-3d068f07a13b
+    :songs:
+    - :uuid: c40e62a4-f3f3-42f4-a467-f878fad9daa0
+      :name: Jack Straw
+      :segued: false
+    - :uuid: 1baa8f38-0c29-4cb4-b0d2-fabca4868915
+      :name: Loser
+      :segued: false
+    - :uuid: c6ac1c39-2153-43ab-8b87-ccfe1e9c3684
+      :name: Walkin' Blues
+      :segued: false
+    - :uuid: acbaa2ba-d216-4c84-a4c2-21b478baaab9
+      :name: It Must Have Been The Roses
+      :segued: false
+    - :uuid: cdfe0680-5190-4928-a7fe-2266c3b55f32
+      :name: Queen Jane Approximately
+      :segued: false
+    - :uuid: 40ff9b05-dbc3-444e-852c-f6500085ea16
+      :name: Ramble On Rose
+      :segued: false
+    - :uuid: de152a55-2d82-4689-9552-05667b1d9ce8
+      :name: Beat It On Down The Line
+      :segued: false
+    - :uuid: 267c9e63-bd0e-4a2d-82ce-606b58012459
+      :name: Deal
+      :segued: false
+  - :uuid: fb796330-db43-4f97-ba0b-1e5b3820957d
+    :songs:
+    - :uuid: 011830e8-ba95-479f-8952-7c39123ba6a0
+      :name: Scarlet Begonias
+      :segued: true
+    - :uuid: 0153849d-9a78-4fc3-bcbf-3911510be520
+      :name: Fire On The Mountain
+      :segued: false
+    - :uuid: 57e268e7-d3da-4cb5-a1fc-85548474e7c6
+      :name: Victim Or The Crime
+      :segued: true
+    - :uuid: 43d071a1-2848-4528-ad61-33a9492cff0f
+      :name: Dark Star
+      :segued: true
+    - :uuid: e648d177-ac9d-4fec-9811-e1bcd8fc736a
+      :name: Drums
+      :segued: true
+    - :uuid: 861eadcb-8426-40e2-8926-21a308c98a7e
+      :name: Space
+      :segued: true
+    - :uuid: b631a718-e31d-4b04-8e1e-a2e42a684726
+      :name: Spanish Jam
+      :segued: true
+    - :uuid: 0d3ee4f9-adeb-47fa-89d9-a946183b4899
+      :name: The Other One
+      :segued: true
+    - :uuid: d4ea4ce1-2d35-42ad-9d20-69f9b6592a19
+      :name: Stella Blue
+      :segued: true
+    - :uuid: 931ab03d-ebe0-462a-8bc1-b3b7a218e476
+      :name: Goin' Down The Road Feelin' Bad
+      :segued: true
+    - :uuid: cb6d0bd4-3fdb-4788-8bd4-76c113752d17
+      :name: Around And Around
+      :segued: false
+  - :uuid: aa43d194-2c74-4955-bcf9-bbfc223ee2db
+    :songs:
+    - :uuid: 95c2895a-7ea6-4ea2-9cda-5f22df4d9912
+      :name: Knockin' On Heaven's Door
+      :segued: false
+1992/06/23:
+  :uuid: 65fab3af-0757-4440-b1a0-7c5b6e2c3a49
+  :venue: Star Lake Amphitheater
+  :city: Burgettstown
+  :state: PA
+  :country: US
+  :sets:
+  - :uuid: c1388eaf-891f-4dc5-8489-29ffa799abc6
+    :songs:
+    - :uuid: 8340c325-15bf-4775-9429-5de17852e6af
+      :name: Help On The Way
+      :segued: true
+    - :uuid: 3987ee04-43d4-438a-a799-c15ba747b273
+      :name: Slipknot!
+      :segued: true
+    - :uuid: fa92b906-c6da-4869-b1aa-41ccc593aa51
+      :name: Franklin's Tower
+      :segued: false
+    - :uuid: 5572a5c3-e188-446c-8991-25b3064d08ac
+      :name: Minglewood Blues
+      :segued: false
+    - :uuid: f0feccf1-6dee-43e7-9b53-2c9bbcebd69d
+      :name: Stagger Lee
+      :segued: false
+    - :uuid: 359984ab-845a-4621-aeef-31ffa9b495ef
+      :name: Black Throated Wind
+      :segued: false
+    - :uuid: fba62fec-be24-4edd-9fd1-a15eb0747bd6
+      :name: Big Railroad Blues
+      :segued: false
+    - :uuid: 396cae5a-7210-42bf-9d8c-8baa6c048a65
+      :name: Stuck Inside Of Mobile With The Memphis Blues Again
+      :segued: true
+    - :uuid: 186b9e1c-0e08-4b06-918e-701e78bbafa0
+      :name: New Speedway Boogie
+      :segued: false
+  - :uuid: 391be675-beb1-4892-8b11-f164cbb38ba2
+    :songs:
+    - :uuid: c2fd7ba5-0617-4083-a770-584516647ef3
+      :name: Truckin'
+      :segued: true
+    - :uuid: 149decc9-fbdb-443f-891d-3a2facdcbec5
+      :name: Spoonful
+      :segued: true
+    - :uuid: 1bbab090-ac63-4152-b5fa-d3dc1f2b7b6e
+      :name: So Many Roads
+      :segued: false
+    - :uuid: 9c686d06-c97a-48f1-b511-e49b5ac673b5
+      :name: Way To Go Home
+      :segued: false
+    - :uuid: 8e1e12eb-eff7-4586-bcf6-2515b8d6deb2
+      :name: Corrina
+      :segued: true
+    - :uuid: 1fc260dc-1594-45ea-bf0e-7c29e4ec99d5
+      :name: Drums
+      :segued: true
+    - :uuid: f7d79f53-4b67-47b3-808d-9c7f214215b4
+      :name: Space
+      :segued: true
+    - :uuid: 3d7dc3d1-59f9-4034-98f0-1a40f6e70d7e
+      :name: The Last Time
+      :segued: true
+    - :uuid: 0e0de8e3-8316-4cf3-b0d7-cbf801d49982
+      :name: Standing On The Moon
+      :segued: true
+    - :uuid: 6bf63ac1-4140-4a5a-a0b4-eade3e163878
+      :name: Sugar Magnolia
+      :segued: false
+  - :uuid: 30001bda-1518-4796-8f1e-36168472ef1a
+    :songs:
+    - :uuid: 1be6cdd2-e90a-43b2-b475-1f1c760fc558
+      :name: Brokedown Palace
+      :segued: false
+1992/06/25:
+  :uuid: 16228957-5a16-48c1-8af2-9f8bd552b4d7
+  :venue: Soldier Field
+  :city: Chicago
+  :state: IL
+  :country: US
+  :sets:
+  - :uuid: c4693dc5-2729-4d67-b627-634965f9d9db
+    :songs:
+    - :uuid: e9af04a9-c0f0-440b-9639-beb7101c933b
+      :name: Bertha
+      :segued: true
+    - :uuid: 845644a9-b196-4cd2-9ed8-455a2d652c9f
+      :name: Greatest Story Ever Told
+      :segued: false
+    - :uuid: b68b42a6-c97d-4789-9375-a762f3185117
+      :name: West L.A. Fadeaway
+      :segued: false
+    - :uuid: ac669a37-b929-4add-b7ca-2853325f819f
+      :name: Me And My Uncle
+      :segued: true
+    - :uuid: d574bb13-086e-4210-9eca-b388584a7310
+      :name: Big River
+      :segued: false
+    - :uuid: 8fbb8e5d-a5f8-436f-b877-6844f786aea9
+      :name: Ramble On Rose
+      :segued: false
+    - :uuid: fc93731f-0c4d-4537-a804-6dfb991303c9
+      :name: When I Paint My Masterpiece
+      :segued: false
+    - :uuid: 2b8b9fe8-752f-496d-ac6c-a6b214870a41
+      :name: Brown Eyed Women
+      :segued: true
+    - :uuid: 7d75e000-7543-423c-8ac6-3dec404e3693
+      :name: The Music Never Stopped
+      :segued: false
+  - :uuid: b0c29ec6-753d-4e6d-b4f2-332d680925e3
+    :songs:
+    - :uuid: a6efc9d8-baf2-4bc8-b06d-50fc444322a1
+      :name: Iko Iko
+      :segued: false
+    - :uuid: bef805f0-7ebb-4675-8afd-b90f4e6468e1
+      :name: Good Morning Little Schoolgirl
+      :segued: false
+    - :uuid: 9751efb4-ffcd-45fb-8cf6-29f4c6ca56b7
+      :name: Way To Go Home
+      :segued: false
+    - :uuid: 4112e609-24c6-4380-8fd4-ce634a1e39d7
+      :name: Saint Of Circumstance
+      :segued: true
+    - :uuid: 3c8194ad-2227-4227-a5d7-b283b1dd04eb
+      :name: He's Gone
+      :segued: true
+    - :uuid: 2dab6bfa-8486-4898-93ef-243a245a49f3
+      :name: Drums
+      :segued: true
+    - :uuid: 10d1e865-05cc-4a5f-947b-9240924cca64
+      :name: Space
+      :segued: true
+    - :uuid: 37323b0c-1507-4aee-9df8-ac3d78644ba7
+      :name: The Wheel
+      :segued: true
+    - :uuid: 35986fc0-1f00-41cb-a053-64db18a62112
+      :name: So Many Roads
+      :segued: true
+    - :uuid: f45315c0-0c70-46b3-8926-e1d150b39c7d
+      :name: All Along The Watchtower
+      :segued: true
+    - :uuid: 8818e725-b4f6-4d70-b21c-09d46e23be4c
+      :name: Turn On Your Lovelight
+      :segued: false
+  - :uuid: 2f8fdf57-f7fb-4a08-a067-6153b5f8b991
+    :songs:
+    - :uuid: 5a0b2d9a-2973-48ed-a318-deb1678f932d
+      :name: Gloria
+      :segued: false
+1992/06/26:
+  :uuid: 73a2ea6f-fc4f-4edd-8a26-458dbfff2f1c
+  :venue: Soldier Field
+  :city: Chicago
+  :state: IL
+  :country: US
+  :sets:
+  - :uuid: 62d5b765-8192-4178-ad86-d4cbb66a1078
+    :songs:
+    - :uuid: 27d08343-c44e-40bb-a609-6603a9942383
+      :name: Hell In A Bucket
+      :segued: false
+    - :uuid: 8df889eb-2587-4d29-b8c8-1cb9daf78339
+      :name: Peggy-O
+      :segued: false
+    - :uuid: 41e5ec00-ae16-4d91-9c2e-e4c37bcd0662
+      :name: The Same Thing
+      :segued: false
+    - :uuid: ba9a3281-7f1b-4556-af83-550b6c9fa036
+      :name: Loose Lucy
+      :segued: false
+    - :uuid: 305ae9e0-86a6-4102-9297-759ece7d0a17
+      :name: Mexicali Blues
+      :segued: true
+    - :uuid: fd949e02-212b-4478-b2bb-bdddb1bc8121
+      :name: Maggie's Farm
+      :segued: false
+    - :uuid: 144f107f-5e6f-44f0-bdb7-a451c46087b6
+      :name: Tennessee Jed
+      :segued: false
+    - :uuid: 9618f69f-3e06-4f99-bd9a-f0f30bf334c4
+      :name: Picasso Moon
+      :segued: false
+  - :uuid: ca1f3365-0221-467f-b7d8-22d599cdc756
+    :songs:
+    - :uuid: de8dd5ed-b580-43a9-8e24-bebf45429e6d
+      :name: Corrina
+      :segued: true
+    - :uuid: b51c138c-ba43-4c4f-9140-6e0d492fe6a9
+      :name: Crazy Fingers
+      :segued: false
+    - :uuid: e17d93ff-429b-4ce7-b34b-c086c9cb2692
+      :name: Playing In The Band
+      :segued: true
+    - :uuid: 0be6a560-ac94-432c-818e-b3d222a8b6d5
+      :name: Uncle John's Band
+      :segued: true
+    - :uuid: 587390d4-edc1-4954-9d91-dd353cf5e453
+      :name: Drums
+      :segued: true
+    - :uuid: 28b538ba-2f24-4b24-ab67-f20d4e17d0cf
+      :name: Space
+      :segued: true
+    - :uuid: 6e4ff365-bd57-4036-af0b-ad5762df3f3f
+      :name: I Need A Miracle
+      :segued: true
+    - :uuid: ec5970f0-f6ae-4b3e-8d2c-69bd65a83357
+      :name: Wharf Rat
+      :segued: true
+    - :uuid: f9d6fb58-4280-468f-8e2c-e636152583b2
+      :name: Throwing Stones
+      :segued: true
+    - :uuid: 79d328a6-3c67-46da-95a8-b63c4cc79492
+      :name: Not Fade Away
+      :segued: false
+  - :uuid: f7db95ff-98df-43ef-aaac-e1a2666b0000
+    :songs:
+    - :uuid: 8e08a50a-df8f-4724-9f4f-6e3e4091f7f7
+      :name: The Weight
+      :segued: false
+1992/06/28:
+  :uuid: eab8e99c-a601-49bc-beb1-5e54c123574d
+  :venue: Deer Creek Music Center
+  :city: Noblesville
+  :state: IN
+  :country: US
+  :sets:
+  - :uuid: 4daf0112-fccc-433c-afb6-934e9f192217
+    :songs:
+    - :uuid: 6ac7a558-a651-4e8b-9686-2767190ca95d
+      :name: Help On The Way
+      :segued: true
+    - :uuid: 6231e8c4-7757-412e-98df-a7b726446a5b
+      :name: Slipknot!
+      :segued: true
+    - :uuid: 5a3cf085-ad17-46fd-92ff-aca67b133548
+      :name: Franklin's Tower
+      :segued: true
+    - :uuid: 23e5bf48-e653-42f1-98f3-bdd93ba7714a
+      :name: Wang Dang Doodle
+      :segued: false
+    - :uuid: d087970f-d44b-4b8c-bf71-1f71c007aaf8
+      :name: Just Like Tom Thumb's Blues
+      :segued: false
+    - :uuid: 8739c84a-d99b-484a-8329-addb99377449
+      :name: To Lay Me Down
+      :segued: false
+    - :uuid: d4fc8bea-6983-4621-8e24-10239f9e6d7a
+      :name: El Paso
+      :segued: false
+    - :uuid: b2f534d1-2fad-4f7d-9798-bbf3cc7995e3
+      :name: New Speedway Boogie
+      :segued: true
+    - :uuid: b50d09d1-489f-4576-a80d-3ea208414007
+      :name: Smokestack Lightning
+      :segued: false
+  - :uuid: 16fcd940-3fe5-49a2-83b7-ad84baa21ded
+    :songs:
+    - :uuid: bd556c4a-6735-4f1f-97cb-51e2f2d30e01
+      :name: China Cat Sunflower
+      :segued: true
+    - :uuid: c55908e6-ff8a-4985-842e-8c8183dc2773
+      :name: I Know You Rider
+      :segued: true
+    - :uuid: b2393c59-71a4-4e1e-9c90-e1d145847a85
+      :name: Estimated Prophet
+      :segued: false
+    - :uuid: f709968c-3437-49f9-88ba-b28572ef480d
+      :name: Way To Go Home
+      :segued: true
+    - :uuid: 48eea2c2-d176-45c0-946a-de06858843f2
+      :name: Drums
+      :segued: true
+    - :uuid: 4fdef133-db83-4c0d-a43a-bdfa086faccc
+      :name: Space
+      :segued: true
+    - :uuid: b856792c-d1a7-4aa1-a3ed-bb7240637fa3
+      :name: The Last Time
+      :segued: true
+    - :uuid: 6668d219-e192-4e9b-ae3e-88d17bdd5b6d
+      :name: China Doll
+      :segued: true
+    - :uuid: edbe7650-1958-484e-8b20-51ab158eaed9
+      :name: Around And Around
+      :segued: false
+  - :uuid: 9af451da-8701-4de9-8f87-0a2a65109e4d
+    :songs:
+    - :uuid: abc19ffa-0923-46b1-93d6-6500e0c12786
+      :name: Casey Jones
+      :segued: false
+1992/06/29:
+  :uuid: 0de2d6db-2c54-41d3-9ad1-a2b26faa0f99
+  :venue: Deer Creek Music Center
+  :city: Noblesville
+  :state: IN
+  :country: US
+  :sets:
+  - :uuid: 13351d46-3661-4ce6-9404-db2fa4d98ea4
+    :songs:
+    - :uuid: 4caacdac-0237-4ea0-a88c-eb976bc312ff
+      :name: Feel Like A Stranger
+      :segued: false
+    - :uuid: 26b3ac0c-abd8-4e4e-ac5d-3a3f4e788709
+      :name: Althea
+      :segued: false
+    - :uuid: 2c24fd19-923e-4fc3-85ac-dc7b4e7e3c41
+      :name: Little Red Rooster
+      :segued: false
+    - :uuid: b7fec975-0f3f-497c-af34-ae305c8c2e8b
+      :name: So Many Roads
+      :segued: false
+    - :uuid: 71119cf0-3813-4efa-9f9a-5431bdbffafa
+      :name: Desolation Row
+      :segued: false
+    - :uuid: 29801496-07d6-4808-acf9-483443be96bc
+      :name: Deal
+      :segued: false
+  - :uuid: 7987076c-da32-47b9-92b8-366ef225bc10
+    :songs:
+    - :uuid: 372e2ab2-3354-4394-86de-d6cbb179628d
+      :name: Box Of Rain
+      :segued: false
+    - :uuid: 6220404e-ef1f-45df-bc3b-a3e56692b6cf
+      :name: Victim Or The Crime
+      :segued: true
+    - :uuid: 2fcaff5e-96ac-4681-ba07-beb48da43a97
+      :name: Ship Of Fools
+      :segued: false
+    - :uuid: 1ebd2cdb-47f1-437a-82b4-0f29d47aab81
+      :name: Corrina
+      :segued: true
+    - :uuid: 253d5c01-5630-47d7-97a8-6039f009ef2b
+      :name: Drums
+      :segued: true
+    - :uuid: 9fae9c60-831b-449b-b7a3-5c27a11d2cb9
+      :name: Space
+      :segued: true
+    - :uuid: 16979aa2-b0bf-49c5-83a9-d96f53097ab2
+      :name: The Other One
+      :segued: true
+    - :uuid: 7e36c17e-ff0c-4c1a-814b-785144828911
+      :name: Stella Blue
+      :segued: true
+    - :uuid: 3e8fcf75-97d5-4689-9bc0-7a7a431087a6
+      :name: Sugar Magnolia
+      :segued: false
+  - :uuid: cc436933-6346-48cf-a15b-149d27e432ef
+    :songs:
+    - :uuid: b357f498-bcd0-4ebf-8b0d-4f5bfbbd2cd9
+      :name: Brokedown Palace
+      :segued: false
+1992/07/01:
+  :uuid: 8e605eff-83fc-4a05-89fe-753b14331937
+  :venue: Buckeye Lake Music Center
+  :city: Thornville
+  :state: OH
+  :country: US
+  :sets:
+  - :uuid: 0f8a860f-4cfc-406f-8d04-93def46a5baf
+    :songs:
+    - :uuid: c8bb5228-7c40-4f88-ac06-7062bd25d1b2
+      :name: Touch Of Grey
+      :segued: true
+    - :uuid: 0a8e0709-bea2-4cf2-8026-0ecc4dc64d79
+      :name: Greatest Story Ever Told
+      :segued: false
+    - :uuid: 209d1025-bc84-4b8b-aa47-3397d56b6b54
+      :name: Stagger Lee
+      :segued: false
+    - :uuid: fbf51ab6-0ab8-4e85-b220-26de049dea1d
+      :name: When I Paint My Masterpiece
+      :segued: false
+    - :uuid: b8e7d43a-a18e-4ef8-8655-4bac8cfc3fe3
+      :name: Brown Eyed Women
+      :segued: false
+    - :uuid: c7cbfdff-f4eb-4d21-8cd3-0901416912f0
+      :name: Picasso Moon
+      :segued: false
+    - :uuid: b3347dc5-5985-4b76-bc49-fdb6d461e412
+      :name: Bird Song
+      :segued: true
+    - :uuid: 6fc3fe64-cc3b-48fd-8fa6-f1865290b6b4
+      :name: Promised Land
+      :segued: false
+  - :uuid: 0caa4748-19c1-4d23-bc0a-5a87c812e9f5
+    :songs:
+    - :uuid: a52fa34b-f644-4d74-8505-e672ae1196d3
+      :name: Saint Of Circumstance
+      :segued: false
+    - :uuid: f728e111-28e7-4fd5-bfd9-c1876a8f6f60
+      :name: Midnight Hour
+      :segued: false
+    - :uuid: 24eaa7bb-db68-4a4b-80f3-9cda69df9b7d
+      :name: West L.A. Fadeaway
+      :segued: false
+    - :uuid: 63ad0690-6286-4ef8-98e0-2eda147b8883
+      :name: Truckin'
+      :segued: true
+    - :uuid: 8704d6d5-dc79-43b9-acff-8c5d43e3b85a
+      :name: Spoonful
+      :segued: true
+    - :uuid: 907fc66f-77d0-4745-8ca4-50eb8b7581d9
+      :name: Drums
+      :segued: true
+    - :uuid: bede542e-32e0-4a64-8f11-8117eb8e9f6f
+      :name: Space
+      :segued: true
+    - :uuid: eda1b3d2-e122-42c1-870c-8dd50da14bd6
+      :name: I Need A Miracle
+      :segued: true
+    - :uuid: 5e988e5a-7b7e-4834-9d30-dc3148c09396
+      :name: Wharf Rat
+      :segued: true
+    - :uuid: 1dc4f875-4974-44d3-aaa5-af477b919cd5
+      :name: Turn On Your Lovelight
+      :segued: false
+  - :uuid: c198159b-3eb7-4d76-9334-6e23c076482a
+    :songs:
+    - :uuid: 72ec7f2b-ae16-490b-9936-bc9c6547f9e6
+      :name: Baba O'Riley
+      :segued: true
+    - :uuid: 836e4ee9-9a1a-4ebe-87a4-3e9292bf40a0
+      :name: Tomorrow Never Knows
+      :segued: false
+1992/12/02:
+  :uuid: 1a7b6409-30bb-4dcb-a316-af0a366b62d5
+  :venue: McNichols Sports Arena
+  :city: Denver
+  :state: CO
+  :country: US
+  :sets:
+  - :uuid: 499f08d1-d200-42bb-a8dd-20917225edeb
+    :songs:
+    - :uuid: 72c46327-38a7-49c5-8810-242c92f68ebb
+      :name: Feel Like A Stranger
+      :segued: false
+    - :uuid: 884957ee-fb57-42f2-a296-3e3e75b12c26
+      :name: They Love Each Other
+      :segued: false
+    - :uuid: 6c3afa40-b729-4e03-9117-cb321c4912e0
+      :name: The Same Thing
+      :segued: false
+    - :uuid: 0b8c07da-a7b0-4963-80aa-3af4b64b9051
+      :name: Jack-A-Roe
+      :segued: false
+    - :uuid: 4f05b77d-ecec-46c7-8961-853b23d75de1
+      :name: It's All Over Now
+      :segued: false
+    - :uuid: 9003d27d-92d5-4ec8-aab9-205826455621
+      :name: So Many Roads
+      :segued: false
+    - :uuid: ca66d626-ecca-46aa-b616-2519a7e404ca
+      :name: Let It Grow
+      :segued: false
+  - :uuid: 55eeddd6-df5f-4d8a-abd4-48017f8d0cb3
+    :songs:
+    - :uuid: 75b3a16f-53c8-483e-8a25-ba77aea03c40
+      :name: China Cat Sunflower
+      :segued: true
+    - :uuid: 2372ad3b-4d33-4851-9e40-6178b3db0a27
+      :name: I Know You Rider
+      :segued: false
+    - :uuid: cae442af-5905-4135-9e56-6fee7441cadb
+      :name: Way To Go Home
+      :segued: false
+    - :uuid: 7b95152b-c2d7-497e-bc3f-57fa4be2f184
+      :name: Truckin'
+      :segued: true
+    - :uuid: 3522b4a3-49ce-4b63-9cfa-c787789e24f3
+      :name: He's Gone
+      :segued: true
+    - :uuid: 2f597ee1-19a3-4a43-b21a-db15ad8189ac
+      :name: Drums
+      :segued: true
+    - :uuid: 5d5b73b4-50c9-4eef-aa97-9b1352c1c988
+      :name: Space
+      :segued: true
+    - :uuid: 3c0a1a96-3fa8-4176-b4aa-85c75fd15a1c
+      :name: I Need A Miracle
+      :segued: true
+    - :uuid: 383bd0cd-6931-4cd9-ba08-8a3866d26171
+      :name: Wharf Rat
+      :segued: true
+    - :uuid: 952d6053-432f-417c-9d0f-32d5fed937e5
+      :name: Turn On Your Lovelight
+      :segued: false
+  - :uuid: ad335504-97d6-4e3a-b0bb-7d511ea7b089
+    :songs:
+    - :uuid: e7668fa3-0b46-41e0-adc0-460e21b5b511
+      :name: Rain
+      :segued: false
+1992/12/03:
+  :uuid: 7a94c9a6-2901-498d-a20e-c893d00957f8
+  :venue: McNichols Sports Arena
+  :city: Denver
+  :state: CO
+  :country: US
+  :sets:
+  - :uuid: c6a310ce-9f5c-4f28-8cee-e7c015e841c5
+    :songs:
+    - :uuid: 4e348e22-cb43-4b71-8330-a7bc18ac48f5
+      :name: Touch Of Grey
+      :segued: false
+    - :uuid: c21be7c8-17fe-4705-b6fe-8779cc9f8404
+      :name: Little Red Rooster
+      :segued: false
+    - :uuid: b6b749c5-d407-4371-abd8-30ba6569bd04
+      :name: Peggy-O
+      :segued: false
+    - :uuid: a929bdf3-2993-4d49-b150-1039df1a35df
+      :name: Queen Jane Approximately
+      :segued: false
+    - :uuid: 056523ff-7e04-459a-b629-b7b8849e5c59
+      :name: Ramble On Rose
+      :segued: false
+    - :uuid: 8953f85d-2567-40bb-be14-aca6aecadf17
+      :name: Cassidy
+      :segued: true
+    - :uuid: 85fcae57-aff6-47e7-b1d9-b17ece50e158
+      :name: Don't Ease Me In
+      :segued: false
+  - :uuid: 41d7daea-b839-4a99-818d-c7be9c507c9f
+    :songs:
+    - :uuid: 8c56c809-280c-4c6a-a149-131070434f10
+      :name: Playing In The Band
+      :segued: true
+    - :uuid: 22282028-4960-42a6-b90c-e9462753501f
+      :name: Eyes Of The World
+      :segued: true
+    - :uuid: 7a67af71-d4d1-4c93-8fd3-dad8276583f6
+      :name: Corrina
+      :segued: true
+    - :uuid: eab37dbc-6a9b-4f88-94a4-9a19da3a97ac
+      :name: Terrapin Station
+      :segued: true
+    - :uuid: 79f0bd0c-64ef-4be6-a5b6-6ceab96f0fad
+      :name: Jam
+      :segued: true
+    - :uuid: 5a230623-4202-4e14-adc1-ca5cb3e885e8
+      :name: Drums
+      :segued: true
+    - :uuid: 2b611946-f339-4da9-889c-aa9bf05e6a51
+      :name: Space
+      :segued: true
+    - :uuid: 79816353-ba2b-4ea0-b5e8-47adf36c6125
+      :name: The Other One
+      :segued: true
+    - :uuid: b240f029-564b-4f95-a460-fe5c47a54830
+      :name: Morning Dew
+      :segued: false
+  - :uuid: eca6eb02-514a-4e0b-bdc3-c0bbec5f3322
+    :songs:
+    - :uuid: a1b54759-0e7b-44fa-8162-cf42be41441c
+      :name: Gloria
+      :segued: false
+1992/12/05:
+  :uuid: 740feef6-14a3-4130-985d-cf54cb3f1869
+  :venue: Compton Terrace Amphitheatre
+  :city: Chandler
+  :state: AZ
+  :country: US
+  :sets:
+  - :uuid: dceebbfb-c620-49a6-aa2c-1b79f06a7815
+    :songs:
+    - :uuid: 5ef13c81-07a0-42e7-b36d-8542a65366b7
+      :name: Let The Good Times Roll
+      :segued: false
+    - :uuid: b057ba54-2432-4ba2-a300-c85d45210b4c
+      :name: Hell In A Bucket
+      :segued: true
+    - :uuid: 53f942eb-fbf8-44c0-a037-00e5f258e4d6
+      :name: Sugaree
+      :segued: false
+    - :uuid: 17174f55-11b0-4773-8447-c2d8373f4156
+      :name: Minglewood Blues
+      :segued: false
+    - :uuid: 1cb4c57c-bf3f-4f8c-9542-1473e259c205
+      :name: Tennessee Jed
+      :segued: false
+    - :uuid: 78fbd0d7-d90e-4377-8c5b-2a430b74228e
+      :name: Just Like Tom Thumb's Blues
+      :segued: false
+    - :uuid: 36ad6a0b-39b3-4082-b46c-fdba14d921a3
+      :name: Candyman
+      :segued: false
+    - :uuid: bc27f898-9af9-4968-b451-bcdf1458b3b2
+      :name: The Music Never Stopped
+      :segued: false
+  - :uuid: 0733f849-f141-40f5-8547-d4fe1947e599
+    :songs:
+    - :uuid: 07c141c8-2215-40ad-b26c-499331e20a5f
+      :name: Scarlet Begonias
+      :segued: true
+    - :uuid: cf43e6ff-d968-4cd7-9763-09c876ae2a51
+      :name: Fire On The Mountain
+      :segued: false
+    - :uuid: afee3690-032b-46c1-95a3-e075d77c7ba9
+      :name: Estimated Prophet
+      :segued: true
+    - :uuid: d34fbd05-f54b-4b1a-a1b9-df622c354f8d
+      :name: Drums
+      :segued: true
+    - :uuid: 5256c4bb-e294-4240-b1ea-13dd9dcc1881
+      :name: Space
+      :segued: true
+    - :uuid: 8366ca79-e371-4a13-9127-4852125ce8c9
+      :name: The Wheel
+      :segued: true
+    - :uuid: 90151b5f-e5e5-4fd3-98a5-d4f28932ad0f
+      :name: All Along The Watchtower
+      :segued: true
+    - :uuid: 55d45f4f-2aac-46e1-9826-755465471f46
+      :name: Black Peter
+      :segued: true
+    - :uuid: fec73dcb-b81e-479c-aeba-ff3a95dc0537
+      :name: One More Saturday Night
+      :segued: false
+  - :uuid: 8a05c5a4-36e4-4d41-b64d-0943a26c4815
+    :songs:
+    - :uuid: 436d1fd7-3a4d-42f0-ba92-c3767ad21af0
+      :name: The Weight
+      :segued: false
+1992/12/06:
+  :uuid: ed161ebf-7a33-4594-a784-5a94d162e407
+  :venue: Compton Terrace Amphitheatre
+  :city: Chandler
+  :state: AZ
+  :country: US
+  :sets:
+  - :uuid: ee75ff38-899b-4bbc-af8b-21df5891926a
+    :songs:
+    - :uuid: e26620c4-07f5-4fd1-b2cf-6cb079113dd7
+      :name: Here Comes Sunshine
+      :segued: false
+    - :uuid: ccf88cc2-e929-4c28-b978-01bd0971f142
+      :name: Greatest Story Ever Told
+      :segued: false
+    - :uuid: 0da7530d-b6c0-4f12-b062-0e7edb673019
+      :name: Friend Of The Devil
+      :segued: false
+    - :uuid: e5bf1477-b4f8-4428-b394-82c1b4bf5aba
+      :name: Me And My Uncle
+      :segued: true
+    - :uuid: 38be2e78-f7b1-4468-917d-dba9a233df58
+      :name: Maggie's Farm
+      :segued: false
+    - :uuid: c300ca8f-75bd-4042-9151-94e6c2891c2d
+      :name: Althea
+      :segued: false
+    - :uuid: 94620b90-a564-4095-b610-97ee5b0d42d8
+      :name: When I Paint My Masterpiece
+      :segued: false
+    - :uuid: e1cbe428-3f9f-4b7d-9224-a0c515cab7a1
+      :name: Deal
+      :segued: false
+  - :uuid: 77f56993-d90b-4ec8-bdbf-ddaf28b84add
+    :songs:
+    - :uuid: 3cf9bc09-9a80-4be5-a5e1-51fb320a4856
+      :name: Samson And Delilah
+      :segued: false
+    - :uuid: 5c48703c-9767-4afc-bd24-1d4853ef69eb
+      :name: Crazy Fingers
+      :segued: true
+    - :uuid: 6cf77669-55b6-44eb-8c79-c8c9f84057ea
+      :name: Uncle John's Band
+      :segued: true
+    - :uuid: a7c40b33-05ee-41b4-bb55-fe286110bc8e
+      :name: Playing In The Band Reprise
+      :segued: true
+    - :uuid: b24d09cd-431a-4326-bf23-a4079bc053b1
+      :name: Drums
+      :segued: true
+    - :uuid: 3923a320-94da-4e33-88eb-1317b3a44a93
+      :name: Space
+      :segued: true
+    - :uuid: 43fb7201-d3b0-40da-89a5-15091413517b
+      :name: The Last Time
+      :segued: true
+    - :uuid: 04c860b1-def1-47ef-93b9-b10dbbc1abb9
+      :name: China Doll
+      :segued: true
+    - :uuid: 451c3d68-7f81-4117-9688-f45a9556e308
+      :name: Throwing Stones
+      :segued: false
+    - :uuid: 92629c8b-6d84-4acf-b0cb-026106013fb5
+      :name: Not Fade Away
+      :segued: false
+  - :uuid: 95d68310-8b01-4b67-b225-29bb4eef0330
+    :songs:
+    - :uuid: a7a6b98a-94f5-4462-8c08-dce826adc5e8
+      :name: Brokedown Palace
+      :segued: false
+1992/12/11:
+  :uuid: 24ddc1e8-ad9f-4a60-8fe5-47a0797a22d6
+  :venue: Oakland-Alameda County Coliseum Arena
+  :city: Oakland
+  :state: CA
+  :country: US
+  :sets:
+  - :uuid: 21dc1a37-feea-49c6-b20e-2577953c839f
+    :songs:
+    - :uuid: 578e4d7b-55e4-45d1-ba1e-e5af4311212b
+      :name: Cold Rain And Snow
+      :segued: false
+    - :uuid: fe73e592-9c21-4445-84a2-947bdfe1cb6e
+      :name: Wang Dang Doodle
+      :segued: false
+    - :uuid: f76017eb-8e8e-43b7-a6ce-6390197d6ad7
+      :name: Althea
+      :segued: false
+    - :uuid: e8aa84a0-292b-4ecb-9cab-20943881041b
+      :name: When I Paint My Masterpiece
+      :segued: false
+    - :uuid: f490d979-ffc8-4da2-9a6c-983e01507d64
+      :name: Stagger Lee
+      :segued: false
+    - :uuid: 8f6d371f-7110-475a-9cc0-2a31b302001f
+      :name: Cassidy
+      :segued: true
+    - :uuid: ecc0a6ee-d67d-48f1-b0be-11b115a62a51
+      :name: Deal
+      :segued: false
+  - :uuid: 75a9d27c-bfe5-4305-a4d7-ee40c583e1e6
+    :songs:
+    - :uuid: 05b0b6f2-2088-401d-9593-bb1525bf6655
+      :name: Iko Iko
+      :segued: false
+    - :uuid: 41292ace-fb9b-411c-be9c-01ab17950974
+      :name: Looks Like Rain
+      :segued: true
+    - :uuid: 61f5220a-290d-4baf-9756-432208a3751c
+      :name: Eyes Of The World
+      :segued: true
+    - :uuid: 48e691d8-2f4f-4cdd-8eac-10ec42d52802
+      :name: Corrina
+      :segued: true
+    - :uuid: a0545b66-74c9-4c3e-b3ef-884cb13ea5cc
+      :name: Jam
+      :segued: true
+    - :uuid: d1311d46-bb81-45b8-b79b-e1385e755025
+      :name: Drums
+      :segued: true
+    - :uuid: 610265ce-a096-4681-9a5f-2512ebe8a397
+      :name: Space
+      :segued: true
+    - :uuid: 707d7fdb-4404-4718-a6d6-402713298f45
+      :name: The Wheel
+      :segued: true
+    - :uuid: 3c5cb823-2495-4245-ae40-ebbae3592e68
+      :name: Stella Blue
+      :segued: true
+    - :uuid: 4a17cdef-fbef-4af9-beb5-d26795ead726
+      :name: Sugar Magnolia
+      :segued: false
+  - :uuid: 764e573d-7d70-4fc8-827f-b24a617fa789
+    :songs:
+    - :uuid: 4201c737-4d34-49c2-967d-c146f7cb56cf
+      :name: U.S. Blues
+      :segued: false
+1992/12/12:
+  :uuid: 9780e054-dbc8-422f-b7ef-56ec131a92f4
+  :venue: Oakland-Alameda County Coliseum Arena
+  :city: Oakland
+  :state: CA
+  :country: US
+  :sets:
+  - :uuid: 075bbd86-a42d-4c37-b47c-79496c53694b
+    :songs:
+    - :uuid: 7968af8f-b98a-44e7-bb95-37c06869d227
+      :name: Jack Straw
+      :segued: true
+    - :uuid: 65c6f649-b7b6-47b2-b541-c785ffd3fb07
+      :name: Bertha
+      :segued: false
+    - :uuid: c7103b6b-dc93-43ca-8195-4206914ae871
+      :name: Little Red Rooster
+      :segued: false
+    - :uuid: df14898a-0ea9-4282-a4ef-8770e9666eef
+      :name: Friend Of The Devil
+      :segued: false
+    - :uuid: 26f2d94d-7dc3-40a4-903e-f9fa4fdb7e2f
+      :name: Desolation Row
+      :segued: false
+    - :uuid: 98bd8931-4092-4882-8c91-b5b0fbfc2993
+      :name: Bird Song
+      :segued: false
+  - :uuid: 41eef33e-7e06-4fb4-a5e2-f9dcdc2a82df
+    :songs:
+    - :uuid: e18ca15d-2047-46f9-98d5-8d0c4791282e
+      :name: Picasso Moon
+      :segued: false
+    - :uuid: 6f8e73af-0c13-4b26-9a62-6e658cc5a845
+      :name: Crazy Fingers
+      :segued: true
+    - :uuid: 4182d42a-0403-4fa9-b0da-9dc0ea6adf5e
+      :name: Man Smart (Woman Smarter)
+      :segued: false
+    - :uuid: 84a1f158-c111-4100-9bc2-c3f2a328fb93
+      :name: Dark Star
+      :segued: true
+    - :uuid: de8d6f83-45f6-428e-9926-11ff11decf66
+      :name: Jam
+      :segued: true
+    - :uuid: e4693826-068a-4d21-bb74-63d89d274e1d
+      :name: Drums
+      :segued: true
+    - :uuid: 7d9d15c9-b071-4db1-aea6-a9813e9cc2c9
+      :name: Space
+      :segued: true
+    - :uuid: 4729e6d5-4a43-41a6-b560-467b961d955c
+      :name: Jam
+      :segued: true
+    - :uuid: 6667f8a2-54c0-4067-bdf4-51627687962d
+      :name: I Need A Miracle
+      :segued: true
+    - :uuid: 80ec27fe-aeb4-4b31-abf0-c7530f58d8b8
+      :name: Standing On The Moon
+      :segued: true
+    - :uuid: 6b61e68f-590e-4899-896f-a6395fe0212b
+      :name: One More Saturday Night
+      :segued: false
+  - :uuid: 96701d37-5600-4879-8bf8-dea5d4ac7982
+    :songs:
+    - :uuid: e128bbaa-8084-4669-a648-a0fc9d180486
+      :name: Rain
+      :segued: false
+1992/12/13:
+  :uuid: c0dcdae0-dc9d-468f-bba9-39dd7322d537
+  :venue: Oakland-Alameda County Coliseum Arena
+  :city: Oakland
+  :state: CA
+  :country: US
+  :sets:
+  - :uuid: ea9d0d04-988f-410f-b114-f8424ff17d59
+    :songs:
+    - :uuid: 27e5ef82-24cd-4309-88be-7ba3aa056812
+      :name: Mississippi Half Step
+      :segued: false
+    - :uuid: 7cba11f3-f6f2-4f7c-86a9-c454c9ec5f8c
+      :name: It's All Over Now
+      :segued: false
+    - :uuid: 602c1df7-b493-4bdd-a672-ce1aa66a6c0f
+      :name: West L.A. Fadeaway
+      :segued: false
+    - :uuid: a17de1b4-252a-4257-b86d-cbf853139134
+      :name: Me And My Uncle
+      :segued: true
+    - :uuid: dfde8762-03d4-48a8-8702-3fca78e2e554
+      :name: Maggie's Farm
+      :segued: false
+    - :uuid: 2940bcdb-e6e0-4d79-a661-2c4f49cf98ef
+      :name: Tennessee Jed
+      :segued: true
+    - :uuid: 009571e6-dfcd-49f1-9bf5-704bdbc260eb
+      :name: Promised Land
+      :segued: false
+  - :uuid: f6d6ff4d-670c-4424-878b-f1e3874c20bf
+    :songs:
+    - :uuid: d5a34a7c-3875-4c15-a9e7-7ef32c0d9a66
+      :name: Here Comes Sunshine
+      :segued: true
+    - :uuid: 5090301c-d40d-4394-b70c-24978d21da79
+      :name: Way To Go Home
+      :segued: false
+    - :uuid: 11e508a9-a0cd-4352-b3d0-66f5357be3c5
+      :name: Victim Or The Crime
+      :segued: true
+    - :uuid: 9334f933-aec1-4906-8b07-35fc9626d3ff
+      :name: Terrapin Station
+      :segued: true
+    - :uuid: bfc262fb-f67f-4117-a31e-4b1507c2b2a3
+      :name: Jam
+      :segued: true
+    - :uuid: 52455bdb-f208-4bdd-aae6-86612ef61032
+      :name: Drums
+      :segued: true
+    - :uuid: b32873a2-323d-4651-a252-b009dabdd23f
+      :name: Space
+      :segued: true
+    - :uuid: f431f05c-3af5-4ddc-8bb6-4a2e961dfbf7
+      :name: The Other One
+      :segued: true
+    - :uuid: 23ff0122-4f84-46b1-9aad-3306d1439465
+      :name: Morning Dew
+      :segued: false
+  - :uuid: ce97614a-4440-4120-b57f-e5563e0d8658
+    :songs:
+    - :uuid: c07e687e-3415-4dbf-9dd5-969bca57c3d5
+      :name: The Weight
+      :segued: false
+1992/12/16:
+  :uuid: 99da37f9-399e-436c-ae3d-a12de836ec45
+  :venue: Oakland-Alameda County Coliseum Arena
+  :city: Oakland
+  :state: CA
+  :country: US
+  :sets:
+  - :uuid: 04d66208-1b47-49f6-ba13-4e57a855e71b
+    :songs:
+    - :uuid: 2051caa0-7407-404b-9777-ad792eef0eeb
+      :name: Feel Like A Stranger
+      :segued: false
+    - :uuid: b6ca0d47-0f0a-4b28-bcef-38d70aa90ed8
+      :name: Brown Eyed Women
+      :segued: false
+    - :uuid: 808f1504-23cf-445f-9958-33bdc651b846
+      :name: The Same Thing
+      :segued: false
+    - :uuid: f054ca67-e68a-4b67-960b-794350fda691
+      :name: Loose Lucy
+      :segued: false
+    - :uuid: aabbae9c-e8a2-49ae-a6d4-c5f08341e0c5
+      :name: Stuck Inside Of Mobile With The Memphis Blues Again
+      :segued: false
+    - :uuid: 85d402e9-450d-4a55-81e0-5239388ee4c1
+      :name: Row Jimmy
+      :segued: false
+    - :uuid: 3e677cc7-8f2a-4ecf-b2bf-9e045d39ac6f
+      :name: Let It Grow
+      :segued: false
+  - :uuid: 03cc99f3-9ad9-4c85-9aed-381aedb0af51
+    :songs:
+    - :uuid: aac860ce-b987-488d-acc1-dfc4625fb7be
+      :name: Shakedown Street
+      :segued: true
+    - :uuid: 425fcdc9-c4f1-47b1-9ffa-6e42b3c38f64
+      :name: Samson And Delilah
+      :segued: false
+    - :uuid: 97ea309f-932a-4481-a752-04a5a4d821c7
+      :name: Ship Of Fools
+      :segued: true
+    - :uuid: 0e5521b5-b35a-4336-b374-f30353abfbf2
+      :name: Playing In The Band
+      :segued: true
+    - :uuid: 13153908-8f8b-4ff9-aff9-e73d39eeb328
+      :name: Drums
+      :segued: true
+    - :uuid: a2619e50-d889-4204-910f-4d871f4fee19
+      :name: Space
+      :segued: true
+    - :uuid: 4ee74f55-b5b7-47d7-bd0a-974851a0bf8b
+      :name: Dark Star
+      :segued: true
+    - :uuid: 8e1b5ef4-20bc-4817-a945-bad7503355d8
+      :name: All Along The Watchtower
+      :segued: true
+    - :uuid: df37e60c-6b05-4bc4-9a36-1f8b703e6745
+      :name: Stella Blue
+      :segued: true
+    - :uuid: 89bb3b96-032e-44bf-b3f1-564a87e12811
+      :name: Good Lovin'
+      :segued: false
+  - :uuid: 761f6181-57b5-4e9c-a972-6100d3811c84
+    :songs:
+    - :uuid: c76bd2ef-1a23-443c-9b78-2be8477441cd
+      :name: Casey Jones
+      :segued: false
+1992/12/17:
+  :uuid: 7c5649d9-7497-4bad-9cba-ad71bb988051
+  :venue: Oakland-Alameda County Coliseum Arena
+  :city: Oakland
+  :state: CA
+  :country: US
+  :sets:
+  - :uuid: e3425d69-38a7-48d7-ba3d-f7fa334d640d
+    :songs:
+    - :uuid: 68576df8-f6e2-4fe0-a844-d9e49ae17bb9
+      :name: Touch Of Grey
+      :segued: false
+    - :uuid: 69b1a78f-d15c-4b86-abfc-f64ad7fd4582
+      :name: Walkin' Blues
+      :segued: false
+    - :uuid: 5615defd-5483-4aa0-ae5e-afa4701ca3df
+      :name: Loser
+      :segued: false
+    - :uuid: 51491097-6826-4ade-b386-7ab01263d25a
+      :name: Queen Jane Approximately
+      :segued: false
+    - :uuid: e39a932f-161f-48f6-9057-b567c47fcbbc
+      :name: So Many Roads
+      :segued: false
+    - :uuid: 7dd503ab-72cf-4c7f-bcec-86d930dc8bb4
+      :name: The Music Never Stopped
+      :segued: false
+  - :uuid: 8d9acd48-9a60-4996-946a-f16a67202f44
+    :songs:
+    - :uuid: bca20288-fdf8-46c3-8959-26a735561b37
+      :name: Scarlet Begonias
+      :segued: true
+    - :uuid: fba767ca-c8f9-4634-b4dd-864c8c2c3471
+      :name: Fire On The Mountain
+      :segued: false
+    - :uuid: 114437a8-24b3-4b5f-a8a6-4e736afdd9f1
+      :name: Way To Go Home
+      :segued: false
+    - :uuid: e69c613c-671a-4765-8942-6a9a34d9ba26
+      :name: Corrina
+      :segued: true
+    - :uuid: 66e3a194-2b93-4b23-884d-63ef684598cd
+      :name: Uncle John's Band
+      :segued: true
+    - :uuid: 3d6ef63f-9765-4138-a20c-802606afbb97
+      :name: Playing In The Band Reprise
+      :segued: true
+    - :uuid: 247c5cb5-a7ca-486f-9c35-6b3c35e71fc9
+      :name: Drums
+      :segued: true
+    - :uuid: aa099406-f217-4cc8-9cff-13364f133920
+      :name: Space
+      :segued: true
+    - :uuid: 265e2bf5-1903-489f-8816-921eccb4c1fa
+      :name: The Last Time
+      :segued: true
+    - :uuid: a925a3ae-6317-4260-83c1-08cfb4a1f7e5
+      :name: Here Comes Sunshine
+      :segued: true
+    - :uuid: 9ab1c429-538a-4436-9fed-4a374771d533
+      :name: Throwing Stones
+      :segued: true
+    - :uuid: 1c635ae4-e104-463c-812d-b40f651e2cf5
+      :name: Not Fade Away
+      :segued: false
+  - :uuid: b2b8d009-6414-44dc-914e-e8eafb6f575c
+    :songs:
+    - :uuid: 07928c2f-94a7-431a-8497-f801fd888d31
+      :name: Baba O'Riley
+      :segued: true
+    - :uuid: 4007cae7-dbaf-41c8-b119-a8f4500b8d8b
+      :name: Tomorrow Never Knows
+      :segued: false

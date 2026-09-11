@@ -1,1 +1,0 @@
-json.environment Rails.env

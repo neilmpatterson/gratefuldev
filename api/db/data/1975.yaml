@@ -1,0 +1,207 @@
+---
+1975/03/23:
+  :uuid: ae505993-fe75-4f48-9fd2-6b8a125baa32
+  :venue: Kezar Stadium
+  :city: San Francisco
+  :state: CA
+  :country: US
+  :sets:
+  - :uuid: f9767788-fea2-445f-9108-6f8beb512028
+    :songs:
+    - :uuid: ef649403-1e45-488d-9c97-4facfe341135
+      :name: Blues For Allah
+      :segued: true
+    - :uuid: 4195742d-2812-45ac-934d-0fa606b7de70
+      :name: Stronger Than Dirt
+      :segued: true
+    - :uuid: 8ebd9d3e-5e77-4343-9f48-64f76a0ef0e9
+      :name: Drums
+      :segued: true
+    - :uuid: bd9738e5-ba19-46bf-af11-847c898efe72
+      :name: Stronger Than Dirt
+      :segued: true
+    - :uuid: 8d4ca864-13b7-4e9a-b26c-20893bc6345c
+      :name: Blues For Allah
+      :segued: false
+  - :uuid: 31463ceb-0aa8-4ba3-88f9-edb0cd8ff28a
+    :songs:
+    - :uuid: 9a4e841b-5d54-4d78-b1b9-b2b47ffe943d
+      :name: Johnny B. Goode
+      :segued: false
+1975/06/17:
+  :uuid: 91343d36-3e94-4d6a-a4c4-6749a22d1ab8
+  :venue: Winterland
+  :city: San Francisco
+  :state: CA
+  :country: US
+  :sets:
+  - :uuid: d5ccb5bb-c856-491e-a81b-efc1eb1df861
+    :songs:
+    - :uuid: ec969d37-2eb0-46c1-a34f-60e2650032e8
+      :name: Crazy Fingers
+      :segued: false
+    - :uuid: 2c8748dc-830d-4116-98bf-c2d4105fe16a
+      :name: Beat It On Down The Line
+      :segued: false
+    - :uuid: d7a9c253-6f5c-4a83-92ec-a7325153e923
+      :name: Deal
+      :segued: false
+    - :uuid: d3611fb8-cde2-406d-83f7-9f30db8ff52f
+      :name: Big River
+      :segued: false
+    - :uuid: c0ef840f-8ef6-4d2e-b33a-046eb86640c3
+      :name: Peggy-O
+      :segued: false
+    - :uuid: 0f8c750a-352c-4fa7-a8bc-ccf0a5ff38bd
+      :name: Me And My Uncle
+      :segued: false
+    - :uuid: c355181c-ca62-4280-ab37-d3efbb4dd8d5
+      :name: Help On The Way
+      :segued: true
+    - :uuid: b886ec2a-de9c-42d0-b19e-f33b261ffda4
+      :name: Slipknot!
+      :segued: true
+    - :uuid: ed3a4912-6700-4421-8d3e-a56c74a9e3f1
+      :name: Franklin's Tower
+      :segued: false
+  - :uuid: 1af76c56-9147-412c-93df-4ec00e7351f8
+    :songs:
+    - :uuid: f322b4f1-5c8d-4e3f-9382-8ff9caa0618f
+      :name: Blues For Allah
+      :segued: true
+    - :uuid: ccb3fdb3-425d-4b72-a453-3f9fbb991607
+      :name: Drums
+      :segued: true
+    - :uuid: ed3c4d67-0508-4b23-81f4-acff2a2a1a80
+      :name: Stronger Than Dirt
+      :segued: true
+    - :uuid: f8ffe92a-8aee-4e54-81b2-c3ac166a3aee
+      :name: Blues For Allah
+      :segued: false
+    - :uuid: 078bdcc5-4ab1-438c-be67-644c1600eb87
+      :name: Sugar Magnolia
+      :segued: false
+  - :uuid: 6c5a9742-f04e-44f6-ab2d-1de6efdfa582
+    :songs:
+    - :uuid: 418519ce-2d55-4999-a353-6ed6ed07aebb
+      :name: U.S. Blues
+      :segued: false
+1975/08/13:
+  :uuid: 80b9cdd7-6d1d-4329-a71e-01028ac973f2
+  :venue: Great American Music Hall
+  :city: San Francisco
+  :state: CA
+  :country: US
+  :sets:
+  - :uuid: 39564d38-3a2c-46df-af76-a840eb9322f4
+    :songs:
+    - :uuid: 35d0c5d4-f65c-4011-a2dc-8c722941f267
+      :name: Help On The Way
+      :segued: true
+    - :uuid: 5e0915ba-72c7-4c00-b204-3d8f8e531bc8
+      :name: Slipknot!
+      :segued: true
+    - :uuid: 39a357b3-d0b7-43a3-a1bd-d826e404be54
+      :name: Franklin's Tower
+      :segued: false
+    - :uuid: a6a9612e-bf58-4c58-a32b-2b1fe0e2b72c
+      :name: The Music Never Stopped
+      :segued: false
+    - :uuid: dfb25a8b-79aa-46f7-b4bb-c81dd60d1da7
+      :name: It Must Have Been The Roses
+      :segued: false
+    - :uuid: 0fbe0faa-e78c-456e-9a85-0b8e6e2b126a
+      :name: Eyes Of The World
+      :segued: true
+    - :uuid: c0196eb7-a918-4e1b-a2c3-1ea9e12f3d73
+      :name: Drums
+      :segued: true
+    - :uuid: 34e852cb-e19c-4175-ac22-817ad2351ce4
+      :name: Stronger Than Dirt
+      :segued: false
+  - :uuid: a1b26ded-2932-4d36-ae97-505a5f8f6611
+    :songs:
+    - :uuid: 2b6a2104-960f-4bf8-8be5-66176ba673c9
+      :name: Around And Around
+      :segued: false
+    - :uuid: 493c1969-22e1-4773-988f-a2bfeb6a5af2
+      :name: Sugaree
+      :segued: false
+    - :uuid: c281627d-27a4-492b-9978-5f02bd297374
+      :name: Big River
+      :segued: false
+    - :uuid: 1c8b4fec-c213-45df-a369-e7ff224c56ed
+      :name: Crazy Fingers
+      :segued: true
+    - :uuid: 771d4bec-f2c1-42dd-b763-048f9b11296e
+      :name: Drums
+      :segued: true
+    - :uuid: 5321d401-30ed-48b2-96e5-646f925f3389
+      :name: The Other One
+      :segued: true
+    - :uuid: 9c070c6d-f4d1-4457-ba96-ab422788523b
+      :name: Sage And Spirit
+      :segued: true
+    - :uuid: 98ff1d77-2ef0-45e4-96ee-2145cca76c2a
+      :name: Goin' Down The Road Feelin' Bad
+      :segued: false
+    - :uuid: 2aa99977-7d6e-4d35-8010-1e92c97f3bac
+      :name: U.S. Blues
+      :segued: false
+    - :uuid: 664fccfb-957a-457e-b5cb-dfa7c2e40e39
+      :name: Blues For Allah
+      :segued: false
+1975/09/28:
+  :uuid: 6926e8bf-aeaf-4bb3-bdac-f535c0adb5cd
+  :venue: Lindley Meadow, Golden Gate Park
+  :city: San Francisco
+  :state: CA
+  :country: US
+  :sets:
+  - :uuid: e332767e-47f4-42fe-b05e-2ae3123a6d82
+    :songs:
+    - :uuid: 4ba9a9b2-dfb5-4c28-be89-41689abc7ffe
+      :name: Help On The Way
+      :segued: true
+    - :uuid: 9af87a4c-86ce-4ea8-8f78-45cb6b5ffea5
+      :name: Slipknot!
+      :segued: false
+    - :uuid: c2f6f37e-84e9-4c17-b1bc-8ad2f3d547d5
+      :name: The Music Never Stopped
+      :segued: false
+    - :uuid: bfb08403-9841-4d43-86b5-f0dda2967b6f
+      :name: They Love Each Other
+      :segued: false
+    - :uuid: cd456f66-39c4-4f05-a37f-d393149a8a56
+      :name: Beat It On Down The Line
+      :segued: false
+    - :uuid: 7b124a47-027e-461e-9516-4c162fda058f
+      :name: Franklin's Tower
+      :segued: false
+    - :uuid: 28fea9d5-31a5-469d-9dde-9bd36ce4ade7
+      :name: Big River
+      :segued: false
+    - :uuid: d421fe3c-202e-416e-996d-d2219dac76cb
+      :name: It Must Have Been The Roses
+      :segued: false
+    - :uuid: ed4510ce-aa25-4300-bbc1-a9304efde6dd
+      :name: Truckin'
+      :segued: true
+    - :uuid: 98fc5cb4-67ef-4993-9e93-0636597fc11d
+      :name: Jam
+      :segued: true
+    - :uuid: 3a32e67b-782e-42e5-816f-85763e8276c2
+      :name: Drums
+      :segued: true
+    - :uuid: 0276d82a-7a5e-4f78-9e41-05013f491a5c
+      :name: Stronger Than Dirt
+      :segued: true
+    - :uuid: 74c6c8b7-425a-4630-9218-396ba51525ca
+      :name: Not Fade Away
+      :segued: true
+    - :uuid: 6ed66ddc-fd97-485f-9b15-46adf003acca
+      :name: Goin' Down The Road Feelin' Bad
+      :segued: true
+    - :uuid: 28fa4955-5cc2-493b-a206-a373b5f370dd
+      :name: One More Saturday Night
+      :segued: false
