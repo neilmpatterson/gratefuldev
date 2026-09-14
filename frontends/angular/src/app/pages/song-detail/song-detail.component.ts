@@ -12,27 +12,33 @@ import type { SongDetail } from '../../lib/data'
     @if (isLoading()) {
       <p class="text-muted">Loading…</p>
     } @else if (song()) {
-      <div>
-        <div class="mb-8">
-          <h1 class="font-serif text-3xl font-bold text-paper mb-1">{{ song()!.name }}</h1>
-          <p class="text-muted text-sm">Played {{ song()!.times_played }} times</p>
+      <div class="max-w-2xl">
+        <a routerLink="/songs" class="text-sm text-muted hover:text-paper transition-colors mb-8 inline-block">
+          ← All songs
+        </a>
+
+        <div class="mb-10">
+          <h1 class="font-serif text-3xl font-bold text-paper">{{ song()!.name }}</h1>
+          <p class="text-accent mt-2 text-sm tabular-nums">{{ song()!.times_played }} performances</p>
         </div>
 
+        <p class="text-xs text-muted tracking-widest mb-4">Shows</p>
         <div class="divide-y divide-edge">
           @for (show of song()!.shows; track show.uuid) {
-            <div class="flex items-center gap-4 py-3 text-sm">
-              <span class="font-mono text-muted w-24 shrink-0 tabular-nums">{{ show.date }}</span>
-              <a [routerLink]="['/shows', show.uuid]" class="flex-1 text-paper hover:text-accent transition-colors">
+            <a
+              [routerLink]="['/shows', show.uuid]"
+              class="flex items-center gap-4 py-3 group text-sm"
+            >
+              <span class="font-mono text-muted w-24 shrink-0 tabular-nums group-hover:text-accent transition-colors">
+                {{ show.date }}
+              </span>
+              <span class="flex-1 text-paper group-hover:text-accent transition-colors">
                 {{ show.venue }}
-              </a>
-              <a
-                [routerLink]="['/shows']"
-                [queryParams]="{ city: show.city, state: show.state ?? '' }"
-                class="text-muted hover:text-accent transition-colors shrink-0 text-right"
-              >
+              </span>
+              <span class="text-muted text-right shrink-0">
                 {{ show.city }}{{ show.state ? ', ' + show.state : '' }}
-              </a>
-            </div>
+              </span>
+            </a>
           }
         </div>
       </div>

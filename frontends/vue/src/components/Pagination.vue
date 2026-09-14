@@ -1,4 +1,6 @@
 <script setup lang="ts">
+import { computed } from 'vue'
+
 const props = defineProps<{
   page: number
   pageCount: number
@@ -11,7 +13,7 @@ const emit = defineEmits<{
 }>()
 
 const PAGE_SIZES = [15, 25, 50, 100]
-const hidden = props.pageCount <= 1 && props.pageSize === PAGE_SIZES[0]
+const hidden = computed(() => props.pageCount <= 1 && props.pageSize === PAGE_SIZES[0])
 </script>
 
 <template>
