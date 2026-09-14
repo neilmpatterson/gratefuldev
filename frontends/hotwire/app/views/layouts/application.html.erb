@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en" class="bg-ink">
+  <head>
+    <title>GratefulDev — Hotwire</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Playfair+Display:wght@700&display=swap" rel="stylesheet" />
+
+    <%= stylesheet_link_tag :tailwind, "data-turbo-track": "reload" %>
+    <%= javascript_importmap_tags %>
+  </head>
+
+  <body class="min-h-screen bg-ink text-paper font-sans">
+    <header class="bg-ink border-b border-edge sticky top-0 z-10">
+      <div class="max-w-5xl mx-auto px-6 flex items-center gap-6 h-14">
+        <%= link_to root_path, class: "flex items-center gap-2 mr-2 group" do %>
+          <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true" class="text-accent group-hover:text-accent-hi transition-colors">
+            <path d="M14 2 L5 13 L10.5 13 L10 22 L19 11 L13.5 11 Z" fill="currentColor" />
+          </svg>
+          <span class="font-serif text-lg font-bold text-paper group-hover:text-accent-hi transition-colors leading-none">GratefulDev</span>
+        <% end %>
+
+        <nav class="flex items-center gap-5">
+          <%= nav_link "Shows", shows_path %>
+          <%= nav_link "Songs", songs_path %>
+          <%= nav_link "Venues", venues_path %>
+          <%= nav_link "Cities", cities_path %>
+          <%= nav_link "Today in History", today_path %>
+        </nav>
+
+        <div class="ml-auto shrink-0 relative" data-controller="benchmark">
+          <button data-action="click->benchmark#toggle"
+                  class="text-xs text-muted hover:text-paper transition-colors px-2 py-1 rounded border border-transparent hover:border-edge">
+            Rails 8 · Hotwire
+          </button>
+          <div data-benchmark-target="panel"
+               class="hidden absolute right-0 top-full mt-1 w-64 bg-surface border border-edge rounded shadow-lg p-4 z-20 text-xs">
+            <p class="text-muted mb-3 font-sans tracking-wide">Server Info</p>
+            <div class="space-y-1.5 mb-4">
+              <div class="flex justify-between">
+                <span class="text-muted">Page load</span>
+                <span class="text-paper tabular-nums font-mono" data-benchmark-target="loadTime">—</span>
+              </div>
+              <div class="flex justify-between">
+                <span class="text-muted">Rendering</span>
+                <span class="text-paper">Server (ERB)</span>
+              </div>
+              <div class="flex justify-between">
+                <span class="text-muted">Rails</span>
+                <span class="text-paper tabular-nums font-mono"><%= Rails.version %></span>
+              </div>
+              <div class="flex justify-between">
+                <span class="text-muted">Ruby</span>
+                <span class="text-paper tabular-nums font-mono"><%= RUBY_VERSION %></span>
+              </div>
+            </div>
+            <div class="border-t border-edge pt-3">
+              <p class="text-muted mb-2">Also in this project</p>
+              <div class="flex flex-wrap gap-x-3 gap-y-1">
+                <a href="http://localhost:5173" target="_blank" rel="noreferrer"
+                   class="text-accent hover:text-accent-hi transition-colors">React 19 →</a>
+                <a href="http://localhost:5174" target="_blank" rel="noreferrer"
+                   class="text-accent hover:text-accent-hi transition-colors">Vue 3 →</a>
+                <a href="http://localhost:5175" target="_blank" rel="noreferrer"
+                   class="text-accent hover:text-accent-hi transition-colors">Angular →</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main class="max-w-5xl mx-auto px-6 py-10">
+      <%= yield %>
+    </main>
+  </body>
+</html>

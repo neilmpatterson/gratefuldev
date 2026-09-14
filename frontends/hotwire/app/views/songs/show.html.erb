@@ -1,0 +1,23 @@
+<div class="max-w-2xl">
+  <%= link_to "← All songs", songs_path, class: "text-sm text-muted hover:text-paper transition-colors mb-8 inline-block" %>
+
+  <div class="mb-10">
+    <h1 class="font-serif text-3xl font-bold text-paper"><%= @song.name %></h1>
+    <p class="text-accent mt-2 text-sm tabular-nums"><%= @song.song_occurences_count %> performances</p>
+  </div>
+
+  <p class="text-xs text-muted tracking-widest mb-4">Shows</p>
+  <div class="divide-y divide-edge">
+    <% @shows.each do |show| %>
+      <%= link_to show_path(show), class: "flex items-center gap-4 py-3 group text-sm" do %>
+        <span class="font-mono text-muted w-24 shrink-0 tabular-nums group-hover:text-accent transition-colors">
+          <%= show.date_string %>
+        </span>
+        <span class="flex-1 text-paper group-hover:text-accent transition-colors"><%= show.venue %></span>
+        <span class="text-muted text-right shrink-0">
+          <%= show.city %><%= show.state.present? ? ", #{show.state}" : "" %>
+        </span>
+      <% end %>
+    <% end %>
+  </div>
+</div>

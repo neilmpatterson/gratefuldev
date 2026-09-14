@@ -162,7 +162,12 @@ onUnmounted(() => document.removeEventListener('mousedown', onClickOutside))
             target="_blank"
             rel="noreferrer"
           >Angular →</a>
-          <span class="text-muted">Rails + Hotwire (coming)</span>
+          <a
+            href="http://localhost:3001"
+            class="text-accent hover:text-accent-hi transition-colors"
+            target="_blank"
+            rel="noreferrer"
+          >Rails + Hotwire →</a>
         </div>
       </div>
     </div>

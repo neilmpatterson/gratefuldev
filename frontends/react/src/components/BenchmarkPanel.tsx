@@ -166,7 +166,14 @@ export default function BenchmarkPanel() {
               >
                 Angular →
               </a>
-              <span className="text-muted">Rails + Hotwire (coming)</span>
+              <a
+                href="http://localhost:3001"
+                className="text-accent hover:text-accent-hi transition-colors"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Rails + Hotwire →
+              </a>
             </div>
           </div>
 

@@ -138,7 +138,7 @@ const PATTERNS = [
           <div class="flex flex-wrap gap-x-4 gap-y-1 text-xs">
             <a href="http://localhost:5173" class="text-accent hover:text-accent-hi transition-colors" target="_blank" rel="noreferrer">React 19 →</a>
             <a href="http://localhost:5174" class="text-accent hover:text-accent-hi transition-colors" target="_blank" rel="noreferrer">Vue 3 →</a>
-            <span class="text-muted">Rails + Hotwire (coming)</span>
+            <a href="http://localhost:3001" class="text-accent hover:text-accent-hi transition-colors" target="_blank" rel="noreferrer">Rails + Hotwire →</a>
           </div>
         </div>
       </div>

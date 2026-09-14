@@ -1,0 +1,46 @@
+<div>
+  <div class="flex items-baseline justify-between mb-6">
+    <h1 class="font-serif text-3xl font-bold text-paper">Shows</h1>
+    <span class="text-sm text-muted tabular-nums"><%= number_with_delimiter(@total) %></span>
+  </div>
+
+  <%= form_with url: shows_path, method: :get, data: { turbo_frame: "shows_list", controller: "search", action: "input->search#submit" } do |f| %>
+    <%= f.search_field :q, value: params[:q],
+        placeholder: "Search by venue, city, year (1977), or date (7/4/1995)…",
+        class: "w-full bg-surface border border-edge rounded px-3 py-2 text-sm text-paper placeholder:text-muted mb-3 focus:outline-none focus:border-accent" %>
+
+    <div class="flex flex-wrap gap-2 mb-8">
+      <%= f.select :year, options_for_select([["All years", ""]] + @years.map { |y| [y, y] }, params[:year]),
+          {}, class: "bg-surface border border-edge rounded px-3 py-1.5 text-sm text-paper focus:outline-none focus:border-accent" %>
+      <%= f.select :state, options_for_select([["All states", ""]] + @states.map { |s| [s, s] }, params[:state]),
+          {}, class: "bg-surface border border-edge rounded px-3 py-1.5 text-sm text-paper focus:outline-none focus:border-accent" %>
+      <%= f.select :city, options_for_select([["All cities", ""]] + @cities.map { |c| [c, c] }, params[:city]),
+          {}, class: "bg-surface border border-edge rounded px-3 py-1.5 text-sm text-paper focus:outline-none focus:border-accent" %>
+      <%= f.select :venue, options_for_select([["All venues", ""]] + @venues.map { |v| [v, v] }, params[:venue]),
+          {}, class: "bg-surface border border-edge rounded px-3 py-1.5 text-sm text-paper focus:outline-none focus:border-accent" %>
+
+      <% if params.values_at(:q, :year, :state, :city, :venue).any?(&:present?) %>
+        <%= link_to "Clear filters", shows_path, class: "text-sm text-muted hover:text-paper transition-colors px-2" %>
+      <% end %>
+    </div>
+  <% end %>
+
+  <%= turbo_frame_tag "shows_list" do %>
+    <div class="divide-y divide-edge">
+      <% @shows.each do |show| %>
+        <div class="flex items-center gap-4 py-3 text-sm">
+          <span class="font-mono text-muted w-24 shrink-0 tabular-nums"><%= show.date_string %></span>
+          <%= link_to show.venue, show_path(show), class: "flex-1 text-paper hover:text-accent transition-colors", data: { turbo_frame: "_top" } %>
+          <%= link_to "#{show.city}#{show.state.present? ? ", #{show.state}" : ""}",
+              shows_path(city: show.city, state: show.state),
+              class: "text-muted hover:text-accent transition-colors shrink-0 text-right" %>
+        </div>
+      <% end %>
+      <% if @shows.empty? %>
+        <p class="text-muted py-10 text-center">No shows match.</p>
+      <% end %>
+    </div>
+
+    <%= render "shared/pagination", pagy: @pagy %>
+  <% end %>
+</div>

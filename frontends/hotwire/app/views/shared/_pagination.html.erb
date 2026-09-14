@@ -1,0 +1,33 @@
+<% if pagy.pages > 1 || pagy.limit != 15 %>
+  <div class="flex items-center justify-between mt-8 pt-4 border-t border-edge">
+    <div class="flex items-center gap-2 text-sm text-muted">
+      <span>Per page</span>
+      <%= form_with url: request.path, method: :get, data: { turbo_frame: pagy.vars[:turbo_frame] } do |f| %>
+        <% request.query_parameters.except("per", "page").each do |k, v| %>
+          <%= f.hidden_field k, value: v %>
+        <% end %>
+        <%= f.select :per, [15, 25, 50, 100], { selected: pagy.limit },
+            class: "bg-surface border border-edge rounded px-2 py-1 text-sm text-paper focus:outline-none focus:border-accent",
+            onchange: "this.form.submit()" %>
+      <% end %>
+    </div>
+
+    <% if pagy.pages > 1 %>
+      <div class="flex items-center gap-3">
+        <% if pagy.prev %>
+          <%= link_to "←", url_for(request.query_parameters.merge(page: pagy.prev)),
+              class: "px-3 py-1 rounded bg-surface border border-edge text-sm text-paper hover:border-accent hover:text-accent transition-colors" %>
+        <% else %>
+          <span class="px-3 py-1 rounded bg-surface border border-edge text-sm text-paper opacity-30">←</span>
+        <% end %>
+        <span class="text-sm text-muted tabular-nums"><%= pagy.page %> / <%= pagy.pages %></span>
+        <% if pagy.next %>
+          <%= link_to "→", url_for(request.query_parameters.merge(page: pagy.next)),
+              class: "px-3 py-1 rounded bg-surface border border-edge text-sm text-paper hover:border-accent hover:text-accent transition-colors" %>
+        <% else %>
+          <span class="px-3 py-1 rounded bg-surface border border-edge text-sm text-paper opacity-30">→</span>
+        <% end %>
+      </div>
+    <% end %>
+  </div>
+<% end %>

@@ -1,0 +1,30 @@
+<div>
+  <div class="flex items-baseline justify-between mb-6">
+    <h1 class="font-serif text-3xl font-bold text-paper">Cities</h1>
+    <span class="text-sm text-muted tabular-nums"><%= number_with_delimiter(@total) %></span>
+  </div>
+
+  <%= form_with url: cities_path, method: :get, data: { turbo_frame: "cities_list", controller: "search", action: "input->search#submit" } do |f| %>
+    <%= f.search_field :q, value: params[:q],
+        placeholder: "Search cities…",
+        class: "w-full bg-surface border border-edge rounded px-3 py-2 text-sm text-paper placeholder:text-muted mb-6 focus:outline-none focus:border-accent" %>
+  <% end %>
+
+  <%= turbo_frame_tag "cities_list" do %>
+    <div class="divide-y divide-edge">
+      <% @cities.each do |c| %>
+        <%= link_to shows_path(city: c.city, state: c.state), class: "flex items-center justify-between py-3 group", data: { turbo_frame: "_top" } do %>
+          <div>
+            <p class="text-paper group-hover:text-accent transition-colors">
+              <%= c.city %><%= c.state.present? ? ", #{c.state}" : "" %>
+            </p>
+            <p class="text-sm text-muted"><%= c.country %></p>
+          </div>
+          <span class="text-accent text-sm tabular-nums ml-4 shrink-0"><%= c.show_count %> shows</span>
+        <% end %>
+      <% end %>
+    </div>
+
+    <%= render "shared/pagination", pagy: @pagy %>
+  <% end %>
+</div>

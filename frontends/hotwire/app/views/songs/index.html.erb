@@ -1,0 +1,30 @@
+<div>
+  <div class="flex items-baseline justify-between mb-6">
+    <h1 class="font-serif text-3xl font-bold text-paper">Songs</h1>
+    <span class="text-sm text-muted tabular-nums"><%= number_with_delimiter(@total) %></span>
+  </div>
+
+  <%= form_with url: songs_path, method: :get, data: { turbo_frame: "songs_list", controller: "search", action: "input->search#submit" } do |f| %>
+    <%= f.search_field :q, value: params[:q],
+        placeholder: "Search songs…",
+        class: "w-full bg-surface border border-edge rounded px-3 py-2 text-sm text-paper placeholder:text-muted mb-6 focus:outline-none focus:border-accent" %>
+  <% end %>
+
+  <%= turbo_frame_tag "songs_list" do %>
+    <div class="divide-y divide-edge">
+      <% @songs.each do |song| %>
+        <%= link_to song_path(song), class: "flex items-center justify-between py-3 text-paper hover:text-accent transition-colors group", data: { turbo_frame: "_top" } do %>
+          <span><%= song.name %></span>
+          <span class="text-sm text-muted group-hover:text-accent transition-colors tabular-nums">
+            <%= song.song_occurences_count %>×
+          </span>
+        <% end %>
+      <% end %>
+      <% if @songs.empty? %>
+        <p class="text-muted py-10 text-center">No songs match.</p>
+      <% end %>
+    </div>
+
+    <%= render "shared/pagination", pagy: @pagy %>
+  <% end %>
+</div>

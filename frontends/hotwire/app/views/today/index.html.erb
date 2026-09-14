@@ -1,0 +1,40 @@
+<div class="max-w-2xl">
+  <p class="text-sm text-muted mb-1 font-sans tracking-wide">Today in Dead History</p>
+  <h1 class="font-serif text-4xl font-bold text-paper mb-10"><%= @date_label %></h1>
+
+  <% if @today_shows.empty? %>
+    <p class="text-muted">No shows on this date in the archive.</p>
+  <% else %>
+    <% if @featured %>
+      <div class="mb-10 border-l-2 border-accent pl-5 py-1">
+        <p class="font-mono text-accent text-sm mb-2"><%= @featured.date_string %></p>
+        <%= link_to @featured.venue, show_path(@featured),
+            class: "font-serif text-2xl font-semibold text-paper hover:text-accent-hi transition-colors leading-tight" %>
+        <p class="text-muted mt-2 text-sm">
+          <%= @featured.city %><%= @featured.state.present? ? ", #{@featured.state}" : "" %> · <%= @featured.country %>
+        </p>
+        <%= link_to "View full setlist →", show_path(@featured),
+            class: "inline-block mt-4 text-sm text-accent hover:text-accent-hi transition-colors" %>
+      </div>
+    <% end %>
+
+    <% if @others.any? %>
+      <p class="text-sm text-muted mb-4">
+        <%= @today_shows.size == 2 ? "1 other show" : "#{@others.size} other shows" %> on <%= @date_label %>
+      </p>
+      <div class="divide-y divide-edge">
+        <% @others.each do |show| %>
+          <div class="flex items-baseline gap-4 py-3 group">
+            <span class="font-mono text-muted text-sm w-20 shrink-0"><%= show.date_string %></span>
+            <div>
+              <%= link_to show.venue, show_path(show), class: "text-paper hover:text-accent transition-colors" %>
+              <span class="text-muted text-sm ml-3">
+                <%= show.city %><%= show.state.present? ? ", #{show.state}" : "" %>
+              </span>
+            </div>
+          </div>
+        <% end %>
+      </div>
+    <% end %>
+  <% end %>
+</div>
