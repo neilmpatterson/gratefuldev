@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+@theme {
+  --color-ink:       #070c1a;
+  --color-surface:   #0f1624;
+  --color-rise:      #162030;
+  --color-edge:      #1c2a40;
+  --color-paper:     #e8dcc8;
+  --color-muted:     #7a6d5c;
+  --color-accent:    #c8923a;
+  --color-accent-hi: #d9a84e;
+
+  --font-sans:  "Inter", system-ui, sans-serif;
+  --font-serif: "Playfair Display", Georgia, serif;
+}
+
+html {
+  background-color: #070c1a;
+  color: #e8dcc8;
+}
+
+::selection {
+  background: #c8923a33;
+}
+
+/* Scrollbar — subtle, on-brand */
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-track { background: #070c1a; }
+::-webkit-scrollbar-thumb { background: #1c2a40; border-radius: 3px; }
+::-webkit-scrollbar-thumb:hover { background: #c8923a55; }

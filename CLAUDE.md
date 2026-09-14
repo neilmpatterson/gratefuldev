@@ -10,7 +10,7 @@ Portfolio project: 30 years of Grateful Dead live show data, same UI built in Re
 - **Rails 8** — API-only app in `api/`, local use only, never deployed
 - **SQLite** — local DB, seeded from `api/db/data/*.yaml`
 - **Static JSON** — exported to `data/` via `rake data:export`
-- **Frontends** — `frontends/react/`, `frontends/vue/`, `frontends/angular/`
+- **Frontends** — `frontends/react/`, `frontends/vue/`, `frontends/angular/`, `frontends/rails/`
 
 ## Build tool commands
 
@@ -72,7 +72,25 @@ All return JSON. Filterable by query params where noted.
 ### Phase 4 — Angular frontend
 `frontends/angular/` — Angular 17+ + TypeScript + RxJS
 
-## Frontend feature spec (same across all three)
+### Phase 5 — Rails frontend
+`frontends/rails/` — full-stack Rails 8 with Hotwire (Turbo + Stimulus), Tailwind, Importmaps. Server-rendered, no separate JS build step. Reads from its own SQLite DB seeded from the shared YAML files in `api/db/data/`. Demonstrates the modern Rails answer to the JS framework question — same features, same design, no React/Vue/Angular.
+
+Key stack choices:
+- **Turbo Drive** — SPA-like navigation without JS routing
+- **Turbo Frames** — inline updates (filtering, pagination) without full page reloads
+- **Turbo Streams** — for any real-time or partial-update needs
+- **Stimulus** — lightweight JS controllers for interactive behavior (search input, filter toggles)
+- **Importmaps** — no Webpack/Vite, no npm required
+- **Tailwind** — same design system as the other frontends (via `tailwindcss-rails` gem)
+- **Solid Cache / Solid Queue** — Rails 8 defaults, used for fragment caching on heavy pages (song detail with 300+ shows)
+
+Architecture notes:
+- Models and seed script are copied/adapted from `api/` — same data, own DB at `frontends/rails/storage/development.sqlite3`
+- No API layer needed — controllers query ActiveRecord directly and render ERB views
+- Pagination via Pagy gem (lightest option)
+- The comparison story: same feature spec as React/Vue/Angular, but the server does the work
+
+## Frontend feature spec (same across all four)
 
 - Shows list — paginated, filterable by year / state / city
 - Show detail — full setlist, encore flagged, song links
