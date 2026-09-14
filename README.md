@@ -21,7 +21,7 @@ gratefuldev/
   frontends/
     react/      Vite + React 19 + TypeScript + TanStack Query   → port 5173
     vue/        Vite + Vue 3 + TypeScript + Pinia               → port 5174
-    angular/    Angular + TypeScript + RxJS                     (planned)
+    angular/    Vite + Angular 18 + TypeScript + RxJS           → port 5175
     rails/      Rails 8 + Hotwire + Tailwind + Importmaps       (planned)
 ```
 
@@ -58,6 +58,9 @@ cd frontends/react && npm install && npm run dev
 
 # Vue (port 5174)
 cd frontends/vue && npm install && npm run dev
+
+# Angular (port 5175)
+cd frontends/angular && npm install --legacy-peer-deps && npm run dev
 ```
 
 The dev server proxies `data/` automatically — no separate API process needed.
@@ -93,5 +96,5 @@ Show and song data from [gdshowsdb](https://github.com/jefmsmit/gdshowsdb) by [@
 - [x] Static JSON export (`data/`)
 - [x] React frontend (`frontends/react/`)
 - [x] Vue frontend (`frontends/vue/`)
-- [ ] Angular frontend (`frontends/angular/`)
+- [x] Angular frontend (`frontends/angular/`)
 - [ ] Rails + Hotwire frontend (`frontends/rails/`)

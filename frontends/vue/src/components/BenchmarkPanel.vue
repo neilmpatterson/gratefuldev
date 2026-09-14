@@ -156,7 +156,12 @@ onUnmounted(() => document.removeEventListener('mousedown', onClickOutside))
             target="_blank"
             rel="noreferrer"
           >React 19 →</a>
-          <span class="text-muted">Angular (coming)</span>
+          <a
+            href="http://localhost:5175"
+            class="text-accent hover:text-accent-hi transition-colors"
+            target="_blank"
+            rel="noreferrer"
+          >Angular →</a>
           <span class="text-muted">Rails + Hotwire (coming)</span>
         </div>
       </div>

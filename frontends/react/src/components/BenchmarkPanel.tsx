@@ -158,7 +158,14 @@ export default function BenchmarkPanel() {
               >
                 Vue 3 →
               </a>
-              <span className="text-muted">Angular (coming)</span>
+              <a
+                href="http://localhost:5175"
+                className="text-accent hover:text-accent-hi transition-colors"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Angular →
+              </a>
               <span className="text-muted">Rails + Hotwire (coming)</span>
             </div>
           </div>
