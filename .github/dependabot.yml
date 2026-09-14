@@ -1,0 +1,33 @@
+version: 2
+updates:
+  - package-ecosystem: npm
+    directory: /frontends/react
+    schedule:
+      interval: weekly
+
+  - package-ecosystem: npm
+    directory: /frontends/vue
+    schedule:
+      interval: weekly
+
+  - package-ecosystem: npm
+    directory: /frontends/angular
+    schedule:
+      interval: weekly
+    ignore:
+      # These transitive deps inside @angular/build cannot be patched within
+      # Angular 18 — the fix requires Angular 21. They are build-time only
+      # and do not affect deployed output. Revisit when upgrading Angular.
+      - dependency-name: esbuild
+        update-types: ["version-update:semver-patch", "version-update:semver-minor"]
+      - dependency-name: rollup
+        update-types: ["version-update:semver-patch", "version-update:semver-minor"]
+      - dependency-name: piscina
+        update-types: ["version-update:semver-patch", "version-update:semver-minor", "version-update:semver-major"]
+      - dependency-name: vite
+        update-types: ["version-update:semver-patch", "version-update:semver-minor", "version-update:semver-major"]
+
+  - package-ecosystem: bundler
+    directory: /frontends/hotwire
+    schedule:
+      interval: weekly
