@@ -8,47 +8,63 @@ import type { ShowSummary } from '../../lib/data'
   standalone: true,
   imports: [RouterLink],
   template: `
-    <div>
-      <div class="mb-8">
-        <h1 class="font-serif text-3xl font-bold text-paper mb-1">Today in Dead History</h1>
-        <p class="text-muted text-sm">{{ todayLabel() }}</p>
-      </div>
+    @if (isLoading()) {
+      <p class="text-muted">Loading…</p>
+    } @else {
+      <div class="max-w-2xl">
+        <p class="text-sm text-muted mb-1 font-sans tracking-wide">Today in Dead History</p>
+        <h1 class="font-serif text-4xl font-bold text-paper mb-10">{{ dateLabel() }}</h1>
 
-      @if (isLoading()) {
-        <p class="text-muted">Loading…</p>
-      } @else if (todayShows().length === 0) {
-        <p class="text-muted py-10 text-center">No shows on this date in history.</p>
-      } @else {
-        @if (featured()) {
-          <div class="border-l-2 border-accent pl-6 mb-10">
-            <p class="text-xs text-muted mb-1">{{ featured()!.date }}</p>
-            <h2 class="font-serif text-2xl font-bold text-paper mb-1">
-              <a [routerLink]="['/shows', featured()!.uuid]" class="hover:text-accent transition-colors">
-                {{ featured()!.venue }}
-              </a>
-            </h2>
-            <p class="text-muted text-sm">
-              {{ featured()!.city }}{{ featured()!.state ? ', ' + featured()!.state : '' }}
+        @if (todayShows().length === 0) {
+          <p class="text-muted">No shows on this date in the archive.</p>
+        } @else {
+          <!-- Featured show -->
+          <div class="mb-10 border-l-2 border-accent pl-5 py-1">
+            <p class="font-mono text-accent text-sm mb-2">{{ featured()!.date }}</p>
+            <a
+              [routerLink]="['/shows', featured()!.uuid]"
+              class="font-serif text-2xl font-semibold text-paper hover:text-accent-hi transition-colors leading-tight"
+            >
+              {{ featured()!.venue }}
+            </a>
+            <p class="text-muted mt-2 text-sm">
+              {{ featured()!.city }}{{ featured()!.state ? ', ' + featured()!.state : '' }} · {{ featured()!.country }}
             </p>
+            <a
+              [routerLink]="['/shows', featured()!.uuid]"
+              class="inline-block mt-4 text-sm text-accent hover:text-accent-hi transition-colors"
+            >
+              View full setlist →
+            </a>
           </div>
-        }
 
-        @if (others().length > 0) {
-          <h3 class="text-xs text-muted tracking-wide mb-4">Other shows on this date</h3>
-          <div class="divide-y divide-edge">
-            @for (show of others(); track show.uuid) {
-              <div class="flex items-center gap-4 py-3 text-sm">
-                <span class="font-mono text-muted w-24 shrink-0 tabular-nums">{{ show.date }}</span>
-                <a [routerLink]="['/shows', show.uuid]" class="flex-1 text-paper hover:text-accent transition-colors">
-                  {{ show.venue }}
-                </a>
-                <span class="text-muted shrink-0">{{ show.city }}{{ show.state ? ', ' + show.state : '' }}</span>
+          <!-- Other shows -->
+          @if (others().length > 0) {
+            <div>
+              <p class="text-sm text-muted mb-4">
+                {{ todayShows().length === 2 ? '1 other show' : others().length + ' other shows' }} on {{ dateLabel() }}
+              </p>
+              <div class="divide-y divide-edge">
+                @for (show of others(); track show.uuid) {
+                  <div class="flex items-baseline gap-4 py-3 group">
+                    <span class="font-mono text-muted text-sm w-20 shrink-0">{{ show.date }}</span>
+                    <div>
+                      <a
+                        [routerLink]="['/shows', show.uuid]"
+                        class="text-paper hover:text-accent transition-colors"
+                      >{{ show.venue }}</a>
+                      <span class="text-muted text-sm ml-3">
+                        {{ show.city }}{{ show.state ? ', ' + show.state : '' }}
+                      </span>
+                    </div>
+                  </div>
+                }
               </div>
-            }
-          </div>
+            </div>
+          }
         }
-      }
-    </div>
+      </div>
+    }
   `,
 })
 export class TodayComponent implements OnInit {
@@ -63,13 +79,13 @@ export class TodayComponent implements OnInit {
   readonly todayShows = computed(() => {
     const m = this.now.getMonth() + 1
     const d = this.now.getDate()
-    return this.allShows().filter(s => s.month === m && s.day === d)
+    return this.allShows()
+      .filter(s => s.month === m && s.day === d)
+      .sort((a, b) => a.year - b.year)
   })
 
   readonly featuredIndex = computed(() =>
-    this.todayShows().length > 0
-      ? Math.floor(this.seed * this.todayShows().length)
-      : 0
+    this.todayShows().length > 0 ? Math.floor(this.seed * this.todayShows().length) : 0
   )
 
   readonly featured = computed(() => this.todayShows()[this.featuredIndex()] ?? null)
@@ -77,11 +93,9 @@ export class TodayComponent implements OnInit {
     this.todayShows().filter((_, i) => i !== this.featuredIndex())
   )
 
-  readonly todayLabel = computed(() => {
-    const month = this.now.toLocaleString('default', { month: 'long' })
-    const day = this.now.getDate()
-    return `${month} ${day} — ${this.todayShows().length} show${this.todayShows().length !== 1 ? 's' : ''} in history`
-  })
+  readonly dateLabel = computed(() =>
+    this.now.toLocaleDateString('en-US', { month: 'long', day: 'numeric' })
+  )
 
   ngOnInit(): void {
     this.http.get<ShowSummary[]>('/data/shows/index.json').subscribe({

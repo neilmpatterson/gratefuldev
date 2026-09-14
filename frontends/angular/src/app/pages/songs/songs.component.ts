@@ -16,20 +16,23 @@ import { PaginationComponent } from '../../components/pagination.component'
 
       <input
         type="search"
-        placeholder="Search by song name…"
+        placeholder="Search songs…"
         [value]="q()"
         (input)="handleSearch($any($event.target).value)"
-        class="w-full bg-surface border border-edge rounded px-3 py-2 text-sm text-paper placeholder:text-muted mb-8 focus:outline-none focus:border-accent"
+        class="w-full bg-surface border border-edge rounded px-3 py-2 text-sm text-paper placeholder:text-muted mb-6 focus:outline-none focus:border-accent"
       />
 
       <div class="divide-y divide-edge">
         @for (song of paged(); track song.uuid) {
-          <div class="flex items-center gap-4 py-3 text-sm">
-            <a [routerLink]="['/songs', song.uuid]" class="flex-1 text-paper hover:text-accent transition-colors">
-              {{ song.name }}
-            </a>
-            <span class="text-muted tabular-nums shrink-0">×{{ song.times_played }}</span>
-          </div>
+          <a
+            [routerLink]="['/songs', song.uuid]"
+            class="flex items-center justify-between py-3 text-paper hover:text-accent transition-colors group"
+          >
+            <span>{{ song.name }}</span>
+            <span class="text-sm text-muted group-hover:text-accent transition-colors tabular-nums">
+              {{ song.times_played }}×
+            </span>
+          </a>
         }
         @if (paged().length === 0) {
           <p class="text-muted py-10 text-center">No songs match.</p>

@@ -67,87 +67,82 @@ const PATTERNS = [
 @Component({
   selector: 'app-benchmark-panel',
   standalone: true,
+  host: { class: 'ml-auto shrink-0 relative block' },
   template: `
-    <div class="relative ml-auto shrink-0">
-      <button
-        (click)="toggleOpen()"
-        [class]="open() ? 'flex items-center gap-1.5 text-sm px-2 py-1 rounded transition-colors text-accent'
-                        : 'flex items-center gap-1.5 text-sm px-2 py-1 rounded transition-colors text-muted hover:text-paper'"
-      >
-        Angular
-        <span class="text-xs opacity-60">{{ open() ? '▲' : '▼' }}</span>
-      </button>
+    <button
+      (click)="toggleOpen()"
+      [class]="open() ? 'flex items-center gap-1.5 text-sm px-2 py-1 rounded transition-colors text-accent'
+                      : 'flex items-center gap-1.5 text-sm px-2 py-1 rounded transition-colors text-muted hover:text-paper'"
+    >
+      Angular
+      <span class="text-xs opacity-60">{{ open() ? '▲' : '▼' }}</span>
+    </button>
 
-      @if (open()) {
-        <div class="absolute right-0 top-full mt-2 w-96 bg-surface border border-edge rounded-lg shadow-2xl z-50 p-5 text-sm">
+    @if (open()) {
+      <div class="absolute right-0 top-full mt-2 w-96 bg-surface border border-edge rounded-lg shadow-2xl z-50 p-5 text-sm">
 
-          <!-- Identity -->
-          <div class="mb-5">
-            <p class="text-paper font-semibold text-base">Angular 18</p>
-            <p class="text-muted text-xs mt-1">RxJS 7 · Angular Router · Tailwind 4</p>
-          </div>
+        <div class="mb-5">
+          <p class="text-paper font-semibold text-base">Angular 18</p>
+          <p class="text-muted text-xs mt-1">RxJS 7 · Angular Router · Tailwind 4</p>
+        </div>
 
-          <!-- Metrics -->
-          <div class="mb-5">
-            <p class="text-xs text-muted tracking-wide mb-3">Performance</p>
-            <div class="space-y-1.5">
-              <div class="flex items-baseline justify-between">
-                <span class="text-muted">Page load</span>
-                <span class="text-paper tabular-nums">{{ metrics().loadMs != null ? metrics().loadMs + ' ms' : '—' }}</span>
-              </div>
-              <div class="flex items-baseline justify-between">
-                <span class="text-muted">JS bundle</span>
-                <span class="text-paper tabular-nums">
-                  {{ metrics().jsKb != null ? metrics().jsKb + ' KB' : 'dev' }}
-                  @if (metrics().jsKb != null) {
-                    <span class="text-muted text-xs ml-1">(gzip)</span>
-                  }
-                </span>
-              </div>
-              <div class="flex items-baseline justify-between">
-                <span class="text-muted">CSS bundle</span>
-                <span class="text-paper tabular-nums">
-                  {{ metrics().cssKb != null ? metrics().cssKb + ' KB' : 'dev' }}
-                  @if (metrics().cssKb != null) {
-                    <span class="text-muted text-xs ml-1">(gzip)</span>
-                  }
-                </span>
-              </div>
-              <div class="flex items-baseline justify-between">
-                <span class="text-muted">Shows fetch</span>
-                <span class="text-paper tabular-nums">
-                  {{ metrics().fetchMs != null ? metrics().fetchMs + ' ms' : '—' }}
-                  <span class="text-muted text-xs ml-1">(2,358 shows)</span>
-                </span>
-              </div>
+        <div class="mb-5">
+          <p class="text-xs text-muted tracking-wide mb-3">Performance</p>
+          <div class="space-y-1.5">
+            <div class="flex items-baseline justify-between">
+              <span class="text-muted">Page load</span>
+              <span class="text-paper tabular-nums">{{ metrics().loadMs != null ? metrics().loadMs + ' ms' : '—' }}</span>
             </div>
-          </div>
-
-          <!-- Patterns -->
-          <div class="mb-5">
-            <p class="text-xs text-muted tracking-wide mb-3">Key patterns</p>
-            <div class="space-y-3">
-              @for (p of patterns; track p.label) {
-                <div>
-                  <p class="text-xs text-accent mb-0.5">{{ p.label }}</p>
-                  <p class="text-xs text-muted leading-relaxed">{{ p.detail }}</p>
-                </div>
-              }
+            <div class="flex items-baseline justify-between">
+              <span class="text-muted">JS bundle</span>
+              <span class="text-paper tabular-nums">
+                {{ metrics().jsKb != null ? metrics().jsKb + ' KB' : 'dev' }}
+                @if (metrics().jsKb != null) {
+                  <span class="text-muted text-xs ml-1">(gzip)</span>
+                }
+              </span>
             </div>
-          </div>
-
-          <!-- Other frontends -->
-          <div class="border-t border-edge pt-4">
-            <p class="text-xs text-muted mb-2">Also in this project</p>
-            <div class="flex flex-wrap gap-x-4 gap-y-1 text-xs">
-              <a href="http://localhost:5173" class="text-accent hover:text-accent-hi transition-colors" target="_blank" rel="noreferrer">React 19 →</a>
-              <a href="http://localhost:5174" class="text-accent hover:text-accent-hi transition-colors" target="_blank" rel="noreferrer">Vue 3 →</a>
-              <span class="text-muted">Rails + Hotwire (coming)</span>
+            <div class="flex items-baseline justify-between">
+              <span class="text-muted">CSS bundle</span>
+              <span class="text-paper tabular-nums">
+                {{ metrics().cssKb != null ? metrics().cssKb + ' KB' : 'dev' }}
+                @if (metrics().cssKb != null) {
+                  <span class="text-muted text-xs ml-1">(gzip)</span>
+                }
+              </span>
+            </div>
+            <div class="flex items-baseline justify-between">
+              <span class="text-muted">Shows fetch</span>
+              <span class="text-paper tabular-nums">
+                {{ metrics().fetchMs != null ? metrics().fetchMs + ' ms' : '—' }}
+                <span class="text-muted text-xs ml-1">(2,358 shows)</span>
+              </span>
             </div>
           </div>
         </div>
-      }
-    </div>
+
+        <div class="mb-5">
+          <p class="text-xs text-muted tracking-wide mb-3">Key patterns</p>
+          <div class="space-y-3">
+            @for (p of patterns; track p.label) {
+              <div>
+                <p class="text-xs text-accent mb-0.5">{{ p.label }}</p>
+                <p class="text-xs text-muted leading-relaxed">{{ p.detail }}</p>
+              </div>
+            }
+          </div>
+        </div>
+
+        <div class="border-t border-edge pt-4">
+          <p class="text-xs text-muted mb-2">Also in this project</p>
+          <div class="flex flex-wrap gap-x-4 gap-y-1 text-xs">
+            <a href="http://localhost:5173" class="text-accent hover:text-accent-hi transition-colors" target="_blank" rel="noreferrer">React 19 →</a>
+            <a href="http://localhost:5174" class="text-accent hover:text-accent-hi transition-colors" target="_blank" rel="noreferrer">Vue 3 →</a>
+            <span class="text-muted">Rails + Hotwire (coming)</span>
+          </div>
+        </div>
+      </div>
+    }
   `,
 })
 export class BenchmarkPanelComponent {

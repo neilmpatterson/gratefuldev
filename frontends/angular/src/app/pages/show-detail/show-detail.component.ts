@@ -12,45 +12,41 @@ import type { ShowDetail } from '../../lib/data'
     @if (isLoading()) {
       <p class="text-muted">Loading…</p>
     } @else if (show()) {
-      <div>
-        <div class="mb-8">
-          <p class="font-mono text-muted text-sm mb-1">{{ show()!.date }}</p>
-          <h1 class="font-serif text-3xl font-bold text-paper mb-1">{{ show()!.venue }}</h1>
-          <p class="text-muted">
-            <a
-              [routerLink]="['/shows']"
-              [queryParams]="{ city: show()!.city, state: show()!.state ?? '' }"
-              class="hover:text-accent transition-colors"
-            >
-              {{ show()!.city }}{{ show()!.state ? ', ' + show()!.state : '' }}
-            </a>
+      <div class="max-w-2xl">
+        <a routerLink="/shows" class="text-sm text-muted hover:text-paper transition-colors mb-8 inline-block">
+          ← All shows
+        </a>
+
+        <div class="mb-10">
+          <p class="font-mono text-accent text-sm mb-2">{{ show()!.date }}</p>
+          <h1 class="font-serif text-3xl font-bold text-paper leading-tight">{{ show()!.venue }}</h1>
+          <p class="text-muted mt-2">
+            {{ show()!.city }}{{ show()!.state ? ', ' + show()!.state : '' }} · {{ show()!.country }}
           </p>
         </div>
 
-        @for (set of show()!.sets; track set.uuid) {
-          <div class="mb-8">
-            <h2 class="text-xs text-muted tracking-wide mb-3">
-              {{ set.encore ? 'Encore' : 'Set ' + set.position }}
-            </h2>
-            <div class="space-y-0">
-              @for (song of set.songs; track song.uuid) {
-                <div class="flex items-baseline gap-1 py-1.5 border-b border-edge last:border-0">
-                  <span class="text-muted text-xs w-6 shrink-0 tabular-nums">{{ song.position }}.</span>
+        @for (set of show()!.sets; track set.uuid; let si = $index) {
+          <div class="mb-10">
+            <p class="text-xs text-muted tracking-widest mb-4 font-sans">
+              {{ set.encore ? 'Encore' : 'Set ' + (set.position + 1) }}
+            </p>
+            <ol class="space-y-1.5">
+              @for (song of set.songs; track song.uuid; let j = $index) {
+                <li class="flex items-baseline gap-3 group">
+                  <span class="text-muted text-xs w-5 text-right shrink-0 tabular-nums">{{ j + 1 }}</span>
                   <span class="flex-1 flex items-baseline gap-1.5 min-w-0">
                     <a
                       [routerLink]="['/songs', song.song_ref_uuid]"
                       class="text-paper hover:text-accent transition-colors"
-                    >
-                      {{ song.name }}
-                    </a>
+                    >{{ song.name }}</a>
                     @if (song.segued) {
                       <span class="text-accent font-semibold text-base leading-none shrink-0">&gt;</span>
                     }
                   </span>
-                  <span class="text-muted text-xs shrink-0 tabular-nums">×{{ song.times_played }}</span>
-                </div>
+                  <span class="text-muted text-xs tabular-nums shrink-0">{{ song.times_played }}×</span>
+                </li>
               }
-            </div>
+            </ol>
           </div>
         }
       </div>

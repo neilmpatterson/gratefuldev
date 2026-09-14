@@ -6,30 +6,10 @@ const PAGE_SIZES = [15, 25, 50, 100]
   selector: 'app-pagination',
   standalone: true,
   template: `
-    @if (pageCount() > 1) {
-      <div class="flex items-center justify-between mt-8 text-sm">
-        <div class="flex items-center gap-1">
-          <button
-            (click)="pageChange.emit(page() - 1)"
-            [disabled]="page() === 1"
-            class="px-3 py-1.5 rounded border border-edge text-muted hover:text-paper hover:border-accent disabled:opacity-30 disabled:cursor-not-allowed transition-colors"
-          >
-            ←
-          </button>
-          <span class="px-4 text-muted tabular-nums">
-            {{ page() }} / {{ pageCount() }}
-          </span>
-          <button
-            (click)="pageChange.emit(page() + 1)"
-            [disabled]="page() === pageCount()"
-            class="px-3 py-1.5 rounded border border-edge text-muted hover:text-paper hover:border-accent disabled:opacity-30 disabled:cursor-not-allowed transition-colors"
-          >
-            →
-          </button>
-        </div>
-
-        <div class="flex items-center gap-2 text-muted">
-          <span>per page</span>
+    @if (pageCount() > 1 || pageSizes.indexOf(pageSize()) !== 0) {
+      <div class="flex items-center justify-between mt-8 pt-4 border-t border-edge">
+        <div class="flex items-center gap-2 text-sm text-muted">
+          <span>Per page</span>
           <select
             [value]="pageSize()"
             (change)="pageSizeChange.emit(+$any($event.target).value)"
@@ -40,6 +20,22 @@ const PAGE_SIZES = [15, 25, 50, 100]
             }
           </select>
         </div>
+
+        @if (pageCount() > 1) {
+          <div class="flex items-center gap-3">
+            <button
+              [disabled]="page() === 1"
+              (click)="pageChange.emit(page() - 1)"
+              class="px-3 py-1 rounded bg-surface border border-edge text-sm text-paper disabled:opacity-30 hover:border-accent hover:text-accent transition-colors"
+            >←</button>
+            <span class="text-sm text-muted tabular-nums">{{ page() }} / {{ pageCount() }}</span>
+            <button
+              [disabled]="page() === pageCount()"
+              (click)="pageChange.emit(page() + 1)"
+              class="px-3 py-1 rounded bg-surface border border-edge text-sm text-paper disabled:opacity-30 hover:border-accent hover:text-accent transition-colors"
+            >→</button>
+          </div>
+        }
       </div>
     }
   `,
