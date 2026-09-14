@@ -13,7 +13,7 @@ interface Metrics {
 }
 
 const metrics = computed<Metrics>(() => {
-  if (!open.value || !isProd) return { loadMs: null, jsKb: null, cssKb: null, fetchMs: null }
+  if (!open.value) return { loadMs: null, jsKb: null, cssKb: null, fetchMs: null }
 
   const nav = performance.getEntriesByType('navigation')[0] as PerformanceNavigationTiming | undefined
   const res = performance.getEntriesByType('resource') as PerformanceResourceTiming[]
@@ -30,8 +30,9 @@ const metrics = computed<Metrics>(() => {
 
   return {
     loadMs: nav ? Math.round(nav.loadEventEnd) : null,
-    jsKb: jsKb > 0 ? Math.round(jsKb) : null,
-    cssKb: cssKb > 0 ? Math.round(cssKb) : null,
+    // bundle sizes are only meaningful in a production build
+    jsKb: isProd && jsKb > 0 ? Math.round(jsKb) : null,
+    cssKb: isProd && cssKb > 0 ? Math.round(cssKb) : null,
     fetchMs: shows ? Math.round(shows.duration) : null,
   }
 })
@@ -105,11 +106,7 @@ onUnmounted(() => document.removeEventListener('mousedown', onClickOutside))
       <!-- Metrics -->
       <div class="mb-5">
         <p class="text-xs text-muted tracking-wide mb-3">Performance</p>
-        <p v-if="!isProd" class="text-xs text-muted leading-relaxed">
-          Production metrics available after
-          <code class="text-accent text-xs">npm run build && npm run preview</code>.
-        </p>
-        <div v-else class="space-y-1.5">
+        <div class="space-y-1.5">
           <div class="flex items-baseline justify-between">
             <span class="text-muted">Page load</span>
             <span class="text-paper tabular-nums">{{ metrics.loadMs != null ? `${metrics.loadMs} ms` : '—' }}</span>
@@ -117,15 +114,15 @@ onUnmounted(() => document.removeEventListener('mousedown', onClickOutside))
           <div class="flex items-baseline justify-between">
             <span class="text-muted">JS bundle</span>
             <span class="text-paper tabular-nums">
-              {{ metrics.jsKb != null ? `${metrics.jsKb} KB` : '—' }}
-              <span class="text-muted text-xs ml-1">(gzip)</span>
+              {{ metrics.jsKb != null ? `${metrics.jsKb} KB` : 'dev' }}
+              <span v-if="metrics.jsKb != null" class="text-muted text-xs ml-1">(gzip)</span>
             </span>
           </div>
           <div class="flex items-baseline justify-between">
             <span class="text-muted">CSS bundle</span>
             <span class="text-paper tabular-nums">
-              {{ metrics.cssKb != null ? `${metrics.cssKb} KB` : '—' }}
-              <span class="text-muted text-xs ml-1">(gzip)</span>
+              {{ metrics.cssKb != null ? `${metrics.cssKb} KB` : 'dev' }}
+              <span v-if="metrics.cssKb != null" class="text-muted text-xs ml-1">(gzip)</span>
             </span>
           </div>
           <div class="flex items-baseline justify-between">

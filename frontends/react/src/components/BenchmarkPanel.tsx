@@ -10,8 +10,6 @@ interface Metrics {
 }
 
 function measure(): Metrics {
-  if (!isProd) return { loadMs: null, jsKb: null, cssKb: null, fetchMs: null }
-
   const nav = performance.getEntriesByType('navigation')[0] as PerformanceNavigationTiming | undefined
   const res = performance.getEntriesByType('resource') as PerformanceResourceTiming[]
 
@@ -27,8 +25,9 @@ function measure(): Metrics {
 
   return {
     loadMs: nav ? Math.round(nav.loadEventEnd) : null,
-    jsKb: jsKb > 0 ? Math.round(jsKb) : null,
-    cssKb: cssKb > 0 ? Math.round(cssKb) : null,
+    // bundle sizes are only meaningful in a production build
+    jsKb: isProd && jsKb > 0 ? Math.round(jsKb) : null,
+    cssKb: isProd && cssKb > 0 ? Math.round(cssKb) : null,
     fetchMs: shows ? Math.round(shows.duration) : null,
   }
 }
@@ -114,23 +113,24 @@ export default function BenchmarkPanel() {
           {/* Metrics */}
           <div className="mb-5">
             <p className="text-xs text-muted tracking-wide mb-3">Performance</p>
-            {!isProd ? (
-              <p className="text-xs text-muted leading-relaxed">
-                Production metrics available after{' '}
-                <code className="text-accent text-xs">npm run build && npm run preview</code>.
-              </p>
-            ) : (
-              <div className="space-y-1.5">
-                <Row label="Page load" value={metrics.loadMs != null ? `${metrics.loadMs} ms` : '—'} />
-                <Row label="JS bundle" value={metrics.jsKb != null ? `${metrics.jsKb} KB` : '—'} note="gzip" />
-                <Row label="CSS bundle" value={metrics.cssKb != null ? `${metrics.cssKb} KB` : '—'} note="gzip" />
-                <Row
-                  label="Shows fetch"
-                  value={metrics.fetchMs != null ? `${metrics.fetchMs} ms` : '—'}
-                  note="2,358 shows"
-                />
-              </div>
-            )}
+            <div className="space-y-1.5">
+              <Row label="Page load" value={metrics.loadMs != null ? `${metrics.loadMs} ms` : '—'} />
+              <Row
+                label="JS bundle"
+                value={metrics.jsKb != null ? `${metrics.jsKb} KB` : 'dev'}
+                note={metrics.jsKb != null ? 'gzip' : undefined}
+              />
+              <Row
+                label="CSS bundle"
+                value={metrics.cssKb != null ? `${metrics.cssKb} KB` : 'dev'}
+                note={metrics.cssKb != null ? 'gzip' : undefined}
+              />
+              <Row
+                label="Shows fetch"
+                value={metrics.fetchMs != null ? `${metrics.fetchMs} ms` : '—'}
+                note="2,358 shows"
+              />
+            </div>
           </div>
 
           {/* Patterns */}
