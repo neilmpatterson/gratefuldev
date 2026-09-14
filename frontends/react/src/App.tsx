@@ -1,5 +1,6 @@
 import { Routes, Route, NavLink } from 'react-router-dom'
 import Logo from '@/components/Logo'
+import BenchmarkPanel from '@/components/BenchmarkPanel'
 import ShowsPage from '@/pages/ShowsPage'
 import ShowDetailPage from '@/pages/ShowDetailPage'
 import SongsPage from '@/pages/SongsPage'
@@ -31,6 +32,8 @@ function Nav() {
           <NavLink to="/cities" className={link}>Cities</NavLink>
           <NavLink to="/today" className={link}>Today in History</NavLink>
         </nav>
+
+        <BenchmarkPanel />
       </div>
     </header>
   )

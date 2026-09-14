@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import { useRoute, RouterLink, RouterView } from 'vue-router'
 import Logo from '@/components/Logo.vue'
+import BenchmarkPanel from '@/components/BenchmarkPanel.vue'
 
 const route = useRoute()
 
@@ -33,6 +34,8 @@ function navClass(path: string) {
           <RouterLink to="/cities" :class="navClass('/cities')">Cities</RouterLink>
           <RouterLink to="/today" :class="navClass('/today')">Today in History</RouterLink>
         </nav>
+
+        <BenchmarkPanel />
       </div>
     </header>
 
