@@ -43,7 +43,7 @@ jobs:
       - name: Build Angular
         working-directory: frontends/angular
         run: |
-          npm ci
+          npm ci --legacy-peer-deps
           npx tsc -p tsconfig.app.json
           npx vite build --base=/gratefuldev/angular/
           cp -r ../../data dist/data
