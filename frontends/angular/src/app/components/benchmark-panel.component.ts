@@ -1,6 +1,19 @@
 import { Component, signal, computed, HostListener, ElementRef } from '@angular/core'
 
 const isProd = import.meta.env.PROD
+const PAGES = 'https://neilmpatterson.github.io/gratefuldev'
+
+const OTHER_FRONTENDS = isProd
+  ? [
+      { label: 'Dashboard', href: `${PAGES}/` },
+      { label: 'React 19', href: `${PAGES}/react/` },
+      { label: 'Vue 3', href: `${PAGES}/vue/` },
+    ]
+  : [
+      { label: 'React 19', href: 'http://localhost:5173' },
+      { label: 'Vue 3', href: 'http://localhost:5174' },
+      { label: 'Rails + Hotwire', href: 'http://localhost:3001' },
+    ]
 
 interface Metrics {
   loadMs: number | null
@@ -136,9 +149,9 @@ const PATTERNS = [
         <div class="border-t border-edge pt-4">
           <p class="text-xs text-muted mb-2">Also in this project</p>
           <div class="flex flex-wrap gap-x-4 gap-y-1 text-xs">
-            <a href="http://localhost:5173" class="text-accent hover:text-accent-hi transition-colors" target="_blank" rel="noreferrer">React 19 →</a>
-            <a href="http://localhost:5174" class="text-accent hover:text-accent-hi transition-colors" target="_blank" rel="noreferrer">Vue 3 →</a>
-            <a href="http://localhost:3001" class="text-accent hover:text-accent-hi transition-colors" target="_blank" rel="noreferrer">Rails + Hotwire →</a>
+            @for (f of otherFrontends; track f.label) {
+              <a [href]="f.href" class="text-accent hover:text-accent-hi transition-colors" target="_blank" rel="noreferrer">{{ f.label }} →</a>
+            }
           </div>
         </div>
       </div>
@@ -153,6 +166,7 @@ export class BenchmarkPanelComponent {
     this.open() ? measure() : { loadMs: null, jsKb: null, cssKb: null, fetchMs: null }
   )
   readonly patterns = PATTERNS
+  readonly otherFrontends = OTHER_FRONTENDS
 
   constructor(el: ElementRef) {
     this.el = el

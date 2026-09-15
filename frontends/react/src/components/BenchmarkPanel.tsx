@@ -1,6 +1,19 @@
 import { useState, useEffect, useRef } from 'react'
 
 const isProd = import.meta.env.PROD
+const PAGES = 'https://neilmpatterson.github.io/gratefuldev'
+
+const OTHER_FRONTENDS = isProd
+  ? [
+      { label: 'Dashboard', href: `${PAGES}/` },
+      { label: 'Vue 3', href: `${PAGES}/vue/` },
+      { label: 'Angular', href: `${PAGES}/angular/` },
+    ]
+  : [
+      { label: 'Vue 3', href: 'http://localhost:5174' },
+      { label: 'Angular', href: 'http://localhost:5175' },
+      { label: 'Rails + Hotwire', href: 'http://localhost:3001' },
+    ]
 
 interface Metrics {
   loadMs: number | null
@@ -150,30 +163,17 @@ export default function BenchmarkPanel() {
           <div className="border-t border-edge pt-4">
             <p className="text-xs text-muted mb-2">Also in this project</p>
             <div className="flex flex-wrap gap-x-4 gap-y-1 text-xs">
-              <a
-                href="http://localhost:5174"
-                className="text-accent hover:text-accent-hi transition-colors"
-                target="_blank"
-                rel="noreferrer"
-              >
-                Vue 3 →
-              </a>
-              <a
-                href="http://localhost:5175"
-                className="text-accent hover:text-accent-hi transition-colors"
-                target="_blank"
-                rel="noreferrer"
-              >
-                Angular →
-              </a>
-              <a
-                href="http://localhost:3001"
-                className="text-accent hover:text-accent-hi transition-colors"
-                target="_blank"
-                rel="noreferrer"
-              >
-                Rails + Hotwire →
-              </a>
+              {OTHER_FRONTENDS.map(({ label, href }) => (
+                <a
+                  key={label}
+                  href={href}
+                  className="text-accent hover:text-accent-hi transition-colors"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  {label} →
+                </a>
+              ))}
             </div>
           </div>
 

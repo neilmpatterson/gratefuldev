@@ -2,6 +2,19 @@
 import { ref, computed, onMounted, onUnmounted } from 'vue'
 
 const isProd = import.meta.env.PROD
+const PAGES = 'https://neilmpatterson.github.io/gratefuldev'
+
+const OTHER_FRONTENDS = isProd
+  ? [
+      { label: 'Dashboard', href: `${PAGES}/` },
+      { label: 'React 19', href: `${PAGES}/react/` },
+      { label: 'Angular', href: `${PAGES}/angular/` },
+    ]
+  : [
+      { label: 'React 19', href: 'http://localhost:5173' },
+      { label: 'Angular', href: 'http://localhost:5175' },
+      { label: 'Rails + Hotwire', href: 'http://localhost:3001' },
+    ]
 const open = ref(false)
 const panelRef = ref<HTMLDivElement | null>(null)
 
@@ -151,23 +164,13 @@ onUnmounted(() => document.removeEventListener('mousedown', onClickOutside))
         <p class="text-xs text-muted mb-2">Also in this project</p>
         <div class="flex flex-wrap gap-x-4 gap-y-1 text-xs">
           <a
-            href="http://localhost:5173"
+            v-for="f in OTHER_FRONTENDS"
+            :key="f.label"
+            :href="f.href"
             class="text-accent hover:text-accent-hi transition-colors"
             target="_blank"
             rel="noreferrer"
-          >React 19 →</a>
-          <a
-            href="http://localhost:5175"
-            class="text-accent hover:text-accent-hi transition-colors"
-            target="_blank"
-            rel="noreferrer"
-          >Angular →</a>
-          <a
-            href="http://localhost:3001"
-            class="text-accent hover:text-accent-hi transition-colors"
-            target="_blank"
-            rel="noreferrer"
-          >Rails + Hotwire →</a>
+          >{{ f.label }} →</a>
         </div>
       </div>
     </div>

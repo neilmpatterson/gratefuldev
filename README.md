@@ -45,6 +45,19 @@ gratefuldev/
 
 Consistent design system across all frontends: Tailwind v4 with shared color tokens (midnight indigo background, warm paper text, stage-light gold accent), Playfair Display + Inter typography, SVG lightning bolt logo.
 
+## Live demo
+
+Deployed to GitHub Pages on every push to `master`:
+
+| Frontend | URL |
+|---|---|
+| Dashboard | https://neilmpatterson.github.io/gratefuldev/ |
+| React 19 | https://neilmpatterson.github.io/gratefuldev/react/ |
+| Vue 3 | https://neilmpatterson.github.io/gratefuldev/vue/ |
+| Angular 18 | https://neilmpatterson.github.io/gratefuldev/angular/ |
+
+Rails + Hotwire is server-rendered and not deployed — run it locally.
+
 ## Running the build tool
 
 ```bash
