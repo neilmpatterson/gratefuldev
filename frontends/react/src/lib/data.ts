@@ -1,6 +1,4 @@
-// In dev, Vite serves the project root so data/ is reachable at /data/
-// In production (GitHub Pages), same relative path works.
-const DATA_BASE = '/data'
+const DATA_BASE = `${import.meta.env.BASE_URL}data`
 
 export async function fetchJson<T>(path: string): Promise<T> {
   const res = await fetch(`${DATA_BASE}/${path}`)

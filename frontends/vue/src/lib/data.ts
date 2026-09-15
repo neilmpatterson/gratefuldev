@@ -1,4 +1,4 @@
-const DATA_BASE = '/data'
+const DATA_BASE = `${import.meta.env.BASE_URL}data`
 
 export async function fetchJson<T>(path: string): Promise<T> {
   const res = await fetch(`${DATA_BASE}/${path}`)

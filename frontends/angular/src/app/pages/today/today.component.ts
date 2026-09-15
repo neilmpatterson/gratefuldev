@@ -2,6 +2,7 @@ import { Component, OnInit, inject, signal, computed } from '@angular/core'
 import { RouterLink } from '@angular/router'
 import { HttpClient } from '@angular/common/http'
 import type { ShowSummary } from '../../lib/data'
+import { DATA_BASE } from '../../../environment'
 
 @Component({
   selector: 'app-today',
@@ -98,7 +99,7 @@ export class TodayComponent implements OnInit {
   )
 
   ngOnInit(): void {
-    this.http.get<ShowSummary[]>('/data/shows/index.json').subscribe({
+    this.http.get<ShowSummary[]>(`${DATA_BASE}/shows/index.json`).subscribe({
       next: data => { this.allShows.set(data); this.isLoading.set(false) },
       error: () => this.isLoading.set(false),
     })

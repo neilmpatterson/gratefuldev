@@ -1,6 +1,7 @@
 import { Injectable, inject, signal } from '@angular/core'
 import { HttpClient } from '@angular/common/http'
 import type { Venue } from '../lib/data'
+import { DATA_BASE } from '../../environment'
 
 @Injectable({ providedIn: 'root' })
 export class VenuesService {
@@ -12,7 +13,7 @@ export class VenuesService {
   load(): void {
     if (this.venues().length > 0) return
     this.isLoading.set(true)
-    this.http.get<Venue[]>('/data/venues.json').subscribe({
+    this.http.get<Venue[]>(`${DATA_BASE}/venues.json`).subscribe({
       next: data => this.venues.set(data),
       complete: () => this.isLoading.set(false),
     })

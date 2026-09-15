@@ -3,6 +3,7 @@ import { ActivatedRoute, RouterLink } from '@angular/router'
 import { HttpClient } from '@angular/common/http'
 import { switchMap, map } from 'rxjs'
 import type { ShowDetail } from '../../lib/data'
+import { DATA_BASE } from '../../../environment'
 
 @Component({
   selector: 'app-show-detail',
@@ -67,7 +68,7 @@ export class ShowDetailComponent implements OnInit {
       map(params => params.get('uuid')!),
       switchMap(uuid => {
         this.isLoading.set(true)
-        return this.http.get<ShowDetail>(`/data/shows/${uuid}.json`)
+        return this.http.get<ShowDetail>(`${DATA_BASE}/shows/${uuid}.json`)
       })
     ).subscribe({
       next: data => { this.show.set(data); this.isLoading.set(false) },

@@ -3,6 +3,7 @@ import { ActivatedRoute, RouterLink } from '@angular/router'
 import { HttpClient } from '@angular/common/http'
 import { switchMap, map } from 'rxjs'
 import type { SongDetail } from '../../lib/data'
+import { DATA_BASE } from '../../../environment'
 
 @Component({
   selector: 'app-song-detail',
@@ -59,7 +60,7 @@ export class SongDetailComponent implements OnInit {
       map(params => params.get('uuid')!),
       switchMap(uuid => {
         this.isLoading.set(true)
-        return this.http.get<SongDetail>(`/data/songs/${uuid}.json`)
+        return this.http.get<SongDetail>(`${DATA_BASE}/songs/${uuid}.json`)
       })
     ).subscribe({
       next: data => { this.song.set(data); this.isLoading.set(false) },

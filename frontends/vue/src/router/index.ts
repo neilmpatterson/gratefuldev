@@ -8,7 +8,7 @@ import CitiesPage from '@/pages/CitiesPage.vue'
 import TodayPage from '@/pages/TodayPage.vue'
 
 export default createRouter({
-  history: createWebHistory(),
+  history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
     { path: '/', redirect: '/shows' },
     { path: '/shows', component: ShowsPage },

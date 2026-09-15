@@ -1,0 +1,159 @@
+name: Deploy to GitHub Pages
+
+on:
+  push:
+    branches: [master]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Build React
+        working-directory: frontends/react
+        run: |
+          npm ci
+          npx tsc -b
+          npx vite build --base=/gratefuldev/react/
+          cp -r ../../data dist/data
+
+      - name: Build Vue
+        working-directory: frontends/vue
+        run: |
+          npm ci
+          npx vue-tsc -b
+          npx vite build --base=/gratefuldev/vue/
+          cp -r ../../data dist/data
+
+      - name: Build Angular
+        working-directory: frontends/angular
+        run: |
+          npm ci
+          npx tsc -p tsconfig.app.json
+          npx vite build --base=/gratefuldev/angular/
+          cp -r ../../data dist/data
+
+      - name: Assemble site
+        run: |
+          mkdir -p _site/react _site/vue _site/angular
+
+          cp -r frontends/react/dist/. _site/react/
+          cp -r frontends/vue/dist/. _site/vue/
+          cp -r frontends/angular/dist/. _site/angular/
+
+          # SPA fallback: each frontend serves its own index for unknown paths
+          cp _site/react/index.html _site/react/404.html
+          cp _site/vue/index.html _site/vue/404.html
+          cp _site/angular/index.html _site/angular/404.html
+
+          # Root 404.html: redirect deep links to the correct frontend
+          cat > _site/404.html << 'EOF'
+          <!DOCTYPE html>
+          <html lang="en">
+          <head>
+            <meta charset="utf-8" />
+            <title>GratefulDev</title>
+            <script>
+              ;(function () {
+                var m = window.location.pathname.match(/^\/gratefuldev\/(react|vue|angular)\/(.*)/)
+                if (m) {
+                  var base = '/gratefuldev/' + m[1] + '/'
+                  window.location.replace(
+                    window.location.origin + base + '?p=/' + encodeURIComponent(m[2]) + window.location.hash
+                  )
+                } else {
+                  window.location.replace(window.location.origin + '/gratefuldev/')
+                }
+              })()
+            </script>
+          </head>
+          <body></body>
+          </html>
+          EOF
+
+          # Root landing page
+          cat > _site/index.html << 'EOF'
+          <!DOCTYPE html>
+          <html lang="en">
+          <head>
+            <meta charset="utf-8" />
+            <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+            <title>GratefulDev — The Grateful Dead Archive</title>
+            <meta name="description" content="30 years of Grateful Dead live show data, built four ways: React, Vue, Angular, and Rails+Hotwire." />
+            <link rel="preconnect" href="https://fonts.googleapis.com" />
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+            <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Inter:wght@400;500&display=swap" rel="stylesheet" />
+            <style>
+              *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+              :root { --ink: #070c1a; --paper: #e8dcc8; --accent: #c8923a; --muted: #6b7280; --surface: #0f1623; --edge: #1e2a3a; }
+              body { background: var(--ink); color: var(--paper); font-family: Inter, sans-serif; min-height: 100vh; display: flex; flex-direction: column; align-items: center; justify-content: center; padding: 2rem; }
+              .logo { display: flex; align-items: center; gap: 0.6rem; margin-bottom: 2rem; }
+              .logo svg { color: var(--accent); }
+              h1 { font-family: 'Playfair Display', serif; font-size: 2.5rem; font-weight: 700; color: var(--paper); line-height: 1; }
+              .tagline { color: var(--muted); margin-top: 0.5rem; font-size: 0.95rem; text-align: center; max-width: 36rem; line-height: 1.6; }
+              .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem; margin-top: 3rem; width: 100%; max-width: 700px; }
+              a.card { display: block; padding: 1.5rem; background: var(--surface); border: 1px solid var(--edge); border-radius: 0.5rem; text-decoration: none; transition: border-color 0.15s, background 0.15s; }
+              a.card:hover { border-color: var(--accent); background: #131e2e; }
+              .card-label { font-size: 0.7rem; color: var(--muted); text-transform: uppercase; letter-spacing: 0.08em; margin-bottom: 0.4rem; }
+              .card-name { font-family: 'Playfair Display', serif; font-size: 1.25rem; color: var(--paper); }
+              .card-desc { font-size: 0.8rem; color: var(--muted); margin-top: 0.35rem; }
+            </style>
+          </head>
+          <body>
+            <div class="logo">
+              <svg viewBox="0 0 24 24" width="32" height="32" aria-hidden="true" fill="currentColor">
+                <path d="M14 2 L5 13 L10.5 13 L10 22 L19 11 L13.5 11 Z" />
+              </svg>
+              <h1>GratefulDev</h1>
+            </div>
+            <p class="tagline">30 years of Grateful Dead live show data — same UI, four frameworks. Browse 2,358 shows, 526 songs, and 595 venues.</p>
+            <div class="grid">
+              <a class="card" href="/gratefuldev/react/">
+                <div class="card-label">Frontend 1</div>
+                <div class="card-name">React 19</div>
+                <div class="card-desc">Vite · TanStack Query · TypeScript</div>
+              </a>
+              <a class="card" href="/gratefuldev/vue/">
+                <div class="card-label">Frontend 2</div>
+                <div class="card-name">Vue 3</div>
+                <div class="card-desc">Vite · Pinia · Composition API</div>
+              </a>
+              <a class="card" href="/gratefuldev/angular/">
+                <div class="card-label">Frontend 3</div>
+                <div class="card-name">Angular 18</div>
+                <div class="card-desc">Vite · RxJS · Signals</div>
+              </a>
+            </div>
+          </body>
+          </html>
+          EOF
+
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
