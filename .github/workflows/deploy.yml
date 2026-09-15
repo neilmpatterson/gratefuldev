@@ -28,7 +28,6 @@ jobs:
         working-directory: frontends/react
         run: |
           npm ci
-          npx tsc -b
           npx vite build --base=/gratefuldev/react/
           cp -r ../../data dist/data
 
@@ -36,7 +35,6 @@ jobs:
         working-directory: frontends/vue
         run: |
           npm ci
-          npx vue-tsc -b
           npx vite build --base=/gratefuldev/vue/
           cp -r ../../data dist/data
 
@@ -44,7 +42,6 @@ jobs:
         working-directory: frontends/angular
         run: |
           npm ci --legacy-peer-deps
-          npx tsc -p tsconfig.app.json
           npx vite build --base=/gratefuldev/angular/
           cp -r ../../data dist/data
 
